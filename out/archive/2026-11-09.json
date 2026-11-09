@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:16:16+00:00",
+ "generated": "2026-11-09T15:29:09+00:00",
  "isw": {
   "title": "Russian Offensive Campaign Assessment, November 8, 2026",
   "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-8-2026/",
@@ -10,38 +10,38 @@
  "digest": [
   {
    "topic": "Strikes & air defence",
-   "text": "33 of 60 headlines in the last 36 hours touch on strikes & air defence.",
+   "text": "34 of 60 headlines in the last 36 hours touch on strikes & air defence.",
    "example": {
-    "title": "Russian FPV drone injures 3 energy workers in Sumy Oblast amid power outages in 12 oblasts",
-    "url": "https://kyivindependent.com/russian-fpv-drone-injures-3-energy-workers-in-sumy-oblast-as-12-oblasts-report-power-outages/",
-    "source": "Kyiv Independent"
-   }
-  },
-  {
-   "topic": "Energy & infrastructure",
-   "text": "20 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
-   "example": {
-    "title": "EU to activate emergency mechanism to back Ukraine amid deepening energy crisis",
-    "url": "https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/",
-    "source": "Kyiv Independent"
+    "title": "Russian drone strike puts 2-year-old child in intensive care in Kharkiv",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061958/",
+    "source": "Ukrainska Pravda"
    }
   },
   {
    "topic": "Civilians & humanitarian",
    "text": "14 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
    "example": {
-    "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
-    "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
+    "title": "Russian forces strike shop, Nova Poshta branch in Kharkiv region's Shevchenkove, civilians injured",
+    "url": "https://www.ukrinform.net/rubric-ato/4182989-russian-forces-strike-shop-nova-poshta-branch-in-kharkiv-regions-shevchenkove-civilians-injured.html",
     "source": "Ukrinform"
    }
   },
   {
-   "topic": "Diplomacy & sanctions",
-   "text": "11 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "topic": "Energy & infrastructure",
+   "text": "13 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
    "example": {
-    "title": "Russia agrees with Trump's remark about \"little bit different shape\" of post-war Ukraine",
-    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061914/",
+    "title": "Serhii Sternenko: There are far bigger threats ahead of us than jet-powered Shahed drones",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061993/",
     "source": "Ukrainska Pravda"
+   }
+  },
+  {
+   "topic": "Diplomacy & sanctions",
+   "text": "13 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "example": {
+    "title": "Zelensky seeks India's assistance in peace efforts ahead of Russia talks",
+    "url": "https://kyivindependent.com/zelensky-seeks-indias-assistance-in-peace-efforts-ahead-of-russia-talks/",
+    "source": "Kyiv Independent"
    }
   },
   {
@@ -60,76 +60,76 @@
  ],
  "top": [
   {
-   "title": "Russian FPV drone injures 3 energy workers in Sumy Oblast amid power outages in 12 oblasts",
-   "url": "https://kyivindependent.com/russian-fpv-drone-injures-3-energy-workers-in-sumy-oblast-as-12-oblasts-report-power-outages/",
-   "date": "2026-11-09T12:50:52+00:00",
+   "title": "Zelensky seeks India's assistance in peace efforts ahead of Russia talks",
+   "url": "https://kyivindependent.com/zelensky-seeks-indias-assistance-in-peace-efforts-ahead-of-russia-talks/",
+   "date": "2026-11-09T15:22:37+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "EU to activate emergency mechanism to back Ukraine amid deepening energy crisis",
-   "url": "https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/",
-   "date": "2026-11-09T12:46:10+00:00",
+   "title": "Zelensky, Modi discuss India's mediation role in efforts to unblock grain exports",
+   "url": "https://www.ukrinform.net/rubric-polytics/4183008-zelensky-modi-discuss-indias-mediation-role-in-efforts-to-unblock-grain-exports.html",
+   "date": "2026-11-09T15:17:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russian drone strike puts 2-year-old child in intensive care in Kharkiv",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061958/",
+   "date": "2026-11-09T15:12:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Serhii Sternenko: There are far bigger threats ahead of us than jet-powered Shahed drones",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061993/",
+   "date": "2026-11-09T15:00:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Neighbors from hell — How one Oleshky family survived living next to Russian soldiers",
+   "url": "https://kyivindependent.com/neighbors-from-hell-how-one-oleshky-family-survived-living-next-to-russian-soldiers/",
+   "date": "2026-11-09T14:57:14+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "Part of Rivne left without electricity due to overloaded power grid",
-   "url": "https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html",
-   "date": "2026-11-09T12:39:00+00:00",
+   "title": "Ukrainian forces hit Russian Starlink jamming station in Donetsk region",
+   "url": "https://www.ukrinform.net/rubric-ato/4182996-ukrainian-forces-hit-russian-starlink-jamming-station-in-donetsk-region.html",
+   "date": "2026-11-09T14:53:00+00:00",
    "source": "Ukrinform"
   },
   {
-   "title": "Russian forces strike Gas Distribution Networks facility in Cherkasy Oblast – photo",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061949/",
-   "date": "2026-11-09T12:28:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
-   "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
-   "date": "2026-11-09T12:18:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Russian war criminal attempts to appeal sentence in Finland",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061945/",
-   "date": "2026-11-09T12:14:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Russian attacks leave consumers in half of Ukrainian oblasts without power",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061944/",
-   "date": "2026-11-09T12:13:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Fires caused by Russian drone attack extinguished in Kyiv",
-   "url": "https://www.ukrinform.net/rubric-ato/4182929-fires-caused-by-russian-drone-attack-extinguished-in-kyiv.html",
-   "date": "2026-11-09T12:01:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Russia strikes Ukrainian energy sector 128 times in a week",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061942/",
-   "date": "2026-11-09T11:56:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Russia hits food warehouse in Odesa: three killed, three injured",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061916/",
-   "date": "2026-11-09T11:55:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Russia imposes gasoline sales restrictions amid Ukrainian oil refinery attacks, Russian media report",
-   "url": "https://kyivindependent.com/russia-imposes-gasoline-sales-restrictions-amid-ukrainian-oil-refinery-attacks-russian-media-report/",
-   "date": "2026-11-09T11:54:50+00:00",
+   "title": "Coalition of the Willing kicks off first exercise for post-war Ukraine deployment",
+   "url": "https://kyivindependent.com/coalition-of-the-willing-kicks-off-first-exercise-for-post-war-ukraine-deployment/",
+   "date": "2026-11-09T14:43:35+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "Russian drone debris falls near school in Kyiv – photos",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061941/",
-   "date": "2026-11-09T11:44:00+00:00",
+   "title": "Police identify 30 of 55 bodies recovered from Komyshuvakha airstrike",
+   "url": "https://kyivindependent.com/police-identify-30-of-55-bodies-recovered-from-komyshuvakha-airstrike/",
+   "date": "2026-11-09T14:35:50+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Russian forces strike shop, Nova Poshta branch in Kharkiv region's Shevchenkove, civilians injured",
+   "url": "https://www.ukrinform.net/rubric-ato/4182989-russian-forces-strike-shop-nova-poshta-branch-in-kharkiv-regions-shevchenkove-civilians-injured.html",
+   "date": "2026-11-09T14:31:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Ukrainian forces strike Russian Starlink jamming station in Donetsk Oblast",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061975/",
+   "date": "2026-11-09T14:17:00+00:00",
    "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Ukrainian parliament backs creation of Space Forces in first reading",
+   "url": "https://kyivindependent.com/ukrainian-parliament-backs-creation-of-space-forces-in-first-reading/",
+   "date": "2026-11-09T14:09:32+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Russian forces strike Kharkiv, injuring two adults, two-year-old child",
+   "url": "https://www.ukrinform.net/rubric-ato/4182979-russian-forces-strike-kharkiv-injuring-two-adults-twoyearold-child.html",
+   "date": "2026-11-09T14:07:00+00:00",
+   "source": "Ukrinform"
   }
  ],
  "recent_count": 60,

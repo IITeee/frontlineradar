@@ -3,7 +3,7 @@
 Writes site/index.html, /daily-brief/, /strikes/, /front-line-map/, /brief/YYYY-MM-DD/,
 site/assets/data.js, site/sitemap.xml, site/robots.txt and site/CNAME.
 """
-import json, re, html, pathlib, datetime as dt
+import json, re, html, pathlib, shutil, datetime as dt
 
 ROOT = pathlib.Path(__file__).resolve().parent
 SITE = "https://frontlineradar.org"
@@ -42,7 +42,7 @@ FAQ = [
     ("What is Frontlineradar?", "Frontlineradar is a free daily radar of the Russia–Ukraine war. It collects headlines from Ukrainian and international outlets, links the latest Institute for the Study of War (ISW) assessment, and charts Russian drone and missile attacks reported by Ukraine's Air Force. It is rebuilt every six hours."),
     ("Does Frontlineradar show real-time troop positions?", "No. The site never shows live unit locations or troop movements. It only aggregates official statistics and links to published reporting, which is delayed by hours or days."),
     ("Where does the drone and missile data come from?", "Daily launches and interceptions come from the open dataset 'Massive Missile Attacks on Ukraine' by Petro Ivaniuk, compiled from Ukrainian Air Force reports and licensed CC BY-NC-SA 4.0. Frontlineradar only publishes daily and weekly totals."),
-    ("Who controls which areas of Ukraine?", "For current front-line maps, see DeepStateMap and the ISW interactive map, which are linked on the Front-line map page. Frontlineradar will add area statistics per oblast once a data source with reuse permission is in place."),
+    ("Who controls which areas of Ukraine?", "The front-line map draws area-level territorial control from VIINA 2.0 (Zhukov & Ayers), licensed under the Open Database License (ODbL). Populated-place assessments are merged and simplified. The layer is delayed by days and approximate. It does not show military units or movements."),
     ("How is the daily brief written?", "The daily brief is an automated digest. It groups the latest headlines by keyword into topics such as strikes, front line, energy and diplomacy, and adds the weekly strike numbers. It is not edited by a human and links to the original articles."),
     ("How often is the site updated?", "Every six hours. Each page shows the time of the latest snapshot in UTC."),
 ]
@@ -167,19 +167,33 @@ def strikes_section(pre="", full=False):
             f'<button type="button" data-range="weekly" aria-pressed="false">Weekly, all</button></div>'
             f'<div class="chart-box"><canvas id="strikeChart" aria-label="Bar chart of Russian drones and missiles launched at Ukraine and the number reported shot down"></canvas></div>{note}</div>{table}')
 
-MAP_LINKS = [("DeepStateMap", "https://deepstatemap.live/en", "Ukrainian OSINT map of the front line, updated daily."),
-             ("ISW interactive map", "https://storymaps.arcgis.com/stories/36a7f6a6f5a9448496de641cf64bd375", "Institute for the Study of War and AEI Critical Threats map of Russia’s invasion of Ukraine."),
-             ("ISW Russia–Ukraine research", "https://understandingwar.org/research/russia-ukraine/", "Daily campaign assessments with assessed control and advances.")]
-def map_section(pre=""):
-    if ctrl.get("available"):
-        rows = "".join(f'<tr><td>{E(o["name"])}</td><td class="num">{o["occupied_pct"]:.1f}%</td><td class="num">{o.get("change_km2",0):+,.0f} km²</td></tr>' for o in ctrl.get("oblasts", []))
-        return (f'<div class="card"><p>Occupied area: <b>{n(round(ctrl["occupied_km2"]))} km²</b> ({ctrl.get("change_km2_24h",0):+,.0f} km² in 24 h). '
-                f'Source: <a href="{E(ctrl["source_url"])}">{E(ctrl["source"])}</a>, as of {E(ctrl["as_of"])}.</p>'
-                f'<div class="table-wrap"><table><thead><tr><th>Oblast</th><th>Occupied</th><th>Change</th></tr></thead><tbody>{rows}</tbody></table></div></div>')
-    links = "".join(f'<a href="{E(u)}" target="_blank" rel="noopener">{E(t)} ↗</a>' for t, u, _ in MAP_LINKS)
-    return (f'<div class="card"><div class="placeholder"><div class="ph-map" aria-hidden="true"></div>'
-            f'<p><b>Control map and per-oblast statistics are coming.</b> We are waiting for permission to reuse a front-line dataset. Until then, see the maps maintained by these sources:</p>'
-            f'<div class="linkbtns">{links}</div></div></div>')
+ODBL = "https://opendatacommons.org/licenses/odbl/1-0/"
+VIINA = "https://github.com/zhukovyuri/VIINA"
+LEAFLET = ('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">'
+           '<script defer src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>')
+def map_ready():
+    return bool(ctrl.get("available") and (ROOT / "out/control.geojson").exists())
+def map_section(pre="", compact=False):
+    if not map_ready():
+        return ('<div class="card"><div class="placeholder"><p>The territorial-control layer is unavailable in this snapshot. '
+                'The last derived map is published again automatically when VIINA can be downloaded.</p></div></div>')
+    try: as_h = pretty_day(ctrl.get("as_of") or "")
+    except Exception: as_h = ctrl.get("as_of") or ""
+    areas = ctrl.get("area_km2") or {}
+    def km(key):
+        v = areas.get(key)
+        return f"{round(v):,} km²" if isinstance(v, (int, float)) else "–"
+    stale = ('<p class="note">The latest VIINA download failed, so this is the last derived layer.</p>'
+             if ctrl.get("stale") else "")
+    cls = "control-map compact" if compact else "control-map"
+    return f'''<div class="card map-card">
+<div class="{cls}" data-control-map data-src="{pre}assets/control.geojson" role="img" aria-label="Area-level map of assessed control in Ukraine: Russian-controlled, contested, and Ukrainian-controlled. Not military unit locations."></div>
+<div class="legend"><span><i style="background:#d4524a"></i>Russian-controlled</span><span><i style="background:#f0b429"></i>Contested</span><span><i style="background:#7eb6e6"></i>Ukrainian-controlled</span></div>
+</div>
+<p class="note"><b>Data as of {E(as_h)}.</b> Area-level, delayed, and approximate. Cells around populated places are merged by assessed status and simplified. This is not a live front line and it does not show units or movements.</p>
+{stale}
+<p class="note">Approximate cell area: Russian-controlled {km("RU")}, contested {km("CONTESTED")}, Ukrainian-controlled {km("UA")}.</p>
+<p class="note">Territorial control: VIINA 2.0 (Zhukov &amp; Ayers), <a href="{VIINA}">{VIINA}</a> — contains information from VIINA, made available under the <a href="{ODBL}">Open Database License (ODbL)</a>. The derived file <a href="{pre}assets/control.geojson">control.geojson</a> is published under the ODbL as well.</p>'''
 
 def alerts_section():
     if not alr.get("enabled"): return ""
@@ -216,14 +230,14 @@ home_title = "Frontlineradar — Ukraine war daily radar: front line, drone & mi
 home_desc = ("Daily radar of the war in Ukraine: latest headlines, the newest ISW assessment and charts of Russian drone and missile "
              "attacks vs. interceptions. OSINT and official sources, attributed and delayed — no live military positions.")
 faq_html = "".join(f"<h3>{E(q)}</h3><p>{E(a)}</p>" for q, a in FAQ)
-status_html = "".join(f'<span class="chip" style="color:{"var(--low)" if v=="ok" else "var(--mid)" if v.startswith("stub") else "var(--high)"}">● {E(k)}: {E(v)}</span>' for k, v in snap["status"].items())
+status_html = "".join(f'<span class="chip" style="color:{"var(--low)" if v=="ok" else "var(--mid)" if v.startswith("stub") or v.startswith("kept") else "var(--high)"}">● {E(k)}: {E(v)}</span>' for k, v in snap["status"].items())
 SOURCES = [("Kyiv Independent", "https://kyivindependent.com/", "Headlines via RSS (titles and links only)"),
            ("Ukrinform", "https://www.ukrinform.net/", "Ukraine's national news agency, headlines via RSS"),
            ("Ukrainska Pravda", "https://www.pravda.com.ua/eng/", "Headlines via RSS"),
            ("UK Ministry of Defence (GOV.UK)", "https://www.gov.uk/government/organisations/ministry-of-defence", "Ukraine-related MoD news via the GOV.UK Atom feed. Defence Intelligence updates are published on X (@DefenceHQ)."),
            ("Institute for the Study of War", "https://understandingwar.org/research/russia-ukraine/", "Link to the latest Russian Offensive Campaign Assessment"),
            ("Massive Missile Attacks on Ukraine", "https://www.kaggle.com/datasets/piterfm/massive-missile-attacks-on-ukraine", "Petro Ivaniuk, from Ukrainian Air Force reports, CC BY-NC-SA 4.0"),
-           ("DeepStateMap", "https://deepstatemap.live/en", "Front-line map (linked, not embedded)")]
+           ("VIINA 2.0 (Zhukov & Ayers)", "https://github.com/zhukovyuri/VIINA", "Territorial control of populated places, dissolved on the front-line map, ODbL")]
 src_html = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(t)}</a><small>{E(d)}</small></li>' for t, u, d in SOURCES)
 home_ld = {"@context": "https://schema.org", "@graph": [
     {"@type": "WebSite", "@id": SITE + "/#site", "name": NAME, "url": SITE + "/", "description": home_desc, "inLanguage": "en", "publisher": {"@id": SITE + "/#org"}},
@@ -243,7 +257,7 @@ home_body = f'''<section class="hero" id="top"><div class="wrap">
   </section>
   <section id="isw" style="padding-top:0">{isw_html()}</section>
   <section id="strikes"><div class="sec-head"><h2>Drone and missile attacks</h2><p>Russian drones and missiles launched at Ukraine, and how many Ukraine’s Air Force reported shot down or suppressed.</p></div>{strikes_section()}</section>
-  <section id="map"><div class="sec-head"><h2>Who controls what</h2><p>Front-line maps from DeepStateMap and ISW. Our own control statistics per oblast will appear here.</p></div>{map_section()}</section>
+  <section id="control"><div class="sec-head"><h2>Who controls what</h2><p>Area-level territorial control from VIINA. Delayed and approximate — not military units or movements. <a href="front-line-map/">Open the map</a>.</p></div>{map_section(compact=True)}</section>
   {alerts_section()}
   <section id="sources-feed"><div class="sec-head"><h2>Latest by source</h2><p>Titles and links only — read the full stories on the publishers’ sites.</p></div>{feeds_html()}</section>
   <section id="newsletter"><div class="card news">
@@ -262,7 +276,7 @@ home_body = f'''<section class="hero" id="top"><div class="wrap">
   </section>
 </main>'''
 CHART = '<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>'
-(OUTD / "index.html").write_text(page("", home_title, home_desc, home_body, home_ld, extra_head=CHART), encoding="utf-8")
+(OUTD / "index.html").write_text(page("", home_title, home_desc, home_body, home_ld, extra_head=CHART + (LEAFLET if map_ready() else "")), encoding="utf-8")
 
 # ------------------------------------------------------------------ daily brief (+ archive)
 def brief_body(pre, day_h, digest, top, isw_, strikes_, is_today):
@@ -331,21 +345,34 @@ peak = f'<p>Largest single reported day in the dataset: <b>{n(st["peak"]["launch
 </main>''', s_ld, extra_head=CHART), encoding="utf-8")
 
 # ------------------------------------------------------------------ map page
-m_title = f"Ukraine front-line map: who controls what | {NAME}"
-m_desc = "Where to find up-to-date maps of the front line in Ukraine — DeepStateMap and ISW — and Frontlineradar's upcoming per-oblast control statistics."
-m_list = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(t)}</a><small>{E(d)}</small></li>' for t, u, d in MAP_LINKS)
+m_as = ""
+if ctrl.get("as_of"):
+    try: m_as = pretty_day(ctrl["as_of"])
+    except Exception: m_as = ctrl["as_of"]
+m_title = f"Ukraine territorial control map | {NAME}"
+m_desc = ("Area-level map of assessed Ukrainian-controlled, contested, and Russian-controlled territory"
+          + (f" as of {m_as}" if m_as else "")
+          + ", from VIINA 2.0. Delayed and approximate. No unit locations or movements.")
+m_ld = {"@context": "https://schema.org", "@graph": [
+    {"@type": "WebPage", "name": m_title, "url": f"{SITE}/front-line-map/", "description": m_desc},
+    {"@type": "Dataset", "name": "Ukraine territorial control, derived from VIINA 2.0",
+     "description": m_desc, "url": f"{SITE}/front-line-map/", "license": ODBL,
+     "creator": {"@type": "Organization", "name": "Frontlineradar"},
+     "isBasedOn": VIINA, **({"temporalCoverage": ctrl["as_of"]} if ctrl.get("as_of") else {})},
+    crumbs_ld([(NAME, SITE + "/"), ("Front-line map", f"{SITE}/front-line-map/")])]}
 (OUTD / "front-line-map").mkdir(parents=True, exist_ok=True)
 (OUTD / "front-line-map/index.html").write_text(page("front-line-map/", m_title, m_desc, f'''<main class="wrap">
   <p class="crumbs"><a href="../">{NAME}</a> · Front-line map</p>
   <h1>Front-line map of Ukraine</h1>
-  <p class="lede">Which areas Russia and Ukraine control, according to the open-source mapping projects that track it daily.</p>
+  <p class="lede">Which areas are assessed as Ukrainian-controlled, contested, or Russian-controlled. The layer is area-level, delayed, and approximate.</p>
   {DISCLAIMER}
-  <section>{map_section("../")}<div class="card"><h3>Maps we recommend</h3><ul class="sources">{m_list}</ul>
-  <p class="note">Front-line maps are estimates based on geolocated footage and official statements and lag behind events. Frontlineradar links to these maps and does not copy their data.</p></div></section>
-</main>''', {"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "name": m_title, "url": f"{SITE}/front-line-map/", "description": m_desc},
-              crumbs_ld([(NAME, SITE + "/"), ("Front-line map", f"{SITE}/front-line-map/")])]}), encoding="utf-8")
+  <section>{map_section("../")}</section>
+</main>''', m_ld, extra_head=LEAFLET if map_ready() else ""), encoding="utf-8")
 
 # ------------------------------------------------------------------ data.js, sitemap, robots, CNAME
+src_geo = ROOT / "out/control.geojson"
+if src_geo.exists():
+    shutil.copyfile(src_geo, OUTD / "assets/control.geojson")
 data = {"updated": UPDATED, "strikes": ({"daily": st["daily90"], "weekly": st["weekly"]} if st else None)}
 (OUTD / "assets/data.js").write_text("window.FR_DATA=" + json.dumps(data, separators=(",", ":")) + ";\n", encoding="utf-8")
 urls = [("", "1.0", "hourly"), ("daily-brief/", "0.9", "hourly"), ("strikes/", "0.9", "daily"), ("front-line-map/", "0.7", "weekly"), ("brief/", "0.5", "daily")]

@@ -37,12 +37,25 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Cache VIINA downloads
+        uses: actions/cache@v4
+        with:
+          path: .cache/viina
+          # The control table and tessellation change in place. Restore the
+          # newest cache, then save this run's copy. control.py skips the
+          # download when the server returns 304.
+          key: viina-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            viina-${{ runner.os }}-
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
       - name: Refresh data sources
         env:
           # Optional. Leave unset to keep the air-alert section hidden.
           ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
-          # Optional. Territorial-control source (see control.py); unset = placeholder.
-          CONTROL_GEOJSON_URL: ${{ vars.CONTROL_GEOJSON_URL }}
+          VIINA_CACHE: .cache/viina
         run: |
           mkdir -p /tmp/prev && cp -a out /tmp/prev/ || true
           if python3 refresh.py; then

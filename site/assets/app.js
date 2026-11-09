@@ -61,6 +61,38 @@ function strikeChart() {
 }
 if (window.Chart) strikeChart(); else window.addEventListener("load", strikeChart);
 
+// territorial control — dissolved areas only, no unit markers or arrows
+function controlMap() {
+  if (!window.L) return;
+  const light = document.documentElement.dataset.theme === "light";
+  const styles = {
+    UA: { color: "#2c6aa3", weight: 0.6, fillColor: "#7eb6e6", fillOpacity: light ? 0.38 : 0.28 },
+    RU: { color: "#8d2e2e", weight: 0.7, fillColor: "#d4524a", fillOpacity: 0.62 },
+    CONTESTED: { color: "#c4840a", weight: 2.5, fillColor: "#f0b429", fillOpacity: 0.95 }
+  };
+  const labels = { UA: "Ukrainian-controlled", RU: "Russian-controlled", CONTESTED: "Contested" };
+  document.querySelectorAll("[data-control-map]").forEach(el => {
+    if (el.dataset.ready) return;
+    el.dataset.ready = "1";
+    const map = L.map(el, { scrollWheelZoom: false, minZoom: 5, maxZoom: 8, zoomControl: true });
+    map.attributionControl.setPrefix("Leaflet");
+    map.attributionControl.addAttribution("Areas derived from VIINA 2.0 (ODbL)");
+    fetch(el.dataset.src).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(gj => {
+      const order = { UA: 0, RU: 1, CONTESTED: 2 };
+      const features = (gj.features || []).slice().sort((a, b) => (order[a.properties.status] ?? 9) - (order[b.properties.status] ?? 9));
+      const layer = L.geoJSON({ type: "FeatureCollection", features }, {
+        style: f => styles[f.properties.status] || styles.UA,
+        onEachFeature: (f, lyr) => {
+          const name = f.properties.label || labels[f.properties.status] || "Assessed area";
+          lyr.bindPopup("<b>" + name + "</b><br>Area-level assessment. Not a unit location.");
+        }
+      }).addTo(map);
+      if (layer.getBounds().isValid()) map.fitBounds(layer.getBounds(), { padding: [12, 12] });
+    }).catch(() => { el.insertAdjacentHTML("beforeend", '<p class="map-fallback">Control map could not be loaded.</p>'); });
+  });
+}
+if (window.L) controlMap(); else window.addEventListener("load", controlMap);
+
 // signup
 $("signup") && ($("signup").onsubmit = async e => {
   e.preventDefault(); const m = $("signup-msg"), email = e.target.querySelector("input").value;

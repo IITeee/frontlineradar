@@ -184,7 +184,13 @@ except Exception as e:
 
 # ---------------------------------------------------------------- control + alerts
 try:
-    ctrl = control.load(prev.get("control")); status["Territorial control"] = "stub (pending data permission)" if not ctrl.get("available") else "ok"
+    ctrl = control.load(prev.get("control"))
+    if not ctrl.get("available"):
+        status["Territorial control"] = "unavailable"
+    elif ctrl.get("stale"):
+        status["Territorial control"] = "kept previous"
+    else:
+        status["Territorial control"] = "ok"
 except Exception as e:
     ctrl = {"available": False, "note": "Control data unavailable."}; status["Territorial control"] = f"error: {e}"[:160]
 try:

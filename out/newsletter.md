@@ -2,24 +2,24 @@
 
 _Automated digest generated from public headlines and official statistics. Not edited by a human._
 
-- **Strikes & air defence:** 33 of 60 headlines in the last 36 hours touch on strikes & air defence. Example: [Russian FPV drone injures 3 energy workers in Sumy Oblast amid power outages in 12 oblasts](https://kyivindependent.com/russian-fpv-drone-injures-3-energy-workers-in-sumy-oblast-as-12-oblasts-report-power-outages/) (Kyiv Independent)
-- **Energy & infrastructure:** 20 of 60 headlines in the last 36 hours touch on energy & infrastructure. Example: [EU to activate emergency mechanism to back Ukraine amid deepening energy crisis](https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/) (Kyiv Independent)
-- **Civilians & humanitarian:** 14 of 60 headlines in the last 36 hours touch on civilians & humanitarian. Example: [Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district](https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html) (Ukrinform)
-- **Diplomacy & sanctions:** 11 of 60 headlines in the last 36 hours touch on diplomacy & sanctions. Example: [Russia agrees with Trump's remark about "little bit different shape" of post-war Ukraine](https://www.pravda.com.ua/eng/news/2026/11/09/8061914/) (Ukrainska Pravda)
+- **Strikes & air defence:** 34 of 60 headlines in the last 36 hours touch on strikes & air defence. Example: [Russian drone strike puts 2-year-old child in intensive care in Kharkiv](https://www.pravda.com.ua/eng/news/2026/11/09/8061958/) (Ukrainska Pravda)
+- **Civilians & humanitarian:** 14 of 60 headlines in the last 36 hours touch on civilians & humanitarian. Example: [Russian forces strike shop, Nova Poshta branch in Kharkiv region's Shevchenkove, civilians injured](https://www.ukrinform.net/rubric-ato/4182989-russian-forces-strike-shop-nova-poshta-branch-in-kharkiv-regions-shevchenkove-civilians-injured.html) (Ukrinform)
+- **Energy & infrastructure:** 13 of 60 headlines in the last 36 hours touch on energy & infrastructure. Example: [Serhii Sternenko: There are far bigger threats ahead of us than jet-powered Shahed drones](https://www.pravda.com.ua/eng/news/2026/11/09/8061993/) (Ukrainska Pravda)
+- **Diplomacy & sanctions:** 13 of 60 headlines in the last 36 hours touch on diplomacy & sanctions. Example: [Zelensky seeks India's assistance in peace efforts ahead of Russia talks](https://kyivindependent.com/zelensky-seeks-indias-assistance-in-peace-efforts-ahead-of-russia-talks/) (Kyiv Independent)
 - **Strike data:** In the 7 days to 2026-11-07, Ukraine's Air Force reported 2,764 Russian drones and missiles launched (2,680 drones, 84 missiles), up from 1,283 the week before; 89.6% were reported shot down or suppressed.
 - **Analysis:** Latest ISW assessment: Russian Offensive Campaign Assessment, November 8, 2026.
 
 ## Top headlines
 
-- [Russian FPV drone injures 3 energy workers in Sumy Oblast amid power outages in 12 oblasts](https://kyivindependent.com/russian-fpv-drone-injures-3-energy-workers-in-sumy-oblast-as-12-oblasts-report-power-outages/) — Kyiv Independent
-- [EU to activate emergency mechanism to back Ukraine amid deepening energy crisis](https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/) — Kyiv Independent
-- [Part of Rivne left without electricity due to overloaded power grid](https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html) — Ukrinform
-- [Russian forces strike Gas Distribution Networks facility in Cherkasy Oblast – photo](https://www.pravda.com.ua/eng/news/2026/11/09/8061949/) — Ukrainska Pravda
-- [Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district](https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html) — Ukrinform
-- [Russian war criminal attempts to appeal sentence in Finland](https://www.pravda.com.ua/eng/news/2026/11/09/8061945/) — Ukrainska Pravda
-- [Russian attacks leave consumers in half of Ukrainian oblasts without power](https://www.pravda.com.ua/eng/news/2026/11/09/8061944/) — Ukrainska Pravda
-- [Fires caused by Russian drone attack extinguished in Kyiv](https://www.ukrinform.net/rubric-ato/4182929-fires-caused-by-russian-drone-attack-extinguished-in-kyiv.html) — Ukrinform
-- [Russia strikes Ukrainian energy sector 128 times in a week](https://www.pravda.com.ua/eng/news/2026/11/09/8061942/) — Ukrainska Pravda
-- [Russia hits food warehouse in Odesa: three killed, three injured](https://www.pravda.com.ua/eng/news/2026/11/09/8061916/) — Ukrainska Pravda
+- [Zelensky seeks India's assistance in peace efforts ahead of Russia talks](https://kyivindependent.com/zelensky-seeks-indias-assistance-in-peace-efforts-ahead-of-russia-talks/) — Kyiv Independent
+- [Zelensky, Modi discuss India's mediation role in efforts to unblock grain exports](https://www.ukrinform.net/rubric-polytics/4183008-zelensky-modi-discuss-indias-mediation-role-in-efforts-to-unblock-grain-exports.html) — Ukrinform
+- [Russian drone strike puts 2-year-old child in intensive care in Kharkiv](https://www.pravda.com.ua/eng/news/2026/11/09/8061958/) — Ukrainska Pravda
+- [Serhii Sternenko: There are far bigger threats ahead of us than jet-powered Shahed drones](https://www.pravda.com.ua/eng/news/2026/11/09/8061993/) — Ukrainska Pravda
+- [Neighbors from hell — How one Oleshky family survived living next to Russian soldiers](https://kyivindependent.com/neighbors-from-hell-how-one-oleshky-family-survived-living-next-to-russian-soldiers/) — Kyiv Independent
+- [Ukrainian forces hit Russian Starlink jamming station in Donetsk region](https://www.ukrinform.net/rubric-ato/4182996-ukrainian-forces-hit-russian-starlink-jamming-station-in-donetsk-region.html) — Ukrinform
+- [Coalition of the Willing kicks off first exercise for post-war Ukraine deployment](https://kyivindependent.com/coalition-of-the-willing-kicks-off-first-exercise-for-post-war-ukraine-deployment/) — Kyiv Independent
+- [Police identify 30 of 55 bodies recovered from Komyshuvakha airstrike](https://kyivindependent.com/police-identify-30-of-55-bodies-recovered-from-komyshuvakha-airstrike/) — Kyiv Independent
+- [Russian forces strike shop, Nova Poshta branch in Kharkiv region's Shevchenkove, civilians injured](https://www.ukrinform.net/rubric-ato/4182989-russian-forces-strike-shop-nova-poshta-branch-in-kharkiv-regions-shevchenkove-civilians-injured.html) — Ukrinform
+- [Ukrainian forces strike Russian Starlink jamming station in Donetsk Oblast](https://www.pravda.com.ua/eng/news/2026/11/09/8061975/) — Ukrainska Pravda
 
 More: https://frontlineradar.org/
