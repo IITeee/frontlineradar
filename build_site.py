@@ -101,9 +101,7 @@ def page(path, title, desc, body, ld, og_type="website", extra_head=""):
 </div></footer>
 <script src="{pre}assets/data.js"></script>
 <script src="{pre}assets/app.js"></script>
-<!-- TODO(goatcounter): enable once the "frontlineradar" site exists at goatcounter.com:
 <script data-goatcounter="https://frontlineradar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
--->
 </body></html>
 '''
 
