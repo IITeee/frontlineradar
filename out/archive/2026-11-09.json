@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:58:39+00:00",
+ "generated": "2026-11-09T13:16:16+00:00",
  "isw": {
   "title": "Russian Offensive Campaign Assessment, November 8, 2026",
   "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-8-2026/",
@@ -19,7 +19,7 @@
   },
   {
    "topic": "Energy & infrastructure",
-   "text": "19 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
+   "text": "20 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
    "example": {
     "title": "EU to activate emergency mechanism to back Ukraine amid deepening energy crisis",
     "url": "https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/",
@@ -28,7 +28,7 @@
   },
   {
    "topic": "Civilians & humanitarian",
-   "text": "15 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
+   "text": "14 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
    "example": {
     "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
     "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
@@ -78,10 +78,22 @@
    "source": "Ukrinform"
   },
   {
+   "title": "Russian forces strike Gas Distribution Networks facility in Cherkasy Oblast – photo",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061949/",
+   "date": "2026-11-09T12:28:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
    "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
    "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
    "date": "2026-11-09T12:18:00+00:00",
    "source": "Ukrinform"
+  },
+  {
+   "title": "Russian war criminal attempts to appeal sentence in Finland",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061945/",
+   "date": "2026-11-09T12:14:00+00:00",
+   "source": "Ukrainska Pravda"
   },
   {
    "title": "Russian attacks leave consumers in half of Ukrainian oblasts without power",
@@ -117,18 +129,6 @@
    "title": "Russian drone debris falls near school in Kyiv – photos",
    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061941/",
    "date": "2026-11-09T11:44:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Airstrike on Komyshuvakha: 30 victims identified, 19 more people may be trapped under rubble",
-   "url": "https://www.ukrinform.net/rubric-ato/4182906-airstrike-on-komyshuvakha-30-victims-identified-19-more-people-may-be-trapped-under-rubble.html",
-   "date": "2026-11-09T11:41:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Russians strike logistics company in Odesa Oblast for third time",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061939/",
-   "date": "2026-11-09T11:35:00+00:00",
    "source": "Ukrainska Pravda"
   }
  ],
