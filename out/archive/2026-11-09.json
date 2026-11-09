@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T12:51:00+00:00",
+ "generated": "2026-11-09T12:58:39+00:00",
  "isw": {
   "title": "Russian Offensive Campaign Assessment, November 8, 2026",
   "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-8-2026/",
@@ -12,32 +12,32 @@
    "topic": "Strikes & air defence",
    "text": "33 of 60 headlines in the last 36 hours touch on strikes & air defence.",
    "example": {
-    "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
-    "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
-    "source": "Ukrinform"
+    "title": "Russian FPV drone injures 3 energy workers in Sumy Oblast amid power outages in 12 oblasts",
+    "url": "https://kyivindependent.com/russian-fpv-drone-injures-3-energy-workers-in-sumy-oblast-as-12-oblasts-report-power-outages/",
+    "source": "Kyiv Independent"
    }
   },
   {
    "topic": "Energy & infrastructure",
    "text": "19 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
    "example": {
-    "title": "Part of Rivne left without electricity due to overloaded power grid",
-    "url": "https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html",
-    "source": "Ukrinform"
+    "title": "EU to activate emergency mechanism to back Ukraine amid deepening energy crisis",
+    "url": "https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/",
+    "source": "Kyiv Independent"
    }
   },
   {
    "topic": "Civilians & humanitarian",
-   "text": "14 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
+   "text": "15 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
    "example": {
-    "title": "Russia hits food warehouse in Odesa: three killed, three injured",
-    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061916/",
-    "source": "Ukrainska Pravda"
+    "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
+    "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
+    "source": "Ukrinform"
    }
   },
   {
    "topic": "Diplomacy & sanctions",
-   "text": "10 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "text": "11 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
    "example": {
     "title": "Russia agrees with Trump's remark about \"little bit different shape\" of post-war Ukraine",
     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061914/",
@@ -59,6 +59,18 @@
   }
  ],
  "top": [
+  {
+   "title": "Russian FPV drone injures 3 energy workers in Sumy Oblast amid power outages in 12 oblasts",
+   "url": "https://kyivindependent.com/russian-fpv-drone-injures-3-energy-workers-in-sumy-oblast-as-12-oblasts-report-power-outages/",
+   "date": "2026-11-09T12:50:52+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "EU to activate emergency mechanism to back Ukraine amid deepening energy crisis",
+   "url": "https://kyivindependent.com/eu-to-activate-emergency-mechanism-to-back-ukraine-amid-deepening-energy-crisis/",
+   "date": "2026-11-09T12:46:10+00:00",
+   "source": "Kyiv Independent"
+  },
   {
    "title": "Part of Rivne left without electricity due to overloaded power grid",
    "url": "https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html",
@@ -118,18 +130,6 @@
    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061939/",
    "date": "2026-11-09T11:35:00+00:00",
    "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Defense Forces strike plant near St. Petersburg that produces missile fuel for Iskander systems",
-   "url": "https://www.ukrinform.net/rubric-ato/4182905-defense-forces-strike-plant-near-st-petersburg-that-produces-missile-fuel-for-iskander-systems.html",
-   "date": "2026-11-09T11:21:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Russian attacks injure 28 across Ukraine over past day, as Russia continues strikes on energy infrastructure",
-   "url": "https://kyivindependent.com/russian-attacks-injure-28-across-ukraine-over-past-day-as-russia-continues-strikes-on-energy-infrastructure/",
-   "date": "2026-11-09T11:05:38+00:00",
-   "source": "Kyiv Independent"
   }
  ],
  "recent_count": 60,
