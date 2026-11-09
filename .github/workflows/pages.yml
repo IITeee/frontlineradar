@@ -1,0 +1,87 @@
+# Refreshes the snapshot from public sources, builds site/ and deploys it to GitHub Pages.
+name: Deploy Frontlineradar
+
+on:
+  schedule:
+    # Every 6 hours at :17 past (00:17, 06:17, 12:17, 18:17 UTC).
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+# pages + id-token are required by deploy-pages. contents: write lets the job
+# commit the refreshed snapshot back to main (GITHUB_TOKEN pushes do not start
+# another run; the [skip ci] marker is a second guard).
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'push' || !contains(github.event.head_commit.message, '[skip ci]')
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh data sources
+        env:
+          # Optional. Leave unset to keep the air-alert section hidden.
+          ALERTS_IN_UA_TOKEN: ${{ secrets.ALERTS_IN_UA_TOKEN }}
+          # Optional. Territorial-control source (see control.py); unset = placeholder.
+          CONTROL_GEOJSON_URL: ${{ vars.CONTROL_GEOJSON_URL }}
+        run: |
+          mkdir -p /tmp/prev && cp -a out /tmp/prev/ || true
+          if python3 refresh.py; then
+            echo "refresh.py succeeded"
+          else
+            echo "::warning title=Refresh failed::refresh.py crashed. Building and deploying the last snapshot."
+            rm -rf out && cp -a /tmp/prev/out out
+          fi
+
+      - name: Build site
+        run: python3 build_site.py
+
+      - name: Commit refreshed snapshot
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add out site
+          if git diff --staged --quiet; then
+            echo "No snapshot changes to commit"
+          else
+            git commit -m "Refresh snapshot [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: Setup Pages
+        # enablement creates the Pages site (Source: GitHub Actions) on the first
+        # run. The default GITHUB_TOKEN cannot do this — it needs a token with
+        # administration:write — so if this step fails with "Resource not
+        # accessible by integration", enable Pages once in Settings → Pages.
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

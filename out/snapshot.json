@@ -1,0 +1,2751 @@
+{
+ "generated": "2026-11-09T12:50:26+00:00",
+ "status": {
+  "Kyiv Independent": "ok",
+  "Ukrinform": "ok",
+  "Ukrainska Pravda": "ok",
+  "UK Ministry of Defence (GOV.UK)": "ok",
+  "ISW assessment": "ok",
+  "Missile & drone dataset": "ok",
+  "Territorial control": "stub (pending data permission)"
+ },
+ "feeds": [
+  {
+   "id": "kyiv-independent",
+   "name": "Kyiv Independent",
+   "home": "https://kyivindependent.com/",
+   "feed": "https://kyivindependent.com/news-archive/rss/",
+   "items": [
+    {
+     "title": "Russia imposes gasoline sales restrictions amid Ukrainian oil refinery attacks, Russian media report",
+     "url": "https://kyivindependent.com/russia-imposes-gasoline-sales-restrictions-amid-ukrainian-oil-refinery-attacks-russian-media-report/",
+     "date": "2026-11-09T11:54:50+00:00"
+    },
+    {
+     "title": "Russian attacks injure 28 across Ukraine over past day, as Russia continues strikes on energy infrastructure",
+     "url": "https://kyivindependent.com/russian-attacks-injure-28-across-ukraine-over-past-day-as-russia-continues-strikes-on-energy-infrastructure/",
+     "date": "2026-11-09T11:05:38+00:00"
+    },
+    {
+     "title": "2 soldiers a minute — Russia suffers record losses on Nov. 8, General Staff says",
+     "url": "https://kyivindependent.com/2-soldiers-a-minute-russia-suffers-record-losses-on-nov-8-general-staff-says/",
+     "date": "2026-11-09T10:04:48+00:00"
+    },
+    {
+     "title": "Moldova 'buys zero Russian gas,' launches new power line to EU",
+     "url": "https://kyivindependent.com/moldova-buys-zero-russian-gas-launches-new-power-line-to-eu/",
+     "date": "2026-11-09T09:29:41+00:00"
+    },
+    {
+     "title": "Europe's attendance at Abu Dhabi peace talks, clarified",
+     "url": "https://kyivindependent.com/europes-attendance-at-abu-dhabi-peace-talks-clarified/",
+     "date": "2026-11-09T09:00:34+00:00"
+    },
+    {
+     "title": "'Kyiv is not ready for this' — Ukraine's capital braces for another 'brutal' winter",
+     "url": "https://kyivindependent.com/kyiv-is-not-ready-for-this-ukraines-capital-braces-for-another-brutal-winter/",
+     "date": "2026-11-09T08:25:13+00:00"
+    },
+    {
+     "title": "General Staff: Russia has lost 1,609,380 troops in Ukraine since Feb. 24, 2022",
+     "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-609-380-troops-in-ukraine-since-feb-24-2022/",
+     "date": "2026-11-09T06:54:42+00:00"
+    },
+    {
+     "title": "Ukraine strikes Russia's second-largest oil refinery in overnight drone attack, Russian governor says",
+     "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-russias-second-largest-oil-refinery-in-overnight-drone-attack/",
+     "date": "2026-11-09T04:05:17+00:00"
+    },
+    {
+     "title": "Ukraine will likely 'end up with a little bit different shape' after war, Trump tells 60 Minutes",
+     "url": "https://kyivindependent.com/ukraine-will-likely-end-up-with-a-little-bit-different-shape-after-war-trump-tells-60-minutes/",
+     "date": "2026-11-09T02:56:20+00:00"
+    },
+    {
+     "title": "Power to Zaporizhzhia nuclear power plant cut, restored, IAEA says",
+     "url": "https://kyivindependent.com/power-to-zaporizhzhia-nuclear-power-plant-cut-restored-iaea-says/",
+     "date": "2026-11-09T01:09:58+00:00"
+    },
+    {
+     "title": "Ukraine war latest: Ukraine hits key bridge on 'highway of death' linking mainland Russia to occupied regions",
+     "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-hits-key-bridge-on-highway-of-death-linking-mainland-russia-to-occupied-regions/",
+     "date": "2026-11-08T18:44:31+00:00"
+    },
+    {
+     "title": "Ukrainian drones hit key bridge, power stations in Russia's Rostov Oblast, governor says",
+     "url": "https://kyivindependent.com/ukrainian-drones-hit-key-bridge-power-stations-in-russias-rostov-oblast-governor-says/",
+     "date": "2026-11-08T17:39:36+00:00"
+    },
+    {
+     "title": "Zelensky tasks PM with creating free transportation program in Kyiv as Russia's bridge attacks hinder travel",
+     "url": "https://kyivindependent.com/zelensky-tasks-pm-with-creating-free-transportation-program-in-kyiv-as-russias-bridge-attacks-hinder-travel/",
+     "date": "2026-11-08T16:18:59+00:00"
+    },
+    {
+     "title": "3 people, including child, die in Kyiv Oblast from improperly running generator as Russia slams power grids across Ukraine",
+     "url": "https://kyivindependent.com/3-people-including-child-die-in-kyiv-oblast-from-improperly-running-generator-as-russia-slams-power-grids-across-ukraine/",
+     "date": "2026-11-08T15:01:43+00:00"
+    },
+    {
+     "title": "Russia to replace Norway in ice hockey championship as more countries vow to boycott games",
+     "url": "https://kyivindependent.com/russia-to-replace-norway-in-ice-hockey-championship-as-more-countries-vow-to-boycott-games/",
+     "date": "2026-11-08T13:18:48+00:00"
+    }
+   ]
+  },
+  {
+   "id": "ukrinform",
+   "name": "Ukrinform",
+   "home": "https://www.ukrinform.net/",
+   "feed": "https://www.ukrinform.net/rss/block-lastnews",
+   "items": [
+    {
+     "title": "Part of Rivne left without electricity due to overloaded power grid",
+     "url": "https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html",
+     "date": "2026-11-09T12:39:00+00:00"
+    },
+    {
+     "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
+     "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
+     "date": "2026-11-09T12:18:00+00:00"
+    },
+    {
+     "title": "Fires caused by Russian drone attack extinguished in Kyiv",
+     "url": "https://www.ukrinform.net/rubric-ato/4182929-fires-caused-by-russian-drone-attack-extinguished-in-kyiv.html",
+     "date": "2026-11-09T12:01:00+00:00"
+    },
+    {
+     "title": "Airstrike on Komyshuvakha: 30 victims identified, 19 more people may be trapped under rubble",
+     "url": "https://www.ukrinform.net/rubric-ato/4182906-airstrike-on-komyshuvakha-30-victims-identified-19-more-people-may-be-trapped-under-rubble.html",
+     "date": "2026-11-09T11:41:00+00:00"
+    },
+    {
+     "title": "Defense Forces strike plant near St. Petersburg that produces missile fuel for Iskander systems",
+     "url": "https://www.ukrinform.net/rubric-ato/4182905-defense-forces-strike-plant-near-st-petersburg-that-produces-missile-fuel-for-iskander-systems.html",
+     "date": "2026-11-09T11:21:00+00:00"
+    },
+    {
+     "title": "Russian attack on infrastructure facility in Odesa leaves three killed, one injured",
+     "url": "https://www.ukrinform.net/rubric-ato/4182896-russian-attack-on-infrastructure-facility-in-odesa-leaves-three-killed-one-injured.html",
+     "date": "2026-11-09T10:59:00+00:00"
+    },
+    {
+     "title": "Russians attack inactive warehouses for third time in Odesa region, sparking fire",
+     "url": "https://www.ukrinform.net/rubric-ato/4182892-russians-attack-inactive-warehouses-for-third-time-in-odesa-region-sparking-fire.html",
+     "date": "2026-11-09T10:38:00+00:00"
+    },
+    {
+     "title": "Debris from Russian drone falls near school in Kyiv's Desnianskyi district",
+     "url": "https://www.ukrinform.net/rubric-ato/4182889-debris-from-russian-drone-falls-near-school-in-kyivs-desnianskyi-district.html",
+     "date": "2026-11-09T10:17:00+00:00"
+    },
+    {
+     "title": "Merz’s adviser to represent Germany at Abu Dhabi talks",
+     "url": "https://www.ukrinform.net/rubric-polytics/4182861-merzs-adviser-to-represent-germany-at-abu-dhabi-talks.html",
+     "date": "2026-11-09T10:00:00+00:00"
+    },
+    {
+     "title": "Von der Leyen speaks with Zelensky ahead of visits to Romania and Bulgaria",
+     "url": "https://www.ukrinform.net/rubric-polytics/4182850-von-der-leyen-speaks-with-zelensky-ahead-of-visits-to-romania-and-bulgaria.html",
+     "date": "2026-11-09T09:40:00+00:00"
+    },
+    {
+     "title": "Russian drone strike injures three energy workers in Sumy region",
+     "url": "https://www.ukrinform.net/rubric-ato/4182837-russian-drone-strike-injures-three-energy-workers-in-sumy-region.html",
+     "date": "2026-11-09T09:19:00+00:00"
+    },
+    {
+     "title": "EU to activate special emergency mechanism for Ukraine – Zelensky",
+     "url": "https://www.ukrinform.net/rubric-polytics/4182833-eu-to-activate-special-emergency-mechanism-for-ukraine-zelensky.html",
+     "date": "2026-11-09T09:00:00+00:00"
+    },
+    {
+     "title": "Ukrainian Navy shifts Neptune missile use to target Russia’s defense industry, spox says",
+     "url": "https://www.ukrinform.net/rubric-ato/4182815-ukrainian-navy-shifts-neptune-missile-use-to-target-russias-defense-industry-spox-says.html",
+     "date": "2026-11-09T08:39:00+00:00"
+    },
+    {
+     "title": "Russian attacks injure 14, including two children, in Kharkiv region",
+     "url": "https://www.ukrinform.net/rubric-ato/4182806-russian-attacks-injure-14-including-two-children-in-kharkiv-region.html",
+     "date": "2026-11-09T08:18:00+00:00"
+    },
+    {
+     "title": "Russian strikes hit energy infrastructure, businesses and residential areas in Rivne region",
+     "url": "https://www.ukrinform.net/rubric-ato/4182799-russian-strikes-hit-energy-infrastructure-businesses-and-residential-areas-in-rivne-region.html",
+     "date": "2026-11-09T07:58:00+00:00"
+    },
+    {
+     "title": "Drones strike Russia’s second-largest oil refinery",
+     "url": "https://www.ukrinform.net/rubric-ato/4182797-drones-strike-russias-secondlargest-oil-refinery.html",
+     "date": "2026-11-09T07:40:00+00:00"
+    },
+    {
+     "title": "War update: 140 clashes on front line over past day, Pokrovsk, Kostiantynivka sectors see fiercest fighting",
+     "url": "https://www.ukrinform.net/rubric-ato/4182793-war-update-140-clashes-on-front-line-over-past-day-pokrovsk-kostiantynivka-sectors-see-fiercest-fighting.html",
+     "date": "2026-11-09T07:20:00+00:00"
+    },
+    {
+     "title": "Air defense neutralizes 271 of 317 Russian drones targeting Ukraine overnight",
+     "url": "https://www.ukrinform.net/rubric-ato/4182779-air-defense-neutralizes-271-of-317-russian-drones-targeting-ukraine-overnight.html",
+     "date": "2026-11-09T07:00:00+00:00"
+    },
+    {
+     "title": "Russian forces strike residential area in Kremenchuk, seven injured",
+     "url": "https://www.ukrinform.net/rubric-ato/4182788-russian-forces-strike-residential-area-in-kremenchuk-seven-injured.html",
+     "date": "2026-11-09T06:52:00+00:00"
+    },
+    {
+     "title": "Russian forces attack Dnipropetrovsk region nearly 20 times overnight, causing damage in five districts",
+     "url": "https://www.ukrinform.net/rubric-ato/4182777-russian-forces-attack-dnipropetrovsk-region-nearly-20-times-overnight-causing-damage-in-five-districts.html",
+     "date": "2026-11-09T06:37:00+00:00"
+    },
+    {
+     "title": "Russian losses in Ukraine war rise by 2,980 over past day",
+     "url": "https://www.ukrinform.net/rubric-ato/4182776-russian-losses-in-ukraine-war-rise-by-2980-over-past-day.html",
+     "date": "2026-11-09T06:15:00+00:00"
+    },
+    {
+     "title": "Russian forces launch 819 attacks on Zaporizhzhia region over past day, six injured",
+     "url": "https://www.ukrinform.net/rubric-ato/4182774-russian-forces-launch-819-attacks-on-zaporizhzhia-region-over-past-day-six-injured.html",
+     "date": "2026-11-09T05:54:00+00:00"
+    },
+    {
+     "title": "Russian drone hits private property in Poltava region, fire breaks out",
+     "url": "https://www.ukrinform.net/rubric-ato/4182769-russian-drone-hits-private-property-in-poltava-region-fire-breaks-out.html",
+     "date": "2026-11-09T05:30:00+00:00"
+    },
+    {
+     "title": "Estonian FM: Putin is the only one who can stop war, Ukraine must join NATO",
+     "url": "https://www.ukrinform.net/rubric-polytics/4182768-estonian-fm-putin-is-the-only-one-who-can-stop-war-ukraine-must-join-nato.html",
+     "date": "2026-11-09T05:10:00+00:00"
+    },
+    {
+     "title": "Ukraine's 7th Air Assault Corps receives over 50 types of drones, 40 ground robotic systems this year",
+     "url": "https://www.ukrinform.net/rubric-ato/4182767-ukraines-7th-air-assault-corps-receives-over-50-types-of-drones-40-ground-robotic-systems-this-year.html",
+     "date": "2026-11-09T04:43:00+00:00"
+    }
+   ]
+  },
+  {
+   "id": "ukrainska-pravda",
+   "name": "Ukrainska Pravda",
+   "home": "https://www.pravda.com.ua/eng/",
+   "feed": "https://www.pravda.com.ua/eng/rss/",
+   "items": [
+    {
+     "title": "Russian attacks leave consumers in half of Ukrainian oblasts without power",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061944/",
+     "date": "2026-11-09T12:13:00+00:00"
+    },
+    {
+     "title": "Russia strikes Ukrainian energy sector 128 times in a week",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061942/",
+     "date": "2026-11-09T11:56:00+00:00"
+    },
+    {
+     "title": "Russia hits food warehouse in Odesa: three killed, three injured",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061916/",
+     "date": "2026-11-09T11:55:00+00:00"
+    },
+    {
+     "title": "Russian drone debris falls near school in Kyiv – photos",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061941/",
+     "date": "2026-11-09T11:44:00+00:00"
+    },
+    {
+     "title": "Russians strike logistics company in Odesa Oblast for third time",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061939/",
+     "date": "2026-11-09T11:35:00+00:00"
+    },
+    {
+     "title": "Nineteen people still may be under rubble in Komyshuvakha, police identify 30 killed",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061929/",
+     "date": "2026-11-09T10:58:00+00:00"
+    },
+    {
+     "title": "Ukrainian forces strike Russian plant producing fuel for Iskander ballistic missiles",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061926/",
+     "date": "2026-11-09T10:43:00+00:00"
+    },
+    {
+     "title": "Russia agrees with Trump's remark about \"little bit different shape\" of post-war Ukraine",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061914/",
+     "date": "2026-11-09T10:03:00+00:00"
+    },
+    {
+     "title": "Ukrainian foreign minister expects to meet Rubio on sidelines of G7 summit in Paris",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061912/",
+     "date": "2026-11-09T09:51:00+00:00"
+    },
+    {
+     "title": "Petrol sales limits introduced across Russia",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061911/",
+     "date": "2026-11-09T09:45:00+00:00"
+    },
+    {
+     "title": "Russia exploited protests in France to discredit government – Reuters",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061909/",
+     "date": "2026-11-09T09:25:00+00:00"
+    },
+    {
+     "title": "Russia destroys rehabilitation centre for children with disabilities in Kremenchuk – photos",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061903/",
+     "date": "2026-11-09T09:04:00+00:00"
+    },
+    {
+     "title": "Russia bombards energy facility in Vinnytsia Oblast",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061901/",
+     "date": "2026-11-09T08:48:00+00:00"
+    },
+    {
+     "title": "Presidential adviser explains how Russians accurately hit Ukrainian bridges with missiles",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061900/",
+     "date": "2026-11-09T08:41:00+00:00"
+    },
+    {
+     "title": "Russia attacks energy facilities in northern part of Rivne Oblast",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061895/",
+     "date": "2026-11-09T08:12:00+00:00"
+    },
+    {
+     "title": "Zelenskyy: EU will apply special emergency response mechanism to aid Ukraine",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061892/",
+     "date": "2026-11-09T08:07:00+00:00"
+    },
+    {
+     "title": "Three injured in Russian drone hit on power engineers' car in Sumy – photos",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061891/",
+     "date": "2026-11-09T08:02:00+00:00"
+    },
+    {
+     "title": "Estonian interior minister: Russia's actions should be regarded as state terrorism",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061889/",
+     "date": "2026-11-09T07:49:00+00:00"
+    },
+    {
+     "title": "Russian forces attack Izium and Balakliia, injuring nine people",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061887/",
+     "date": "2026-11-09T07:43:00+00:00"
+    },
+    {
+     "title": "Germany has provided over €100bn in aid to Ukraine since start of war",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061888/",
+     "date": "2026-11-09T07:43:00+00:00"
+    }
+   ]
+  },
+  {
+   "id": "uk-mod",
+   "name": "UK Ministry of Defence (GOV.UK)",
+   "home": "https://www.gov.uk/government/organisations/ministry-of-defence",
+   "feed": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=ministry-of-defence&keywords=ukraine",
+   "items": [
+    {
+     "title": "Joint Statement by the UK and Netherlands Defence Ministers",
+     "url": "https://www.gov.uk/government/news/joint-statement-by-the-uk-and-netherlands-defence-ministers",
+     "date": "2026-11-04T10:12:55+00:00"
+    },
+    {
+     "title": "UK to lead multinational military training exercise to prepare for peace in Ukraine",
+     "url": "https://www.gov.uk/government/news/uk-to-lead-multinational-military-training-exercise-to-prepare-for-peace-in-ukraine--2",
+     "date": "2026-11-03T00:01:00+00:00"
+    },
+    {
+     "title": "UK Germany Defence Ministerial Council Joint Statement",
+     "url": "https://www.gov.uk/government/news/uk-germany-defence-ministerial-council-joint-statement--2",
+     "date": "2026-11-02T19:50:01+00:00"
+    },
+    {
+     "title": "UK and Ukrainian industry unite to accelerate drone innovation",
+     "url": "https://www.gov.uk/government/news/uk-and-ukrainian-industry-unite-to-accelerate-drone-innovation",
+     "date": "2026-10-30T10:49:35+00:00"
+    },
+    {
+     "title": "MOD appoints its first Director General Innovation",
+     "url": "https://www.gov.uk/government/news/mod-appoints-its-first-director-general-innovation",
+     "date": "2026-10-28T14:34:53+00:00"
+    },
+    {
+     "title": "UK and Poland strengthen defences on Europe's Eastern flank",
+     "url": "https://www.gov.uk/government/news/uk-and-poland-strengthen-defences-on-europes-eastern-flank--2",
+     "date": "2026-10-27T10:59:30+00:00"
+    },
+    {
+     "title": "E5 Defence Ministers' Statement: 26 October 2026",
+     "url": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+     "date": "2026-10-26T17:44:22+00:00"
+    },
+    {
+     "title": "Chief of the General Staff's speech at the opening of Telford Gun Hall",
+     "url": "https://www.gov.uk/government/speeches/chief-of-the-general-staffs-speech-at-the-opening-of-telford-gun-hall",
+     "date": "2026-10-22T15:24:03+00:00"
+    },
+    {
+     "title": "Defence Secretary Wes Streeting's speech at the opening of Telford Gun Hall",
+     "url": "https://www.gov.uk/government/speeches/defence-secretary-wes-streetings-speech-at-the-opening-of-telford-gun-hall",
+     "date": "2026-10-22T13:54:00+00:00"
+    },
+    {
+     "title": "Defence Secretary Wes Streeting Speech at the Center for Strategic and International Studies",
+     "url": "https://www.gov.uk/government/speeches/defence-secretary-wes-streeting-speech-at-the-center-for-strategic-and-international-studies",
+     "date": "2026-10-15T15:53:28+00:00"
+    },
+    {
+     "title": "Faster front-line delivery with new Testing and Evaluation programme",
+     "url": "https://www.gov.uk/government/news/faster-front-line-delivery-with-new-testing-and-evaluation-programme",
+     "date": "2026-10-10T08:30:01+00:00"
+    },
+    {
+     "title": "New Kyiv Business Centre opens in Ukraine",
+     "url": "https://www.gov.uk/government/news/new-kyiv-business-centre-opens-in-ukraine",
+     "date": "2026-10-08T18:09:00+00:00"
+    },
+    {
+     "title": "Joint Statement from Defence Ministers of the Joint Expeditionary Force: 02 October 2026",
+     "url": "https://www.gov.uk/government/news/joint-statement-from-defence-ministers-of-the-joint-expeditionary-force-02-october-2026",
+     "date": "2026-10-03T11:43:18+00:00"
+    },
+    {
+     "title": "UK leads major Joint Expeditionary Force Exercise as defence ministers meet in Iceland",
+     "url": "https://www.gov.uk/government/news/uk-leads-major-joint-expeditionary-force-exercise-as-defence-ministers-meet-in-iceland",
+     "date": "2026-10-02T05:00:02+00:00"
+    },
+    {
+     "title": "British companies to access prized Ukraine data to develop AI drone swarms",
+     "url": "https://www.gov.uk/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms",
+     "date": "2026-09-25T09:07:00+00:00"
+    },
+    {
+     "title": "CEOs from sensitive sectors to receive briefings on Russia threats",
+     "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-to-receive-briefings-on-russia-threats",
+     "date": "2026-09-25T09:03:42+00:00"
+    },
+    {
+     "title": "Defence Secretary Wes Streeting MP, keynote speech at UK Space Power Conference",
+     "url": "https://www.gov.uk/government/speeches/defence-secretary-wes-streeting-mp-keynote-speech-at-uk-space-power-conference",
+     "date": "2026-09-23T18:05:54+00:00"
+    },
+    {
+     "title": "Chief of the Air Staff, Air Chief Marshal Sir Harv Smyth's speech at the UK Space Power Conference",
+     "url": "https://www.gov.uk/government/speeches/chief-of-the-air-staff-air-chief-marshal-sir-harv-smyths-speech-at-the-uk-space-power-conference",
+     "date": "2026-09-23T10:47:54+00:00"
+    },
+    {
+     "title": "Battle for the Atlantic",
+     "url": "https://www.gov.uk/government/speeches/battle-for-the-atlantic",
+     "date": "2026-09-17T08:58:50+00:00"
+    },
+    {
+     "title": "Ministry of Defence confirms the death of Major Paul Wilks",
+     "url": "https://www.gov.uk/government/fatalities/ministry-of-defence-confirms-the-death-of-major-paul-wilks",
+     "date": "2026-09-16T16:45:02+00:00"
+    }
+   ]
+  }
+ ],
+ "isw": {
+  "title": "Russian Offensive Campaign Assessment, November 8, 2026",
+  "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-8-2026/",
+  "date": "2026-11-09T05:26:26+00:00",
+  "covers": "2026-11-08",
+  "via": "Google News RSS (ISW blocks automated access)"
+ },
+ "strikes": {
+  "source": "Petro Ivaniuk — Massive Missile Attacks on Ukraine (Kaggle), compiled from Ukrainian Air Force reports",
+  "source_url": "https://www.kaggle.com/datasets/piterfm/massive-missile-attacks-on-ukraine",
+  "license": "CC BY-NC-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "rows": 4330,
+  "first_day": "2022-09-28",
+  "last_day": "2026-11-07",
+  "latest": {
+   "date": "2026-11-07",
+   "drones_launched": 180,
+   "drones_destroyed": 157,
+   "missiles_launched": 4,
+   "missiles_destroyed": 4
+  },
+  "last7": {
+   "drones_launched": 2680,
+   "drones_destroyed": 2406,
+   "missiles_launched": 84,
+   "missiles_destroyed": 70,
+   "launched": 2764,
+   "destroyed": 2476,
+   "rate": 89.6
+  },
+  "prev7": {
+   "drones_launched": 1270,
+   "drones_destroyed": 1059,
+   "missiles_launched": 13,
+   "missiles_destroyed": 10,
+   "launched": 1283,
+   "destroyed": 1069,
+   "rate": 83.3
+  },
+  "last30": {
+   "drones_launched": 8582,
+   "drones_destroyed": 7501,
+   "missiles_launched": 185,
+   "missiles_destroyed": 107,
+   "launched": 8767,
+   "destroyed": 7608,
+   "rate": 86.8
+  },
+  "peak": {
+   "date": "2026-03-24",
+   "launched": 1034
+  },
+  "daily90": [
+   {
+    "date": "2026-08-10",
+    "drones_launched": 209,
+    "drones_destroyed": 175,
+    "missiles_launched": 11,
+    "missiles_destroyed": 11
+   },
+   {
+    "date": "2026-08-11",
+    "drones_launched": 238,
+    "drones_destroyed": 216,
+    "missiles_launched": 4,
+    "missiles_destroyed": 1
+   },
+   {
+    "date": "2026-08-12",
+    "drones_launched": 192,
+    "drones_destroyed": 166,
+    "missiles_launched": 7,
+    "missiles_destroyed": 5
+   },
+   {
+    "date": "2026-08-13",
+    "drones_launched": 133,
+    "drones_destroyed": 111,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-14",
+    "drones_launched": 92,
+    "drones_destroyed": 92,
+    "missiles_launched": 1,
+    "missiles_destroyed": 1
+   },
+   {
+    "date": "2026-08-15",
+    "drones_launched": 220,
+    "drones_destroyed": 192,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-16",
+    "drones_launched": 167,
+    "drones_destroyed": 146,
+    "missiles_launched": 3,
+    "missiles_destroyed": 3
+   },
+   {
+    "date": "2026-08-17",
+    "drones_launched": 219,
+    "drones_destroyed": 197,
+    "missiles_launched": 10,
+    "missiles_destroyed": 7
+   },
+   {
+    "date": "2026-08-18",
+    "drones_launched": 306,
+    "drones_destroyed": 264,
+    "missiles_launched": 4,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-19",
+    "drones_launched": 148,
+    "drones_destroyed": 139,
+    "missiles_launched": 2,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-20",
+    "drones_launched": 227,
+    "drones_destroyed": 204,
+    "missiles_launched": 44,
+    "missiles_destroyed": 39
+   },
+   {
+    "date": "2026-08-21",
+    "drones_launched": 237,
+    "drones_destroyed": 209,
+    "missiles_launched": 3,
+    "missiles_destroyed": 3
+   },
+   {
+    "date": "2026-08-22",
+    "drones_launched": 295,
+    "drones_destroyed": 260,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-23",
+    "drones_launched": 210,
+    "drones_destroyed": 180,
+    "missiles_launched": 8,
+    "missiles_destroyed": 3
+   },
+   {
+    "date": "2026-08-24",
+    "drones_launched": 180,
+    "drones_destroyed": 146,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-25",
+    "drones_launched": 213,
+    "drones_destroyed": 187,
+    "missiles_launched": 2,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-26",
+    "drones_launched": 198,
+    "drones_destroyed": 170,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-27",
+    "drones_launched": 432,
+    "drones_destroyed": 376,
+    "missiles_launched": 9,
+    "missiles_destroyed": 8
+   },
+   {
+    "date": "2026-08-28",
+    "drones_launched": 276,
+    "drones_destroyed": 226,
+    "missiles_launched": 9,
+    "missiles_destroyed": 6
+   },
+   {
+    "date": "2026-08-29",
+    "drones_launched": 536,
+    "drones_destroyed": 477,
+    "missiles_launched": 2,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-30",
+    "drones_launched": 191,
+    "drones_destroyed": 186,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-08-31",
+    "drones_launched": 168,
+    "drones_destroyed": 143,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-01",
+    "drones_launched": 356,
+    "drones_destroyed": 308,
+    "missiles_launched": 14,
+    "missiles_destroyed": 10
+   },
+   {
+    "date": "2026-09-02",
+    "drones_launched": 229,
+    "drones_destroyed": 193,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-03",
+    "drones_launched": 204,
+    "drones_destroyed": 176,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-04",
+    "drones_launched": 158,
+    "drones_destroyed": 140,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-05",
+    "drones_launched": 215,
+    "drones_destroyed": 176,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-06",
+    "drones_launched": 157,
+    "drones_destroyed": 131,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-07",
+    "drones_launched": 153,
+    "drones_destroyed": 132,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-08",
+    "drones_launched": 257,
+    "drones_destroyed": 233,
+    "missiles_launched": 36,
+    "missiles_destroyed": 33
+   },
+   {
+    "date": "2026-09-09",
+    "drones_launched": 256,
+    "drones_destroyed": 225,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-10",
+    "drones_launched": 204,
+    "drones_destroyed": 183,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-11",
+    "drones_launched": 227,
+    "drones_destroyed": 204,
+    "missiles_launched": 2,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-12",
+    "drones_launched": 579,
+    "drones_destroyed": 486,
+    "missiles_launched": 14,
+    "missiles_destroyed": 8
+   },
+   {
+    "date": "2026-09-13",
+    "drones_launched": 807,
+    "drones_destroyed": 746,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-14",
+    "drones_launched": 132,
+    "drones_destroyed": 109,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-15",
+    "drones_launched": 232,
+    "drones_destroyed": 219,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-16",
+    "drones_launched": 149,
+    "drones_destroyed": 132,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-17",
+    "drones_launched": 235,
+    "drones_destroyed": 202,
+    "missiles_launched": 4,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-18",
+    "drones_launched": 160,
+    "drones_destroyed": 136,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-19",
+    "drones_launched": 237,
+    "drones_destroyed": 204,
+    "missiles_launched": 4,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-20",
+    "drones_launched": 186,
+    "drones_destroyed": 149,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-21",
+    "drones_launched": 212,
+    "drones_destroyed": 187,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-22",
+    "drones_launched": 286,
+    "drones_destroyed": 251,
+    "missiles_launched": 12,
+    "missiles_destroyed": 9
+   },
+   {
+    "date": "2026-09-23",
+    "drones_launched": 169,
+    "drones_destroyed": 127,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-24",
+    "drones_launched": 375,
+    "drones_destroyed": 312,
+    "missiles_launched": 7,
+    "missiles_destroyed": 7
+   },
+   {
+    "date": "2026-09-25",
+    "drones_launched": 485,
+    "drones_destroyed": 422,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-26",
+    "drones_launched": 209,
+    "drones_destroyed": 170,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-27",
+    "drones_launched": 201,
+    "drones_destroyed": 169,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-28",
+    "drones_launched": 289,
+    "drones_destroyed": 198,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-09-29",
+    "drones_launched": 272,
+    "drones_destroyed": 209,
+    "missiles_launched": 3,
+    "missiles_destroyed": 3
+   },
+   {
+    "date": "2026-09-30",
+    "drones_launched": 508,
+    "drones_destroyed": 444,
+    "missiles_launched": 5,
+    "missiles_destroyed": 5
+   },
+   {
+    "date": "2026-10-01",
+    "drones_launched": 139,
+    "drones_destroyed": 119,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-02",
+    "drones_launched": 147,
+    "drones_destroyed": 127,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-03",
+    "drones_launched": 210,
+    "drones_destroyed": 184,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-04",
+    "drones_launched": 185,
+    "drones_destroyed": 173,
+    "missiles_launched": 3,
+    "missiles_destroyed": 2
+   },
+   {
+    "date": "2026-10-05",
+    "drones_launched": 258,
+    "drones_destroyed": 225,
+    "missiles_launched": 1,
+    "missiles_destroyed": 1
+   },
+   {
+    "date": "2026-10-06",
+    "drones_launched": 182,
+    "drones_destroyed": 159,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-07",
+    "drones_launched": 156,
+    "drones_destroyed": 143,
+    "missiles_launched": 53,
+    "missiles_destroyed": 44
+   },
+   {
+    "date": "2026-10-08",
+    "drones_launched": 185,
+    "drones_destroyed": 169,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-09",
+    "drones_launched": 185,
+    "drones_destroyed": 163,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-10",
+    "drones_launched": 220,
+    "drones_destroyed": 177,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-11",
+    "drones_launched": 159,
+    "drones_destroyed": 137,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-12",
+    "drones_launched": 168,
+    "drones_destroyed": 136,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-13",
+    "drones_launched": 150,
+    "drones_destroyed": 130,
+    "missiles_launched": 14,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-14",
+    "drones_launched": 188,
+    "drones_destroyed": 175,
+    "missiles_launched": 42,
+    "missiles_destroyed": 4
+   },
+   {
+    "date": "2026-10-15",
+    "drones_launched": 750,
+    "drones_destroyed": 693,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-16",
+    "drones_launched": 514,
+    "drones_destroyed": 417,
+    "missiles_launched": 15,
+    "missiles_destroyed": 9
+   },
+   {
+    "date": "2026-10-17",
+    "drones_launched": 559,
+    "drones_destroyed": 499,
+    "missiles_launched": 10,
+    "missiles_destroyed": 10
+   },
+   {
+    "date": "2026-10-18",
+    "drones_launched": 199,
+    "drones_destroyed": 171,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-19",
+    "drones_launched": 319,
+    "drones_destroyed": 293,
+    "missiles_launched": 4,
+    "missiles_destroyed": 4
+   },
+   {
+    "date": "2026-10-20",
+    "drones_launched": 259,
+    "drones_destroyed": 209,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-21",
+    "drones_launched": 251,
+    "drones_destroyed": 215,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-22",
+    "drones_launched": 281,
+    "drones_destroyed": 252,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-23",
+    "drones_launched": 245,
+    "drones_destroyed": 209,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-24",
+    "drones_launched": 185,
+    "drones_destroyed": 160,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-25",
+    "drones_launched": 184,
+    "drones_destroyed": 150,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-26",
+    "drones_launched": 168,
+    "drones_destroyed": 140,
+    "missiles_launched": 4,
+    "missiles_destroyed": 3
+   },
+   {
+    "date": "2026-10-27",
+    "drones_launched": 292,
+    "drones_destroyed": 267,
+    "missiles_launched": 2,
+    "missiles_destroyed": 2
+   },
+   {
+    "date": "2026-10-28",
+    "drones_launched": 92,
+    "drones_destroyed": 75,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-29",
+    "drones_launched": 119,
+    "drones_destroyed": 104,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-10-30",
+    "drones_launched": 113,
+    "drones_destroyed": 96,
+    "missiles_launched": 4,
+    "missiles_destroyed": 3
+   },
+   {
+    "date": "2026-10-31",
+    "drones_launched": 302,
+    "drones_destroyed": 227,
+    "missiles_launched": 2,
+    "missiles_destroyed": 2
+   },
+   {
+    "date": "2026-11-01",
+    "drones_launched": 794,
+    "drones_destroyed": 680,
+    "missiles_launched": 6,
+    "missiles_destroyed": 6
+   },
+   {
+    "date": "2026-11-02",
+    "drones_launched": 450,
+    "drones_destroyed": 379,
+    "missiles_launched": 10,
+    "missiles_destroyed": 8
+   },
+   {
+    "date": "2026-11-03",
+    "drones_launched": 437,
+    "drones_destroyed": 463,
+    "missiles_launched": 62,
+    "missiles_destroyed": 52
+   },
+   {
+    "date": "2026-11-04",
+    "drones_launched": 362,
+    "drones_destroyed": 324,
+    "missiles_launched": 2,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-11-05",
+    "drones_launched": 186,
+    "drones_destroyed": 163,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-11-06",
+    "drones_launched": 271,
+    "drones_destroyed": 240,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "date": "2026-11-07",
+    "drones_launched": 180,
+    "drones_destroyed": 157,
+    "missiles_launched": 4,
+    "missiles_destroyed": 4
+   }
+  ],
+  "weekly": [
+   {
+    "week": "2022-09-26",
+    "drones_launched": 21,
+    "drones_destroyed": 17,
+    "missiles_launched": 5,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2022-10-03",
+    "drones_launched": 31,
+    "drones_destroyed": 31,
+    "missiles_launched": 22,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2022-10-10",
+    "drones_launched": 108,
+    "drones_destroyed": 97,
+    "missiles_launched": 117,
+    "missiles_destroyed": 68
+   },
+   {
+    "week": "2022-10-17",
+    "drones_launched": 103,
+    "drones_destroyed": 103,
+    "missiles_launched": 49,
+    "missiles_destroyed": 32
+   },
+   {
+    "week": "2022-10-24",
+    "drones_launched": 23,
+    "drones_destroyed": 22,
+    "missiles_launched": 1,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2022-10-31",
+    "drones_launched": 43,
+    "drones_destroyed": 42,
+    "missiles_launched": 52,
+    "missiles_destroyed": 46
+   },
+   {
+    "week": "2022-11-07",
+    "drones_launched": 6,
+    "drones_destroyed": 6,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2022-11-14",
+    "drones_launched": 19,
+    "drones_destroyed": 19,
+    "missiles_launched": 118,
+    "missiles_destroyed": 83
+   },
+   {
+    "week": "2022-11-21",
+    "drones_launched": 5,
+    "drones_destroyed": 5,
+    "missiles_launched": 70,
+    "missiles_destroyed": 51
+   },
+   {
+    "week": "2022-12-05",
+    "drones_launched": 29,
+    "drones_destroyed": 24,
+    "missiles_launched": 70,
+    "missiles_destroyed": 60
+   },
+   {
+    "week": "2022-12-12",
+    "drones_launched": 13,
+    "drones_destroyed": 13,
+    "missiles_launched": 103,
+    "missiles_destroyed": 60
+   },
+   {
+    "week": "2022-12-19",
+    "drones_launched": 37,
+    "drones_destroyed": 32,
+    "missiles_launched": 1,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2022-12-26",
+    "drones_launched": 66,
+    "drones_destroyed": 66,
+    "missiles_launched": 90,
+    "missiles_destroyed": 70
+   },
+   {
+    "week": "2023-01-02",
+    "drones_launched": 40,
+    "drones_destroyed": 40,
+    "missiles_launched": 1,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2023-01-09",
+    "drones_launched": 4,
+    "drones_destroyed": 4,
+    "missiles_launched": 38,
+    "missiles_destroyed": 25
+   },
+   {
+    "week": "2023-01-16",
+    "drones_launched": 2,
+    "drones_destroyed": 2,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-01-23",
+    "drones_launched": 26,
+    "drones_destroyed": 26,
+    "missiles_launched": 57,
+    "missiles_destroyed": 49
+   },
+   {
+    "week": "2023-02-06",
+    "drones_launched": 33,
+    "drones_destroyed": 31,
+    "missiles_launched": 106,
+    "missiles_destroyed": 61
+   },
+   {
+    "week": "2023-02-13",
+    "drones_launched": 1,
+    "drones_destroyed": 1,
+    "missiles_launched": 39,
+    "missiles_destroyed": 18
+   },
+   {
+    "week": "2023-02-27",
+    "drones_launched": 18,
+    "drones_destroyed": 15,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-03-06",
+    "drones_launched": 25,
+    "drones_destroyed": 19,
+    "missiles_launched": 81,
+    "missiles_destroyed": 34
+   },
+   {
+    "week": "2023-03-13",
+    "drones_launched": 16,
+    "drones_destroyed": 11,
+    "missiles_launched": 4,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-03-20",
+    "drones_launched": 21,
+    "drones_destroyed": 16,
+    "missiles_launched": 4,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2023-03-27",
+    "drones_launched": 24,
+    "drones_destroyed": 22,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-04-03",
+    "drones_launched": 18,
+    "drones_destroyed": 15,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-04-10",
+    "drones_launched": 2,
+    "drones_destroyed": 2,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-04-17",
+    "drones_launched": 54,
+    "drones_destroyed": 44,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-04-24",
+    "drones_launched": 20,
+    "drones_destroyed": 20,
+    "missiles_launched": 23,
+    "missiles_destroyed": 21
+   },
+   {
+    "week": "2023-05-01",
+    "drones_launched": 70,
+    "drones_destroyed": 59,
+    "missiles_launched": 19,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2023-05-08",
+    "drones_launched": 100,
+    "drones_destroyed": 96,
+    "missiles_launched": 36,
+    "missiles_destroyed": 26
+   },
+   {
+    "week": "2023-05-15",
+    "drones_launched": 74,
+    "drones_destroyed": 68,
+    "missiles_launched": 61,
+    "missiles_destroyed": 57
+   },
+   {
+    "week": "2023-05-22",
+    "drones_launched": 151,
+    "drones_destroyed": 141,
+    "missiles_launched": 33,
+    "missiles_destroyed": 14
+   },
+   {
+    "week": "2023-05-29",
+    "drones_launched": 98,
+    "drones_destroyed": 88,
+    "missiles_launched": 82,
+    "missiles_destroyed": 77
+   },
+   {
+    "week": "2023-06-05",
+    "drones_launched": 75,
+    "drones_destroyed": 54,
+    "missiles_launched": 51,
+    "missiles_destroyed": 41
+   },
+   {
+    "week": "2023-06-12",
+    "drones_launched": 56,
+    "drones_destroyed": 52,
+    "missiles_launched": 40,
+    "missiles_destroyed": 26
+   },
+   {
+    "week": "2023-06-19",
+    "drones_launched": 56,
+    "drones_destroyed": 52,
+    "missiles_launched": 74,
+    "missiles_destroyed": 58
+   },
+   {
+    "week": "2023-06-26",
+    "drones_launched": 39,
+    "drones_destroyed": 35,
+    "missiles_launched": 10,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2023-07-03",
+    "drones_launched": 48,
+    "drones_destroyed": 38,
+    "missiles_launched": 10,
+    "missiles_destroyed": 7
+   },
+   {
+    "week": "2023-07-10",
+    "drones_launched": 107,
+    "drones_destroyed": 98,
+    "missiles_launched": 3,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2023-07-17",
+    "drones_launched": 115,
+    "drones_destroyed": 95,
+    "missiles_launched": 75,
+    "missiles_destroyed": 36
+   },
+   {
+    "week": "2023-07-24",
+    "drones_launched": 19,
+    "drones_destroyed": 19,
+    "missiles_launched": 45,
+    "missiles_destroyed": 36
+   },
+   {
+    "week": "2023-07-31",
+    "drones_launched": 72,
+    "drones_destroyed": 72,
+    "missiles_launched": 43,
+    "missiles_destroyed": 31
+   },
+   {
+    "week": "2023-08-07",
+    "drones_launched": 15,
+    "drones_destroyed": 10,
+    "missiles_launched": 4,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2023-08-14",
+    "drones_launched": 55,
+    "drones_destroyed": 53,
+    "missiles_launched": 47,
+    "missiles_destroyed": 25
+   },
+   {
+    "week": "2023-08-21",
+    "drones_launched": 25,
+    "drones_destroyed": 16,
+    "missiles_launched": 13,
+    "missiles_destroyed": 9
+   },
+   {
+    "week": "2023-08-28",
+    "drones_launched": 41,
+    "drones_destroyed": 37,
+    "missiles_launched": 36,
+    "missiles_destroyed": 33
+   },
+   {
+    "week": "2023-09-04",
+    "drones_launched": 143,
+    "drones_destroyed": 105,
+    "missiles_launched": 8,
+    "missiles_destroyed": 8
+   },
+   {
+    "week": "2023-09-11",
+    "drones_launched": 102,
+    "drones_destroyed": 85,
+    "missiles_launched": 10,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2023-09-18",
+    "drones_launched": 103,
+    "drones_destroyed": 86,
+    "missiles_launched": 67,
+    "missiles_destroyed": 53
+   },
+   {
+    "week": "2023-09-25",
+    "drones_launched": 180,
+    "drones_destroyed": 134,
+    "missiles_launched": 14,
+    "missiles_destroyed": 11
+   },
+   {
+    "week": "2023-10-02",
+    "drones_launched": 100,
+    "drones_destroyed": 82,
+    "missiles_launched": 1,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2023-10-09",
+    "drones_launched": 71,
+    "drones_destroyed": 57,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2023-10-16",
+    "drones_launched": 36,
+    "drones_destroyed": 27,
+    "missiles_launched": 26,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2023-10-23",
+    "drones_launched": 60,
+    "drones_destroyed": 59,
+    "missiles_launched": 13,
+    "missiles_destroyed": 10
+   },
+   {
+    "week": "2023-10-30",
+    "drones_launched": 94,
+    "drones_destroyed": 69,
+    "missiles_launched": 13,
+    "missiles_destroyed": 10
+   },
+   {
+    "week": "2023-11-06",
+    "drones_launched": 40,
+    "drones_destroyed": 26,
+    "missiles_launched": 10,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2023-11-13",
+    "drones_launched": 100,
+    "drones_destroyed": 81,
+    "missiles_launched": 3,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2023-11-20",
+    "drones_launched": 115,
+    "drones_destroyed": 112,
+    "missiles_launched": 7,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2023-11-27",
+    "drones_launched": 95,
+    "drones_destroyed": 79,
+    "missiles_launched": 16,
+    "missiles_destroyed": 3
+   },
+   {
+    "week": "2023-12-04",
+    "drones_launched": 121,
+    "drones_destroyed": 99,
+    "missiles_launched": 33,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2023-12-11",
+    "drones_launched": 152,
+    "drones_destroyed": 144,
+    "missiles_launched": 15,
+    "missiles_destroyed": 13
+   },
+   {
+    "week": "2023-12-18",
+    "drones_launched": 114,
+    "drones_destroyed": 107,
+    "missiles_launched": 7,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2023-12-25",
+    "drones_launched": 204,
+    "drones_destroyed": 138,
+    "missiles_launched": 132,
+    "missiles_destroyed": 91
+   },
+   {
+    "week": "2024-01-01",
+    "drones_launched": 209,
+    "drones_destroyed": 190,
+    "missiles_launched": 114,
+    "missiles_destroyed": 76
+   },
+   {
+    "week": "2024-01-08",
+    "drones_launched": 14,
+    "drones_destroyed": 11,
+    "missiles_launched": 91,
+    "missiles_destroyed": 28
+   },
+   {
+    "week": "2024-01-15",
+    "drones_launched": 66,
+    "drones_destroyed": 52,
+    "missiles_launched": 10,
+    "missiles_destroyed": 3
+   },
+   {
+    "week": "2024-01-22",
+    "drones_launched": 36,
+    "drones_destroyed": 29,
+    "missiles_launched": 56,
+    "missiles_destroyed": 26
+   },
+   {
+    "week": "2024-01-29",
+    "drones_launched": 112,
+    "drones_destroyed": 66,
+    "missiles_launched": 13,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2024-02-05",
+    "drones_launched": 131,
+    "drones_destroyed": 101,
+    "missiles_launched": 46,
+    "missiles_destroyed": 31
+   },
+   {
+    "week": "2024-02-12",
+    "drones_launched": 57,
+    "drones_destroyed": 45,
+    "missiles_launched": 40,
+    "missiles_destroyed": 18
+   },
+   {
+    "week": "2024-02-19",
+    "drones_launched": 121,
+    "drones_destroyed": 103,
+    "missiles_launched": 22,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2024-02-26",
+    "drones_launched": 70,
+    "drones_destroyed": 60,
+    "missiles_launched": 22,
+    "missiles_destroyed": 7
+   },
+   {
+    "week": "2024-03-04",
+    "drones_launched": 160,
+    "drones_destroyed": 141,
+    "missiles_launched": 9,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2024-03-11",
+    "drones_launched": 87,
+    "drones_destroyed": 84,
+    "missiles_launched": 16,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2024-03-18",
+    "drones_launched": 159,
+    "drones_destroyed": 140,
+    "missiles_launched": 159,
+    "missiles_destroyed": 86
+   },
+   {
+    "week": "2024-03-25",
+    "drones_launched": 150,
+    "drones_destroyed": 137,
+    "missiles_launched": 75,
+    "missiles_destroyed": 46
+   },
+   {
+    "week": "2024-04-01",
+    "drones_launched": 104,
+    "drones_destroyed": 90,
+    "missiles_launched": 19,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2024-04-08",
+    "drones_launched": 143,
+    "drones_destroyed": 131,
+    "missiles_launched": 63,
+    "missiles_destroyed": 25
+   },
+   {
+    "week": "2024-04-15",
+    "drones_launched": 48,
+    "drones_destroyed": 48,
+    "missiles_launched": 34,
+    "missiles_destroyed": 22
+   },
+   {
+    "week": "2024-04-22",
+    "drones_launched": 50,
+    "drones_destroyed": 43,
+    "missiles_launched": 42,
+    "missiles_destroyed": 23
+   },
+   {
+    "week": "2024-04-29",
+    "drones_launched": 50,
+    "drones_destroyed": 50,
+    "missiles_launched": 6,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2024-05-06",
+    "drones_launched": 87,
+    "drones_destroyed": 82,
+    "missiles_launched": 63,
+    "missiles_destroyed": 45
+   },
+   {
+    "week": "2024-05-13",
+    "drones_launched": 109,
+    "drones_destroyed": 109,
+    "missiles_launched": 11,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2024-05-20",
+    "drones_launched": 122,
+    "drones_destroyed": 121,
+    "missiles_launched": 19,
+    "missiles_destroyed": 15
+   },
+   {
+    "week": "2024-05-27",
+    "drones_launched": 140,
+    "drones_destroyed": 137,
+    "missiles_launched": 88,
+    "missiles_destroyed": 45
+   },
+   {
+    "week": "2024-06-03",
+    "drones_launched": 137,
+    "drones_destroyed": 122,
+    "missiles_launched": 14,
+    "missiles_destroyed": 10
+   },
+   {
+    "week": "2024-06-10",
+    "drones_launched": 53,
+    "drones_destroyed": 52,
+    "missiles_launched": 24,
+    "missiles_destroyed": 14
+   },
+   {
+    "week": "2024-06-17",
+    "drones_launched": 91,
+    "drones_destroyed": 89,
+    "missiles_launched": 40,
+    "missiles_destroyed": 25
+   },
+   {
+    "week": "2024-06-24",
+    "drones_launched": 78,
+    "drones_destroyed": 78,
+    "missiles_launched": 15,
+    "missiles_destroyed": 9
+   },
+   {
+    "week": "2024-07-01",
+    "drones_launched": 130,
+    "drones_destroyed": 126,
+    "missiles_launched": 25,
+    "missiles_destroyed": 18
+   },
+   {
+    "week": "2024-07-08",
+    "drones_launched": 87,
+    "drones_destroyed": 72,
+    "missiles_launched": 65,
+    "missiles_destroyed": 42
+   },
+   {
+    "week": "2024-07-15",
+    "drones_launched": 131,
+    "drones_destroyed": 121,
+    "missiles_launched": 20,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2024-07-22",
+    "drones_launched": 143,
+    "drones_destroyed": 119,
+    "missiles_launched": 9,
+    "missiles_destroyed": 3
+   },
+   {
+    "week": "2024-07-29",
+    "drones_launched": 180,
+    "drones_destroyed": 174,
+    "missiles_launched": 15,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2024-08-05",
+    "drones_launched": 174,
+    "drones_destroyed": 169,
+    "missiles_launched": 20,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2024-08-12",
+    "drones_launched": 139,
+    "drones_destroyed": 125,
+    "missiles_launched": 20,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2024-08-19",
+    "drones_launched": 162,
+    "drones_destroyed": 131,
+    "missiles_launched": 26,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2024-08-26",
+    "drones_launched": 356,
+    "drones_destroyed": 274,
+    "missiles_launched": 150,
+    "missiles_destroyed": 109
+   },
+   {
+    "week": "2024-09-02",
+    "drones_launched": 313,
+    "drones_destroyed": 243,
+    "missiles_launched": 60,
+    "missiles_destroyed": 30
+   },
+   {
+    "week": "2024-09-09",
+    "drones_launched": 287,
+    "drones_destroyed": 242,
+    "missiles_launched": 23,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2024-09-16",
+    "drones_launched": 377,
+    "drones_destroyed": 328,
+    "missiles_launched": 23,
+    "missiles_destroyed": 7
+   },
+   {
+    "week": "2024-09-23",
+    "drones_launched": 346,
+    "drones_destroyed": 293,
+    "missiles_launched": 33,
+    "missiles_destroyed": 10
+   },
+   {
+    "week": "2024-09-30",
+    "drones_launched": 370,
+    "drones_destroyed": 262,
+    "missiles_launched": 14,
+    "missiles_destroyed": 3
+   },
+   {
+    "week": "2024-10-07",
+    "drones_launched": 355,
+    "drones_destroyed": 212,
+    "missiles_launched": 25,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2024-10-14",
+    "drones_launched": 492,
+    "drones_destroyed": 256,
+    "missiles_launched": 24,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2024-10-21",
+    "drones_launched": 547,
+    "drones_destroyed": 325,
+    "missiles_launched": 17,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2024-10-28",
+    "drones_launched": 489,
+    "drones_destroyed": 299,
+    "missiles_launched": 23,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2024-11-04",
+    "drones_launched": 638,
+    "drones_destroyed": 388,
+    "missiles_launched": 12,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2024-11-11",
+    "drones_launched": 538,
+    "drones_destroyed": 266,
+    "missiles_launched": 134,
+    "missiles_destroyed": 109
+   },
+   {
+    "week": "2024-11-18",
+    "drones_launched": 419,
+    "drones_destroyed": 241,
+    "missiles_launched": 19,
+    "missiles_destroyed": 9
+   },
+   {
+    "week": "2024-11-25",
+    "drones_launched": 752,
+    "drones_destroyed": 359,
+    "missiles_launched": 100,
+    "missiles_destroyed": 80
+   },
+   {
+    "week": "2024-12-02",
+    "drones_launched": 373,
+    "drones_destroyed": 200,
+    "missiles_launched": 12,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2024-12-09",
+    "drones_launched": 483,
+    "drones_destroyed": 225,
+    "missiles_launched": 98,
+    "missiles_destroyed": 85
+   },
+   {
+    "week": "2024-12-16",
+    "drones_launched": 539,
+    "drones_destroyed": 304,
+    "missiles_launched": 15,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2024-12-23",
+    "drones_launched": 328,
+    "drones_destroyed": 203,
+    "missiles_launched": 86,
+    "missiles_destroyed": 59
+   },
+   {
+    "week": "2024-12-30",
+    "drones_launched": 605,
+    "drones_destroyed": 351,
+    "missiles_launched": 34,
+    "missiles_destroyed": 9
+   },
+   {
+    "week": "2025-01-06",
+    "drones_launched": 571,
+    "drones_destroyed": 365,
+    "missiles_launched": 6,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2025-01-13",
+    "drones_launched": 485,
+    "drones_destroyed": 333,
+    "missiles_launched": 51,
+    "missiles_destroyed": 32
+   },
+   {
+    "week": "2025-01-20",
+    "drones_launched": 655,
+    "drones_destroyed": 409,
+    "missiles_launched": 11,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2025-01-27",
+    "drones_launched": 638,
+    "drones_destroyed": 359,
+    "missiles_launched": 44,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2025-02-03",
+    "drones_launched": 734,
+    "drones_destroyed": 421,
+    "missiles_launched": 5,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-02-10",
+    "drones_launched": 844,
+    "drones_destroyed": 503,
+    "missiles_launched": 37,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2025-02-17",
+    "drones_launched": 1262,
+    "drones_destroyed": 701,
+    "missiles_launched": 23,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-02-24",
+    "drones_launched": 1207,
+    "drones_destroyed": 744,
+    "missiles_launched": 9,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2025-03-03",
+    "drones_launched": 954,
+    "drones_destroyed": 567,
+    "missiles_launched": 70,
+    "missiles_destroyed": 35
+   },
+   {
+    "week": "2025-03-10",
+    "drones_launched": 866,
+    "drones_destroyed": 593,
+    "missiles_launched": 7,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2025-03-17",
+    "drones_launched": 1209,
+    "drones_destroyed": 653,
+    "missiles_launched": 7,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-03-24",
+    "drones_launched": 910,
+    "drones_destroyed": 504,
+    "missiles_launched": 3,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-03-31",
+    "drones_launched": 532,
+    "drones_destroyed": 268,
+    "missiles_launched": 28,
+    "missiles_destroyed": 15
+   },
+   {
+    "week": "2025-04-07",
+    "drones_launched": 457,
+    "drones_destroyed": 278,
+    "missiles_launched": 4,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-04-14",
+    "drones_launched": 436,
+    "drones_destroyed": 230,
+    "missiles_launched": 20,
+    "missiles_destroyed": 3
+   },
+   {
+    "week": "2025-04-21",
+    "drones_launched": 908,
+    "drones_destroyed": 449,
+    "missiles_launched": 76,
+    "missiles_destroyed": 48
+   },
+   {
+    "week": "2025-04-28",
+    "drones_launched": 1076,
+    "drones_destroyed": 445,
+    "missiles_launched": 10,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-05-05",
+    "drones_launched": 595,
+    "drones_destroyed": 274,
+    "missiles_launched": 7,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2025-05-12",
+    "drones_launched": 857,
+    "drones_destroyed": 441,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-05-19",
+    "drones_launched": 1192,
+    "drones_destroyed": 575,
+    "missiles_launched": 85,
+    "missiles_destroyed": 51
+   },
+   {
+    "week": "2025-05-26",
+    "drones_launched": 1287,
+    "drones_destroyed": 612,
+    "missiles_launched": 32,
+    "missiles_destroyed": 15
+   },
+   {
+    "week": "2025-06-02",
+    "drones_launched": 1087,
+    "drones_destroyed": 482,
+    "missiles_launched": 63,
+    "missiles_destroyed": 43
+   },
+   {
+    "week": "2025-06-09",
+    "drones_launched": 1258,
+    "drones_destroyed": 740,
+    "missiles_launched": 44,
+    "missiles_destroyed": 32
+   },
+   {
+    "week": "2025-06-16",
+    "drones_launched": 1167,
+    "drones_destroyed": 589,
+    "missiles_launched": 49,
+    "missiles_destroyed": 30
+   },
+   {
+    "week": "2025-06-23",
+    "drones_launched": 1454,
+    "drones_destroyed": 722,
+    "missiles_launched": 86,
+    "missiles_destroyed": 56
+   },
+   {
+    "week": "2025-06-30",
+    "drones_launched": 1382,
+    "drones_destroyed": 692,
+    "missiles_launched": 23,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2025-07-07",
+    "drones_launched": 2051,
+    "drones_destroyed": 962,
+    "missiles_launched": 67,
+    "missiles_destroyed": 46
+   },
+   {
+    "week": "2025-07-14",
+    "drones_launched": 1345,
+    "drones_destroyed": 729,
+    "missiles_launched": 44,
+    "missiles_destroyed": 23
+   },
+   {
+    "week": "2025-07-21",
+    "drones_launched": 1027,
+    "drones_destroyed": 691,
+    "missiles_launched": 57,
+    "missiles_destroyed": 42
+   },
+   {
+    "week": "2025-07-28",
+    "drones_launched": 979,
+    "drones_destroyed": 859,
+    "missiles_launched": 24,
+    "missiles_destroyed": 6
+   },
+   {
+    "week": "2025-08-04",
+    "drones_launched": 649,
+    "drones_destroyed": 512,
+    "missiles_launched": 11,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2025-08-11",
+    "drones_launched": 509,
+    "drones_destroyed": 369,
+    "missiles_launched": 12,
+    "missiles_destroyed": 2
+   },
+   {
+    "week": "2025-08-18",
+    "drones_launched": 1291,
+    "drones_destroyed": 1094,
+    "missiles_launched": 55,
+    "missiles_destroyed": 37
+   },
+   {
+    "week": "2025-08-25",
+    "drones_launched": 1626,
+    "drones_destroyed": 1465,
+    "missiles_launched": 76,
+    "missiles_destroyed": 64
+   },
+   {
+    "week": "2025-09-01",
+    "drones_launched": 2020,
+    "drones_destroyed": 1744,
+    "missiles_launched": 46,
+    "missiles_destroyed": 25
+   },
+   {
+    "week": "2025-09-08",
+    "drones_launched": 1011,
+    "drones_destroyed": 884,
+    "missiles_launched": 45,
+    "missiles_destroyed": 27
+   },
+   {
+    "week": "2025-09-15",
+    "drones_launched": 1232,
+    "drones_destroyed": 1057,
+    "missiles_launched": 45,
+    "missiles_destroyed": 31
+   },
+   {
+    "week": "2025-09-22",
+    "drones_launched": 1502,
+    "drones_destroyed": 1358,
+    "missiles_launched": 51,
+    "missiles_destroyed": 43
+   },
+   {
+    "week": "2025-09-29",
+    "drones_launched": 1235,
+    "drones_destroyed": 998,
+    "missiles_launched": 98,
+    "missiles_destroyed": 56
+   },
+   {
+    "week": "2025-10-06",
+    "drones_launched": 1269,
+    "drones_destroyed": 1019,
+    "missiles_launched": 34,
+    "missiles_destroyed": 15
+   },
+   {
+    "week": "2025-10-13",
+    "drones_launched": 972,
+    "drones_destroyed": 783,
+    "missiles_launched": 40,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2025-10-20",
+    "drones_launched": 1015,
+    "drones_destroyed": 764,
+    "missiles_launched": 46,
+    "missiles_destroyed": 20
+   },
+   {
+    "week": "2025-10-27",
+    "drones_launched": 1419,
+    "drones_destroyed": 1212,
+    "missiles_launched": 59,
+    "missiles_destroyed": 33
+   },
+   {
+    "week": "2025-11-03",
+    "drones_launched": 1177,
+    "drones_destroyed": 949,
+    "missiles_launched": 61,
+    "missiles_destroyed": 9
+   },
+   {
+    "week": "2025-11-10",
+    "drones_launched": 1254,
+    "drones_destroyed": 1000,
+    "missiles_launched": 32,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2025-11-17",
+    "drones_launched": 1274,
+    "drones_destroyed": 1096,
+    "missiles_launched": 55,
+    "missiles_destroyed": 41
+   },
+   {
+    "week": "2025-11-24",
+    "drones_launched": 1693,
+    "drones_destroyed": 1497,
+    "missiles_launched": 63,
+    "missiles_destroyed": 33
+   },
+   {
+    "week": "2025-12-01",
+    "drones_launched": 1462,
+    "drones_destroyed": 1170,
+    "missiles_launched": 58,
+    "missiles_destroyed": 34
+   },
+   {
+    "week": "2025-12-08",
+    "drones_launched": 1231,
+    "drones_destroyed": 997,
+    "missiles_launched": 37,
+    "missiles_destroyed": 15
+   },
+   {
+    "week": "2025-12-15",
+    "drones_launched": 792,
+    "drones_destroyed": 615,
+    "missiles_launched": 5,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2025-12-22",
+    "drones_launched": 1805,
+    "drones_destroyed": 1559,
+    "missiles_launched": 79,
+    "missiles_destroyed": 63
+   },
+   {
+    "week": "2025-12-29",
+    "drones_launched": 783,
+    "drones_destroyed": 658,
+    "missiles_launched": 2,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2026-01-05",
+    "drones_launched": 1028,
+    "drones_destroyed": 879,
+    "missiles_launched": 49,
+    "missiles_destroyed": 18
+   },
+   {
+    "week": "2026-01-12",
+    "drones_launched": 1185,
+    "drones_destroyed": 990,
+    "missiles_launched": 31,
+    "missiles_destroyed": 8
+   },
+   {
+    "week": "2026-01-19",
+    "drones_launched": 1386,
+    "drones_destroyed": 1258,
+    "missiles_launched": 59,
+    "missiles_destroyed": 42
+   },
+   {
+    "week": "2026-01-26",
+    "drones_launched": 929,
+    "drones_destroyed": 741,
+    "missiles_launched": 2,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2026-02-02",
+    "drones_launched": 1860,
+    "drones_destroyed": 1675,
+    "missiles_launched": 120,
+    "missiles_destroyed": 62
+   },
+   {
+    "week": "2026-02-09",
+    "drones_launched": 1142,
+    "drones_destroyed": 963,
+    "missiles_launched": 45,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2026-02-16",
+    "drones_launched": 1331,
+    "drones_destroyed": 1200,
+    "missiles_launched": 90,
+    "missiles_destroyed": 60
+   },
+   {
+    "week": "2026-02-23",
+    "drones_launched": 1412,
+    "drones_destroyed": 1258,
+    "missiles_launched": 44,
+    "missiles_destroyed": 32
+   },
+   {
+    "week": "2026-03-02",
+    "drones_launched": 1517,
+    "drones_destroyed": 1383,
+    "missiles_launched": 34,
+    "missiles_destroyed": 19
+   },
+   {
+    "week": "2026-03-09",
+    "drones_launched": 1408,
+    "drones_destroyed": 1287,
+    "missiles_launched": 74,
+    "missiles_destroyed": 58
+   },
+   {
+    "week": "2026-03-16",
+    "drones_launched": 1382,
+    "drones_destroyed": 1257,
+    "missiles_launched": 1,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2026-03-23",
+    "drones_launched": 2710,
+    "drones_destroyed": 2510,
+    "missiles_launched": 36,
+    "missiles_destroyed": 32
+   },
+   {
+    "week": "2026-03-30",
+    "drones_launched": 2536,
+    "drones_destroyed": 2348,
+    "missiles_launched": 39,
+    "missiles_destroyed": 26
+   },
+   {
+    "week": "2026-04-06",
+    "drones_launched": 1179,
+    "drones_destroyed": 1027,
+    "missiles_launched": 0,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2026-04-13",
+    "drones_launched": 2285,
+    "drones_destroyed": 2134,
+    "missiles_launched": 53,
+    "missiles_destroyed": 32
+   },
+   {
+    "week": "2026-04-20",
+    "drones_launched": 1871,
+    "drones_destroyed": 1703,
+    "missiles_launched": 51,
+    "missiles_destroyed": 31
+   },
+   {
+    "week": "2026-04-27",
+    "drones_launched": 2488,
+    "drones_destroyed": 2242,
+    "missiles_launched": 9,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2026-05-04",
+    "drones_launched": 1065,
+    "drones_destroyed": 963,
+    "missiles_launched": 16,
+    "missiles_destroyed": 1
+   },
+   {
+    "week": "2026-05-11",
+    "drones_launched": 2995,
+    "drones_destroyed": 2833,
+    "missiles_launched": 65,
+    "missiles_destroyed": 44
+   },
+   {
+    "week": "2026-05-18",
+    "drones_launched": 2237,
+    "drones_destroyed": 2066,
+    "missiles_launched": 117,
+    "missiles_destroyed": 61
+   },
+   {
+    "week": "2026-05-25",
+    "drones_launched": 1837,
+    "drones_destroyed": 1745,
+    "missiles_launched": 11,
+    "missiles_destroyed": 5
+   },
+   {
+    "week": "2026-06-01",
+    "drones_launched": 2635,
+    "drones_destroyed": 2444,
+    "missiles_launched": 77,
+    "missiles_destroyed": 40
+   },
+   {
+    "week": "2026-06-08",
+    "drones_launched": 1600,
+    "drones_destroyed": 1467,
+    "missiles_launched": 14,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2026-06-15",
+    "drones_launched": 1987,
+    "drones_destroyed": 1864,
+    "missiles_launched": 84,
+    "missiles_destroyed": 54
+   },
+   {
+    "week": "2026-06-22",
+    "drones_launched": 1206,
+    "drones_destroyed": 1119,
+    "missiles_launched": 18,
+    "missiles_destroyed": 11
+   },
+   {
+    "week": "2026-06-29",
+    "drones_launched": 1646,
+    "drones_destroyed": 1510,
+    "missiles_launched": 87,
+    "missiles_destroyed": 53
+   },
+   {
+    "week": "2026-07-06",
+    "drones_launched": 1554,
+    "drones_destroyed": 1409,
+    "missiles_launched": 108,
+    "missiles_destroyed": 46
+   },
+   {
+    "week": "2026-07-13",
+    "drones_launched": 1445,
+    "drones_destroyed": 1316,
+    "missiles_launched": 104,
+    "missiles_destroyed": 38
+   },
+   {
+    "week": "2026-07-20",
+    "drones_launched": 1537,
+    "drones_destroyed": 1395,
+    "missiles_launched": 44,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2026-07-27",
+    "drones_launched": 1670,
+    "drones_destroyed": 1473,
+    "missiles_launched": 123,
+    "missiles_destroyed": 59
+   },
+   {
+    "week": "2026-08-03",
+    "drones_launched": 1470,
+    "drones_destroyed": 1304,
+    "missiles_launched": 67,
+    "missiles_destroyed": 9
+   },
+   {
+    "week": "2026-08-10",
+    "drones_launched": 1251,
+    "drones_destroyed": 1098,
+    "missiles_launched": 26,
+    "missiles_destroyed": 21
+   },
+   {
+    "week": "2026-08-17",
+    "drones_launched": 1642,
+    "drones_destroyed": 1453,
+    "missiles_launched": 71,
+    "missiles_destroyed": 52
+   },
+   {
+    "week": "2026-08-24",
+    "drones_launched": 2026,
+    "drones_destroyed": 1768,
+    "missiles_launched": 23,
+    "missiles_destroyed": 14
+   },
+   {
+    "week": "2026-08-31",
+    "drones_launched": 1487,
+    "drones_destroyed": 1267,
+    "missiles_launched": 16,
+    "missiles_destroyed": 10
+   },
+   {
+    "week": "2026-09-07",
+    "drones_launched": 2483,
+    "drones_destroyed": 2209,
+    "missiles_launched": 52,
+    "missiles_destroyed": 41
+   },
+   {
+    "week": "2026-09-14",
+    "drones_launched": 1331,
+    "drones_destroyed": 1151,
+    "missiles_launched": 8,
+    "missiles_destroyed": 0
+   },
+   {
+    "week": "2026-09-21",
+    "drones_launched": 1937,
+    "drones_destroyed": 1638,
+    "missiles_launched": 19,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2026-09-28",
+    "drones_launched": 1750,
+    "drones_destroyed": 1454,
+    "missiles_launched": 12,
+    "missiles_destroyed": 10
+   },
+   {
+    "week": "2026-10-05",
+    "drones_launched": 1345,
+    "drones_destroyed": 1173,
+    "missiles_launched": 55,
+    "missiles_destroyed": 45
+   },
+   {
+    "week": "2026-10-12",
+    "drones_launched": 2528,
+    "drones_destroyed": 2221,
+    "missiles_launched": 82,
+    "missiles_destroyed": 23
+   },
+   {
+    "week": "2026-10-19",
+    "drones_launched": 1724,
+    "drones_destroyed": 1488,
+    "missiles_launched": 5,
+    "missiles_destroyed": 4
+   },
+   {
+    "week": "2026-10-26",
+    "drones_launched": 1880,
+    "drones_destroyed": 1589,
+    "missiles_launched": 19,
+    "missiles_destroyed": 16
+   },
+   {
+    "week": "2026-11-02",
+    "drones_launched": 1886,
+    "drones_destroyed": 1726,
+    "missiles_launched": 78,
+    "missiles_destroyed": 64
+   }
+  ]
+ },
+ "control": {
+  "available": false,
+  "note": "Territorial-control statistics are pending data permission. See DeepStateMap and ISW for current maps."
+ },
+ "alerts": {
+  "enabled": false
+ },
+ "digest": [
+  {
+   "topic": "Strikes & air defence",
+   "text": "33 of 60 headlines in the last 36 hours touch on strikes & air defence.",
+   "example": {
+    "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
+    "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
+    "source": "Ukrinform"
+   }
+  },
+  {
+   "topic": "Energy & infrastructure",
+   "text": "19 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
+   "example": {
+    "title": "Part of Rivne left without electricity due to overloaded power grid",
+    "url": "https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html",
+    "source": "Ukrinform"
+   }
+  },
+  {
+   "topic": "Civilians & humanitarian",
+   "text": "14 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
+   "example": {
+    "title": "Russia hits food warehouse in Odesa: three killed, three injured",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061916/",
+    "source": "Ukrainska Pravda"
+   }
+  },
+  {
+   "topic": "Diplomacy & sanctions",
+   "text": "10 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "example": {
+    "title": "Russia agrees with Trump's remark about \"little bit different shape\" of post-war Ukraine",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061914/",
+    "source": "Ukrainska Pravda"
+   }
+  },
+  {
+   "topic": "Strike data",
+   "text": "In the 7 days to 2026-11-07, Ukraine's Air Force reported 2,764 Russian drones and missiles launched (2,680 drones, 84 missiles), up from 1,283 the week before; 89.6% were reported shot down or suppressed."
+  },
+  {
+   "topic": "Analysis",
+   "text": "Latest ISW assessment: Russian Offensive Campaign Assessment, November 8, 2026.",
+   "example": {
+    "title": "Russian Offensive Campaign Assessment, November 8, 2026",
+    "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-8-2026/",
+    "source": "Institute for the Study of War"
+   }
+  }
+ ],
+ "recent_count": 60,
+ "top": [
+  {
+   "title": "Part of Rivne left without electricity due to overloaded power grid",
+   "url": "https://www.ukrinform.net/rubric-ato/4182936-part-of-rivne-left-without-electricity-due-to-overloaded-power-grid.html",
+   "date": "2026-11-09T12:39:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russian drone debris that fell near school recovered in Kyiv’s Desnianskyi district",
+   "url": "https://www.ukrinform.net/rubric-ato/4182932-russian-drone-debris-that-fell-near-school-recovered-in-kyivs-desnianskyi-district.html",
+   "date": "2026-11-09T12:18:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russian attacks leave consumers in half of Ukrainian oblasts without power",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061944/",
+   "date": "2026-11-09T12:13:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Fires caused by Russian drone attack extinguished in Kyiv",
+   "url": "https://www.ukrinform.net/rubric-ato/4182929-fires-caused-by-russian-drone-attack-extinguished-in-kyiv.html",
+   "date": "2026-11-09T12:01:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russia strikes Ukrainian energy sector 128 times in a week",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061942/",
+   "date": "2026-11-09T11:56:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Russia hits food warehouse in Odesa: three killed, three injured",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061916/",
+   "date": "2026-11-09T11:55:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Russia imposes gasoline sales restrictions amid Ukrainian oil refinery attacks, Russian media report",
+   "url": "https://kyivindependent.com/russia-imposes-gasoline-sales-restrictions-amid-ukrainian-oil-refinery-attacks-russian-media-report/",
+   "date": "2026-11-09T11:54:50+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Russian drone debris falls near school in Kyiv – photos",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061941/",
+   "date": "2026-11-09T11:44:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Airstrike on Komyshuvakha: 30 victims identified, 19 more people may be trapped under rubble",
+   "url": "https://www.ukrinform.net/rubric-ato/4182906-airstrike-on-komyshuvakha-30-victims-identified-19-more-people-may-be-trapped-under-rubble.html",
+   "date": "2026-11-09T11:41:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russians strike logistics company in Odesa Oblast for third time",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/09/8061939/",
+   "date": "2026-11-09T11:35:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Defense Forces strike plant near St. Petersburg that produces missile fuel for Iskander systems",
+   "url": "https://www.ukrinform.net/rubric-ato/4182905-defense-forces-strike-plant-near-st-petersburg-that-produces-missile-fuel-for-iskander-systems.html",
+   "date": "2026-11-09T11:21:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russian attacks injure 28 across Ukraine over past day, as Russia continues strikes on energy infrastructure",
+   "url": "https://kyivindependent.com/russian-attacks-injure-28-across-ukraine-over-past-day-as-russia-continues-strikes-on-energy-infrastructure/",
+   "date": "2026-11-09T11:05:38+00:00",
+   "source": "Kyiv Independent"
+  }
+ ]
+}
