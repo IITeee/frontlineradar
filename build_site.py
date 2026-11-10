@@ -236,7 +236,7 @@ def crumbs_ld(items):
 
 # ------------------------------------------------------------------ archive
 arch_dir = ROOT / "out/archive"
-archive = sorted((json.loads(p.read_text(encoding="utf-8")) | {"day": p.stem}) for p in arch_dir.glob("*.json")) if arch_dir.exists() else []
+archive = [json.loads(p.read_text(encoding="utf-8")) | {"day": p.stem} for p in arch_dir.glob("*.json")] if arch_dir.exists() else []
 archive = sorted(archive, key=lambda a: a["day"], reverse=True)
 first_today = TODAY + "T00:00:00+00:00"
 
