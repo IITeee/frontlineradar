@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T17:57:31+00:00",
+ "generated": "2026-11-10T23:23:40+00:00",
  "isw": {
   "title": "Russian Offensive Campaign Assessment, November 9, 2026",
   "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-november-9-2026/",
@@ -10,37 +10,37 @@
  "digest": [
   {
    "topic": "Strikes & air defence",
-   "text": "20 of 60 headlines in the last 36 hours touch on strikes & air defence.",
+   "text": "25 of 60 headlines in the last 36 hours touch on strikes & air defence.",
    "example": {
-    "title": "Russian forces attack Dnipropetrovsk Region more than 30 times in one day, killing three and injuring five",
-    "url": "https://www.ukrinform.net/rubric-ato/4183486-russian-forces-attack-dnipropetrovsk-region-more-than-30-times-in-one-day-killing-three-and-injuring-five.html",
+    "title": "Russian agent posing as SSU officer sentenced to 15 years for directing strikes on Ochakiv",
+    "url": "https://www.ukrinform.net/rubric-crime/4183152-russian-agent-posing-as-ssu-officer-sentenced-to-15-years-for-directing-strikes-on-ochakiv.html",
     "source": "Ukrinform"
    }
   },
   {
    "topic": "Diplomacy & sanctions",
-   "text": "20 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "text": "15 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
    "example": {
-    "title": "Ukraine, Russia may hold large-scale POW exchange after Abu Dhabi talks, Ukrainian MP says",
-    "url": "https://www.ukrinform.net/rubric-ato/4183488-ukraine-russia-may-hold-largescale-pow-exchange-after-abu-dhabi-talks-ukrainian-mp-says.html",
+    "title": "Zelensky: Possibility of large-scale prisoner exchange discussed in Abu Dhabi",
+    "url": "https://www.ukrinform.net/rubric-society/4183555-zelensky-possibility-of-largescale-prisoner-exchange-discussed-in-abu-dhabi.html",
     "source": "Ukrinform"
    }
   },
   {
    "topic": "Civilians & humanitarian",
-   "text": "10 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
+   "text": "15 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
    "example": {
-    "title": "Three killed and four injured in Russian strike on critical infrastructure facility in Dnipro",
-    "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062182/",
-    "source": "Ukrainska Pravda"
+    "title": "Russian forces strike southern Odesa region, killing one, injuring another",
+    "url": "https://www.ukrinform.net/rubric-ato/4183538-russian-forces-strike-southern-odesa-region-killing-one-injuring-another.html",
+    "source": "Ukrinform"
    }
   },
   {
    "topic": "Energy & infrastructure",
-   "text": "9 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
+   "text": "10 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
    "example": {
-    "title": "Russia strikes energy infrastructure in Nizhyn",
-    "url": "https://www.ukrinform.net/rubric-ato/4183484-russia-strikes-energy-infrastructure-in-nizhyn.html",
+    "title": "Gas supply disruptions possible in Kirovohrad region following Russian strike on critical infrastructure",
+    "url": "https://www.ukrinform.net/rubric-ato/4183533-gas-supply-disruptions-possible-in-kirovohrad-region-following-russian-strike-on-critical-infrastructure.html",
     "source": "Ukrinform"
    }
   },
@@ -60,75 +60,75 @@
  ],
  "top": [
   {
-   "title": "As old allies leave US Congress, Ukraine must find new champions",
-   "url": "https://kyivindependent.com/as-old-allies-leave-us-congress-ukraine-must-find-new-champions/",
-   "date": "2026-11-10T17:51:58+00:00",
+   "title": "Russian agent posing as SSU officer sentenced to 15 years for directing strikes on Ochakiv",
+   "url": "https://www.ukrinform.net/rubric-crime/4183152-russian-agent-posing-as-ssu-officer-sentenced-to-15-years-for-directing-strikes-on-ochakiv.html",
+   "date": "2026-11-10T22:36:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Zelensky: Possibility of large-scale prisoner exchange discussed in Abu Dhabi",
+   "url": "https://www.ukrinform.net/rubric-society/4183555-zelensky-possibility-of-largescale-prisoner-exchange-discussed-in-abu-dhabi.html",
+   "date": "2026-11-10T21:51:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Ukraine strikes drone port at occupied Donetsk Airport",
+   "url": "https://kyivindependent.com/ukraine-strikes-drone-port-at-occupied-donetsk-airport/",
+   "date": "2026-11-10T21:46:53+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "Ukraine, Russia may hold large-scale POW exchange after Abu Dhabi talks, Ukrainian MP says",
-   "url": "https://www.ukrinform.net/rubric-ato/4183488-ukraine-russia-may-hold-largescale-pow-exchange-after-abu-dhabi-talks-ukrainian-mp-says.html",
-   "date": "2026-11-10T17:31:00+00:00",
+   "title": "War update: 116 clashes on front line since morning",
+   "url": "https://www.ukrinform.net/rubric-ato/4183554-war-update-116-clashes-on-front-line-since-morning.html",
+   "date": "2026-11-10T21:26:00+00:00",
    "source": "Ukrinform"
   },
   {
-   "title": "Russian forces attack Dnipropetrovsk Region more than 30 times in one day, killing three and injuring five",
-   "url": "https://www.ukrinform.net/rubric-ato/4183486-russian-forces-attack-dnipropetrovsk-region-more-than-30-times-in-one-day-killing-three-and-injuring-five.html",
-   "date": "2026-11-10T17:22:00+00:00",
+   "title": "Ukraine forecast to see temperatures rise to +19°C on Friday – Meteorologist",
+   "url": "https://www.ukrinform.net/rubric-society/4183548-ukraine-forecast-to-see-temperatures-rise-to-19c-on-friday-meteorologist.html",
+   "date": "2026-11-10T20:53:00+00:00",
    "source": "Ukrinform"
   },
   {
-   "title": "Russia strikes energy infrastructure in Nizhyn",
-   "url": "https://www.ukrinform.net/rubric-ato/4183484-russia-strikes-energy-infrastructure-in-nizhyn.html",
-   "date": "2026-11-10T17:14:00+00:00",
+   "title": "Sybiha urges U.S. to speed up delivery of air defense interceptor missiles",
+   "url": "https://www.ukrinform.net/rubric-polytics/4183546-sybiha-urges-us-to-speed-up-delivery-of-air-defense-interceptor-missiles.html",
+   "date": "2026-11-10T20:28:00+00:00",
    "source": "Ukrinform"
   },
   {
-   "title": "South Korea-Ukraine relations begin to thaw after Paris meeting",
-   "url": "https://kyivindependent.com/south-korea-ukraine-relations-begin-to-thaw-after-paris-meeting/",
-   "date": "2026-11-10T17:05:48+00:00",
+   "title": "Russian forces strike southern Odesa region, killing one, injuring another",
+   "url": "https://www.ukrinform.net/rubric-ato/4183538-russian-forces-strike-southern-odesa-region-killing-one-injuring-another.html",
+   "date": "2026-11-10T19:59:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Ukraine and Poland to establish joint working groups on drone and counter-drone technologies",
+   "url": "https://www.ukrinform.net/rubric-ato/4183535-ukraine-and-poland-to-establish-joint-working-groups-on-drone-and-counterdrone-technologies.html",
+   "date": "2026-11-10T19:41:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Kherson Oblast authorities reveal how many people remain in Oleshky",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062227/",
+   "date": "2026-11-10T19:38:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Gas supply disruptions possible in Kirovohrad region following Russian strike on critical infrastructure",
+   "url": "https://www.ukrinform.net/rubric-ato/4183533-gas-supply-disruptions-possible-in-kirovohrad-region-following-russian-strike-on-critical-infrastructure.html",
+   "date": "2026-11-10T19:21:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Ukraine seeks to arrange another evacuation for Oleshky residents, Lubinets says",
+   "url": "https://kyivindependent.com/ukraine-seeks-to-arrange-another-evacuation-for-oleshky-residents-lubinets-said/",
+   "date": "2026-11-10T19:12:03+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "Serbian company supplied Russia with €27m worth of machine tools for ballistic missiles and aircraft – investigation",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062201/",
-   "date": "2026-11-10T16:58:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Abu Dhabi alks are productive but agreement will take time, Rubio says",
-   "url": "https://www.ukrinform.net/rubric-polytics/4183472-abu-dhabi-alks-are-productive-but-agreement-will-take-time-rubio-says.html",
-   "date": "2026-11-10T16:37:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Three killed and four injured in Russian strike on critical infrastructure facility in Dnipro",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062182/",
-   "date": "2026-11-10T16:36:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "Ukrainian strikes cut Russia's oil refining capacity by 30%, Reuters reports",
-   "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
-   "date": "2026-11-10T16:25:06+00:00",
-   "source": "Kyiv Independent"
-  },
-  {
-   "title": "Ukrainian drone forces post video of strike on Russian drone base in Donetsk – video",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062195/",
-   "date": "2026-11-10T16:25:00+00:00",
-   "source": "Ukrainska Pravda"
-  },
-  {
-   "title": "USF strike Russian drone hub at Donetsk Airport",
-   "url": "https://www.ukrinform.net/rubric-ato/4183466-usf-strike-russian-drone-hub-at-donetsk-airport.html",
-   "date": "2026-11-10T16:23:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Effectiveness of strikes against Russian forces on Huliaipole axis up 1.5-fold since September, 7th Air Assault Corps says",
-   "url": "https://www.ukrinform.net/rubric-ato/4183462-effectiveness-of-strikes-against-russian-forces-on-huliaipole-axis-up-15fold-since-september-7th-air-assault-corps-says.html",
-   "date": "2026-11-10T16:13:00+00:00",
+   "title": "Discussion on restoring European security order to continue in Dublin",
+   "url": "https://www.ukrinform.net/rubric-polytics/4183524-discussion-on-restoring-european-security-order-to-continue-in-dublin.html",
+   "date": "2026-11-10T19:02:00+00:00",
    "source": "Ukrinform"
   }
  ],
