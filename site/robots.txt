@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://frontlineradar.org/sitemap.xml
+Sitemap: https://frontlineradar.org/news-sitemap.xml

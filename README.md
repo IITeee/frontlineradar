@@ -20,7 +20,7 @@ A static, English daily **radar of the war in Ukraine** for [frontlineradar.org]
 
 Pages: `/`, `/daily-brief/`, `/brief/` (archive) + `/brief/YYYY-MM-DD/`, `/strikes/`, `/front-line-map/`.
 
-SEO: title/description/canonical per page, Open Graph + Twitter card (`site/assets/og.png`, regenerate with `python3 tools/make_og.py`, needs Pillow), JSON-LD (WebSite, Organization, NewsArticle, FAQPage, Dataset, BreadcrumbList), FAQ, `robots.txt` and `sitemap.xml` regenerated on every build, `CNAME`, `favicon.svg`.
+SEO: unique title and description per page, canonical `https://frontlineradar.org` URLs, Open Graph and Twitter cards (`site/assets/og.png`, 1200×630; regenerate with `python3 tools/make_og.py`, needs Pillow), JSON-LD (WebSite, Organization, NewsArticle, FAQPage, Map, Dataset, BreadcrumbList), FAQ, `robots.txt`, `sitemap.xml`, a Google News sitemap at `news-sitemap.xml` (briefs from the last two days), and an RSS feed at `feed.xml`. Regenerated on every build, with `CNAME` and `favicon.svg`. Submit `https://frontlineradar.org/sitemap.xml` in Search Console.
 
 ## Run locally
 

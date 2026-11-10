@@ -4,6 +4,7 @@ Writes site/index.html, /daily-brief/, /strikes/, /front-line-map/, /brief/YYYY-
 site/assets/data.js, site/sitemap.xml, site/robots.txt and site/CNAME.
 """
 import json, re, html, pathlib, shutil, datetime as dt
+from email.utils import format_datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent
 SITE = "https://frontlineradar.org"
@@ -27,6 +28,13 @@ def fmt_dt(iso):
 def n(x): return f"{x:,}" if isinstance(x, (int, float)) else "–"
 def pretty_day(iso):
     d = dt.date.fromisoformat(iso); return f"{d.day} {d:%B %Y}"
+def clip(s, n=158):
+    s = re.sub(r"\s+", " ", str(s or "")).strip()
+    if len(s) <= n: return s
+    cut = s[:n - 1].rsplit(" ", 1)[0]
+    return (cut or s[:n - 1]).rstrip(".,;:") + "…"
+def xml_esc(s):
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;"))
 def ldjson(obj): return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False).replace("<", "\\u003c") + "</script>"
 
 DISCLAIMER = ('<div class="disclaimer"><strong>Estimates, not real-time intelligence.</strong> Everything here comes from official '
@@ -48,12 +56,15 @@ FAQ = [
 ]
 
 # ------------------------------------------------------------------ layout
-NAV = [("Brief", "daily-brief/"), ("Strikes", "strikes/"), ("Map", "front-line-map/"), ("FAQ", "#faq"), ("Sources", "#method")]
-def page(path, title, desc, body, ld, og_type="website", extra_head=""):
+NAV = [("Brief", "daily-brief/"), ("Archive", "brief/"), ("Strikes", "strikes/"), ("Map", "front-line-map/"), ("FAQ", "#faq"), ("Sources", "#method")]
+def page(path, title, desc, body, ld, og_type="website", extra_head="", published=None, modified=None):
     depth = path.count("/")
     pre = "../" * depth
     canon = f"{SITE}/{path}"
     nav = "".join(f'<a href="{(pre if not h.startswith("#") else pre if depth else "") + h}">{E(t)}</a>' for t, h in NAV)
+    article = ""
+    if published: article += f'<meta property="article:published_time" content="{E(published)}">'
+    if modified: article += f'<meta property="article:modified_time" content="{E(modified)}">'
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -79,9 +90,13 @@ def page(path, title, desc, body, ld, og_type="website", extra_head=""):
 <meta name="twitter:description" content="{E(desc)}">
 <meta name="twitter:image" content="{SITE}/assets/og.png">
 <link rel="icon" href="{pre}favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="{pre}manifest.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="Frontlineradar Ukraine war daily briefs" href="{SITE}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"></noscript>
 <link rel="stylesheet" href="{pre}assets/style.css">
+{article}
 <script>try{{document.documentElement.dataset.theme=localStorage.frTheme||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark")}}catch(e){{}}</script>
 {ldjson(ld)}
 {extra_head}
@@ -95,12 +110,12 @@ def page(path, title, desc, body, ld, og_type="website", extra_head=""):
 {body}
 <footer><div class="wrap">
 <p>{NAME} · Daily OSINT and official-source radar of the war in Ukraine · No real-time military positions · Updated {E(UPDATED)}</p>
-<nav class="foot-links" aria-label="Site pages"><a href="{pre or './'}">Home</a><a href="{pre}daily-brief/">Daily brief</a><a href="{pre}strikes/">Drone &amp; missile strikes</a><a href="{pre}front-line-map/">Front-line map</a><a href="{pre}brief/">Archive</a></nav>
+<nav class="foot-links" aria-label="Site pages"><a href="{pre or './'}">Home</a><a href="{pre}daily-brief/">Daily brief</a><a href="{pre}brief/">Brief archive</a><a href="{pre}strikes/">Drone &amp; missile strikes</a><a href="{pre}front-line-map/">Ukraine front line map</a><a href="{SITE}/feed.xml">RSS</a></nav>
 <p>Strike statistics: Petro Ivaniuk, “Massive Missile Attacks on Ukraine” (CC BY-NC-SA 4.0); derived totals on this site are shared under the same licence. Headlines link to and belong to their publishers.</p>
 <p>Privacy-friendly, cookie-free analytics by GoatCounter.</p>
 </div></footer>
-<script src="{pre}assets/data.js"></script>
-<script src="{pre}assets/app.js"></script>
+<script defer src="{pre}assets/data.js"></script>
+<script defer src="{pre}assets/app.js"></script>
 <script data-goatcounter="https://frontlineradar.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </body></html>
 '''
@@ -211,8 +226,9 @@ def feeds_html():
     return '<div class="feed-grid">' + "".join(cards) + "</div>"
 
 def news_ld(path, headline, desc, published, modified):
-    return {"@type": "NewsArticle", "headline": headline[:110], "description": desc, "datePublished": published, "dateModified": modified,
-            "inLanguage": "en", "mainEntityOfPage": f"{SITE}/{path}", "isAccessibleForFree": True, "image": [f"{SITE}/assets/og.png"],
+    return {"@type": "NewsArticle", "headline": headline[:110], "description": clip(desc, 200), "datePublished": published, "dateModified": modified,
+            "inLanguage": "en", "mainEntityOfPage": f"{SITE}/{path}", "isAccessibleForFree": True,
+            "image": {"@type": "ImageObject", "url": f"{SITE}/assets/og.png", "width": 1200, "height": 630},
             "author": {"@type": "Organization", "name": NAME, "url": SITE + "/"}, "publisher": ORG,
             "about": [{"@type": "Thing", "name": "Russian invasion of Ukraine"}]}
 def crumbs_ld(items):
@@ -225,10 +241,9 @@ archive = sorted(archive, key=lambda a: a["day"], reverse=True)
 first_today = TODAY + "T00:00:00+00:00"
 
 # ------------------------------------------------------------------ index
-brief_title = f"Ukraine war daily brief — {TODAY_H}"
-home_title = "Frontlineradar — Ukraine war daily radar: front line, drone & missile attacks"
-home_desc = ("Daily radar of the war in Ukraine: latest headlines, the newest ISW assessment and charts of Russian drone and missile "
-             "attacks vs. interceptions. OSINT and official sources, attributed and delayed — no live military positions.")
+brief_h1 = f"Ukraine war daily brief — {TODAY_H}"
+home_title = f"Ukraine war update today | {NAME}"
+home_desc = clip("Russia–Ukraine war update today: the daily brief, Ukraine front line map, and drone and missile strike charts. Delayed official and OSINT sources. No live unit locations.")
 faq_html = "".join(f"<h3>{E(q)}</h3><p>{E(a)}</p>" for q, a in FAQ)
 status_html = "".join(f'<span class="chip" style="color:{"var(--low)" if v=="ok" else "var(--mid)" if v.startswith("stub") or v.startswith("kept") else "var(--high)"}">● {E(k)}: {E(v)}</span>' for k, v in snap["status"].items())
 SOURCES = [("Kyiv Independent", "https://kyivindependent.com/", "Headlines via RSS (titles and links only)"),
@@ -240,24 +255,25 @@ SOURCES = [("Kyiv Independent", "https://kyivindependent.com/", "Headlines via R
            ("VIINA 2.0 (Zhukov & Ayers)", "https://github.com/zhukovyuri/VIINA", "Territorial control of populated places, dissolved on the front-line map, ODbL")]
 src_html = "".join(f'<li><a href="{E(u)}" target="_blank" rel="noopener">{E(t)}</a><small>{E(d)}</small></li>' for t, u, d in SOURCES)
 home_ld = {"@context": "https://schema.org", "@graph": [
-    {"@type": "WebSite", "@id": SITE + "/#site", "name": NAME, "url": SITE + "/", "description": home_desc, "inLanguage": "en", "publisher": {"@id": SITE + "/#org"}},
+    {"@type": "WebSite", "@id": SITE + "/#site", "name": NAME, "url": SITE + "/", "description": home_desc, "inLanguage": "en",
+     "publisher": {"@id": SITE + "/#org"}},
     ORG,
-    news_ld("daily-brief/", brief_title, "Automated digest of today's Ukraine war headlines, ISW assessment and drone and missile strike statistics.", first_today, UPDATED_ISO),
-    {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]}]}
+    {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in FAQ]},
+    crumbs_ld([(NAME, SITE + "/")])]}
 home_body = f'''<section class="hero" id="top"><div class="wrap">
   <p class="eyebrow">Ukraine war radar · Updated <span id="updated-static">{E(UPDATED)}</span></p>
-  <h1>The war in Ukraine, <span class="grad">every day</span></h1>
-  <p class="lede">Headlines from Ukrainian and international outlets, the latest ISW assessment, and Russian drone and missile attacks charted from Ukrainian Air Force reports.</p>
+  <h1>Ukraine war update <span class="grad">today</span></h1>
+  <p class="lede">A Russia–Ukraine war update today: the <a href="daily-brief/">Ukraine war daily brief</a>, an area-level <a href="front-line-map/">Ukraine front line map</a>, and <a href="strikes/">drone and missile strike</a> charts. Sources are official or open, and everything is delayed. No live unit locations.</p>
   {metrics_html()}
   {DISCLAIMER}
 </div></section>
 <main class="wrap">
-  <section id="brief"><div class="sec-head"><h2>Daily brief — {E(TODAY_H)}</h2><p>What the headlines of the last 36 hours are about. <a href="daily-brief/">Open the full brief</a> or browse the <a href="brief/">archive</a>.</p></div>
+  <section id="brief"><div class="sec-head"><h2>Ukraine war daily brief — {E(TODAY_H)}</h2><p>What the headlines of the last 36 hours are about. <a href="daily-brief/">Open the full brief</a> or browse the <a href="brief/">archive</a>.</p></div>
     <div class="grid2"><div class="card">{digest_html(snap.get("digest"))}</div><div class="card"><h3>Top headlines</h3>{heads_html(snap.get("top", [])[:8])}</div></div>
   </section>
   <section id="isw" style="padding-top:0">{isw_html()}</section>
   <section id="strikes"><div class="sec-head"><h2>Drone and missile attacks</h2><p>Russian drones and missiles launched at Ukraine, and how many Ukraine’s Air Force reported shot down or suppressed.</p></div>{strikes_section()}</section>
-  <section id="control"><div class="sec-head"><h2>Who controls what</h2><p>Area-level territorial control from VIINA. Delayed and approximate — not military units or movements. <a href="front-line-map/">Open the map</a>.</p></div>{map_section(compact=True)}</section>
+  <section id="control"><div class="sec-head"><h2>Ukraine front line map</h2><p>Area-level territorial control from VIINA 2.0, delayed and approximate. It is not a live war map and it does not show units or movements. <a href="front-line-map/">Open the Ukraine front line map</a>.</p></div>{map_section(compact=True)}</section>
   {alerts_section()}
   <section id="sources-feed"><div class="sec-head"><h2>Latest by source</h2><p>Titles and links only — read the full stories on the publishers’ sites.</p></div>{feeds_html()}</section>
   <section id="newsletter"><div class="card news">
@@ -279,53 +295,106 @@ CHART = '<script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/cha
 (OUTD / "index.html").write_text(page("", home_title, home_desc, home_body, home_ld, extra_head=CHART + (LEAFLET if map_ready() else "")), encoding="utf-8")
 
 # ------------------------------------------------------------------ daily brief (+ archive)
-def brief_body(pre, day_h, digest, top, isw_, strikes_, is_today):
+def brief_links(pre, day, is_today):
+    days = [a["day"] for a in archive]
+    older = newer = ""
+    if is_today:
+        older_day = next((d for d in days if d < TODAY), None)
+        if older_day:
+            older = f'<a rel="prev" href="{pre}brief/{older_day}/">← {E(pretty_day(older_day))}</a>'
+    elif day in days:
+        i = days.index(day)
+        if i + 1 < len(days):
+            od = days[i + 1]
+            older = f'<a rel="prev" href="{pre}brief/{od}/">← {E(pretty_day(od))}</a>'
+        if i > 0:
+            nd = days[i - 1]
+            newer = f'<a rel="next" href="{pre}brief/{nd}/">{E(pretty_day(nd))} →</a>'
+        elif day < TODAY:
+            newer = f'<a rel="next" href="{pre}daily-brief/">Current brief →</a>'
+    if is_today and any(d == TODAY for d in days):
+        perm = f'<a href="{pre}brief/{TODAY}/">Permanent link: {E(TODAY_H)}</a>'
+    elif not is_today and day == TODAY:
+        perm = f'<a href="{pre}daily-brief/">Updating brief for today</a>'
+    else:
+        perm = ""
+    related = (f'<nav class="related" aria-label="Related pages">'
+               f'<a href="{pre}front-line-map/">Ukraine front line map</a>'
+               f'<a href="{pre}strikes/">Drone and missile strikes</a>'
+               f'<a href="{pre}brief/">Brief archive</a>{perm}</nav>')
+    pager = f'<nav class="pager" aria-label="Earlier and later briefs">{older or "<span></span>"}{newer or "<span></span>"}</nav>'
+    return related + pager
+
+def brief_desc(digest, day_h, archived):
+    lead = (digest[0]["text"] if digest else "").strip()
+    tail = f"Archived Ukraine war update for {day_h}." if archived else f"Ukraine war daily brief for {day_h}, updated through the day."
+    return clip((lead + " " + tail).strip() if lead else tail)
+
+def brief_body(pre, day_h, digest, top, isw_, strikes_, is_today, day):
     s7 = ""
     if strikes_:
         L = strikes_["last7"]
-        s7 = (f'<div class="card"><h3>Strikes, 7 days to {E(strikes_["last_day"])}</h3><p>{n(L["launched"])} drones and missiles launched '
+        s7 = (f'<div class="card"><h2>Strikes, 7 days to {E(strikes_["last_day"])}</h2><p>{n(L["launched"])} drones and missiles launched '
               f'({n(L["drones_launched"])} drones, {n(L["missiles_launched"])} missiles); {n(L["destroyed"])} reported shot down or suppressed'
-              f'{f" ({L["rate"]}%)" if L.get("rate") is not None else ""}. <a href="{pre}strikes/">Charts</a>.</p></div>')
-    iswh = (f'<div class="card"><h3>ISW assessment</h3><p><a href="{E(isw_["url"])}" target="_blank" rel="noopener">{E(isw_["title"])}</a></p></div>' if isw_ else "")
+              f'{f" ({L["rate"]}%)" if L.get("rate") is not None else ""}. <a href="{pre}strikes/">Strike charts</a>.</p></div>')
+    iswh = (f'<div class="card"><h2>ISW assessment</h2><p><a href="{E(isw_["url"])}" rel="noopener" target="_blank">{E(isw_["title"])}</a></p></div>' if isw_ else "")
+    h1 = f"Ukraine war daily brief — {day_h}" if is_today else f"Ukraine war update {day_h}"
+    lede = ("Today's Ukraine war daily brief groups headlines from Kyiv Independent, Ukrinform and Ukrainska Pravda, then adds the latest ISW assessment and Air Force strike totals. It is regenerated every six hours and is not edited by a human."
+            if is_today else
+            f"Archived Ukraine war update for {E(day_h)}. This page keeps that day's automated brief: headline themes, the ISW assessment link, and strike totals. It does not track units or movements.")
     return f'''<main class="wrap">
-  <p class="crumbs"><a href="{pre}">{NAME}</a> · <a href="{pre}brief/">Daily brief</a> · {E(day_h)}</p>
-  <p class="eyebrow page-kicker">Automated digest · {"Updated " + E(UPDATED) if is_today else "Archived snapshot"}</p>
-  <h1>Ukraine war daily brief — {E(day_h)}</h1>
-  <p class="lede">An automated summary of the day's headlines from Kyiv Independent, Ukrinform and Ukrainska Pravda, with the latest ISW assessment and Air Force strike figures.</p>
+  <p class="crumbs"><a href="{pre}">{NAME}</a> · <a href="{pre}brief/">Daily briefs</a> · {E(day_h)}</p>
+  <p class="eyebrow page-kicker">{"Updated " + E(UPDATED) if is_today else "Archived snapshot"} · Automated digest</p>
+  <h1>{E(h1)}</h1>
+  <p class="lede">{lede}</p>
   {DISCLAIMER}
-  <section class="status-block"><div class="card">{digest_html(digest, pre)}</div>{iswh}{s7}
-  <div class="card"><h3>Headlines</h3>{heads_html(top)}</div></section>
-  <p><a href="{pre}">Back to the Frontlineradar dashboard</a> · <a href="{pre}brief/">All daily briefs</a></p>
+  {brief_links(pre, day, is_today)}
+  <section class="status-block"><h2>What the headlines covered</h2><div class="card">{digest_html(digest, pre)}</div>{iswh}{s7}
+  <div class="card"><h2>Headlines</h2>{heads_html(top)}</div></section>
+  <h2>More on the war today</h2>
+  {brief_links(pre, day, is_today)}
+  <p><a href="{pre}">Ukraine war update today</a> · <a href="{pre}brief/">All daily briefs</a></p>
 </main>'''
-bdesc = (snap["digest"][0]["text"] + " " if snap.get("digest") else "") + "Automated daily digest of Ukraine war headlines, the ISW assessment and drone and missile strike data."
-d_ld = {"@context": "https://schema.org", "@graph": [news_ld("daily-brief/", brief_title, bdesc, first_today, UPDATED_ISO),
-        crumbs_ld([(NAME, SITE + "/"), ("Daily brief", f"{SITE}/daily-brief/")])]}
+bdesc = brief_desc(snap.get("digest"), TODAY_H, archived=False)
+b_headline = f"Ukraine war daily brief — {TODAY_H}"
+d_ld = {"@context": "https://schema.org", "@graph": [news_ld("daily-brief/", b_headline, bdesc, UPDATED_ISO, UPDATED_ISO),
+        crumbs_ld([(NAME, SITE + "/"), ("Ukraine war daily brief", f"{SITE}/daily-brief/")])]}
 (OUTD / "daily-brief").mkdir(parents=True, exist_ok=True)
-(OUTD / "daily-brief/index.html").write_text(page("daily-brief/", f"{brief_title} | {NAME}", bdesc,
-    brief_body("../", TODAY_H, snap.get("digest"), snap.get("top", []), isw, st, True), d_ld, og_type="article"), encoding="utf-8")
+(OUTD / "daily-brief/index.html").write_text(page("daily-brief/", f"{b_headline} | {NAME}", bdesc,
+    brief_body("../", TODAY_H, snap.get("digest"), snap.get("top", []), isw, st, True, TODAY), d_ld, og_type="article",
+    published=UPDATED_ISO, modified=UPDATED_ISO), encoding="utf-8")
 brief_paths = []
 for a in archive:
     day = a["day"]; dh = pretty_day(day); path = f"brief/{day}/"
-    t = f"Ukraine war daily brief — {dh}"
-    desc = (a["digest"][0]["text"] + " " if a.get("digest") else "") + f"Archived Frontlineradar digest for {dh}."
-    ld = {"@context": "https://schema.org", "@graph": [news_ld(path, t, desc, day + "T00:00:00+00:00", a["generated"]),
-          crumbs_ld([(NAME, SITE + "/"), ("Daily brief", f"{SITE}/brief/"), (dh, f"{SITE}/{path}")])]}
+    headline = f"Ukraine war update {dh}"
+    desc = brief_desc(a.get("digest"), dh, archived=True)
+    published = a.get("generated") or (day + "T00:00:00+00:00")
+    ld = {"@context": "https://schema.org", "@graph": [news_ld(path, headline, desc, published, published),
+          crumbs_ld([(NAME, SITE + "/"), ("Daily briefs", f"{SITE}/brief/"), (dh, f"{SITE}/{path}")])]}
     (OUTD / path).mkdir(parents=True, exist_ok=True)
-    (OUTD / path / "index.html").write_text(page(path, f"{t} | {NAME}", desc,
-        brief_body("../../", dh, a.get("digest"), a.get("top", []), a.get("isw"), a.get("strikes"), False), ld, og_type="article"), encoding="utf-8")
-    brief_paths.append((path, day))
-lis = "".join(f'<li><a href="{d}/">{E(pretty_day(d))}</a></li>' for _, d in brief_paths)
+    (OUTD / path / "index.html").write_text(page(path, f"{headline} | {NAME}", desc,
+        brief_body("../../", dh, a.get("digest"), a.get("top", []), a.get("isw"), a.get("strikes"), False, day), ld,
+        og_type="article", published=published, modified=published), encoding="utf-8")
+    brief_paths.append((path, day, headline, published, desc))
+lis = "".join(f'<li><a href="{d}/"><time datetime="{d}">{E(pretty_day(d))}</time> — Ukraine war update</a></li>' for _, d, *_ in brief_paths)
+arch_title = f"Ukraine war daily brief archive | {NAME}"
+arch_desc = "Archive of Frontlineradar Ukraine war daily briefs, one automated update per UTC day, with links to the front line map and strike charts."
 (OUTD / "brief").mkdir(parents=True, exist_ok=True)
-(OUTD / "brief/index.html").write_text(page("brief/", f"Ukraine war daily briefs — archive | {NAME}", "Archive of Frontlineradar's automated daily briefs on the war in Ukraine.",
-    f'<main class="wrap"><p class="crumbs"><a href="../">{NAME}</a> · Daily brief archive</p><h1>Daily brief archive</h1>'
-    f'<p class="lede">One automated brief per day (UTC). The <a href="../daily-brief/">current brief</a> is updated every six hours.</p>'
-    f'<div class="card"><ul class="archive-list">{lis}</ul></div></main>',
-    {"@context": "https://schema.org", "@graph": [{"@type": "CollectionPage", "name": "Daily brief archive", "url": f"{SITE}/brief/"}, crumbs_ld([(NAME, SITE + "/"), ("Daily brief", f"{SITE}/brief/")])]}), encoding="utf-8")
+(OUTD / "brief/index.html").write_text(page("brief/", arch_title, arch_desc,
+    f'<main class="wrap"><p class="crumbs"><a href="../">{NAME}</a> · Daily brief archive</p>'
+    f'<h1>Ukraine war daily brief archive</h1>'
+    f'<p class="lede">One automated Ukraine war update per UTC day. The <a href="../daily-brief/">current daily brief</a> is rewritten every six hours. Older pages stay as published.</p>'
+    f'<nav class="related" aria-label="Related pages"><a href="../front-line-map/">Ukraine front line map</a><a href="../strikes/">Drone and missile strikes</a><a href="../daily-brief/">Today’s brief</a></nav>'
+    f'<h2>All briefs</h2><div class="card"><ul class="archive-list">{lis or "<li>No archived briefs yet.</li>"}</ul></div>'
+    f'<h2>What a brief contains</h2><p class="lede">Each brief groups public headlines by topic, links the latest Institute for the Study of War assessment, and quotes weekly drone and missile totals. It never lists unit locations or movements.</p></main>',
+    {"@context": "https://schema.org", "@graph": [
+        {"@type": "CollectionPage", "name": "Ukraine war daily brief archive", "url": f"{SITE}/brief/", "description": arch_desc, "isPartOf": {"@id": SITE + "/#site"}},
+        crumbs_ld([(NAME, SITE + "/"), ("Daily briefs", f"{SITE}/brief/")])]}), encoding="utf-8")
 
 # ------------------------------------------------------------------ strikes page
-s_title = f"Russian drone and missile attacks on Ukraine — daily statistics | {NAME}"
-s_desc = (f"How many Shahed-type drones and missiles Russia launches at Ukraine each day and week, and how many are shot down. "
-          + (f"Last 7 days to {st['last_day']}: {st['last7']['launched']:,} launched, {st['last7']['rate']}% downed." if st else ""))
+s_title = f"Ukraine drone and missile strikes | {NAME}"
+s_desc = clip("Russian drone and missile strikes on Ukraine, charted from Ukrainian Air Force reports. "
+              + (f"Last 7 days to {st['last_day']}: {st['last7']['launched']:,} launched, {st['last7']['rate']}% reported downed." if st else "Daily and weekly totals only."))
 s_ld = {"@context": "https://schema.org", "@graph": [
     {"@type": "Dataset", "name": "Russian drone and missile launches at Ukraine — daily and weekly totals", "description": s_desc, "url": f"{SITE}/strikes/",
      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/", "dateModified": UPDATED_ISO, "creator": ORG,
@@ -337,11 +406,13 @@ peak = f'<p>Largest single reported day in the dataset: <b>{n(st["peak"]["launch
 (OUTD / "strikes/index.html").write_text(page("strikes/", s_title, s_desc, f'''<main class="wrap">
   <p class="crumbs"><a href="../">{NAME}</a> · Drone and missile attacks</p>
   <p class="eyebrow page-kicker">Updated {E(UPDATED)}</p>
-  <h1>Russian drone and missile attacks on Ukraine</h1>
+  <h1>Ukraine drone and missile strikes</h1>
   <p class="lede">Daily and weekly totals of Russian drones (Shahed/Geran and others) and missiles launched at Ukraine, and the number Ukraine’s Air Force reported shot down or suppressed.</p>
   {metrics_html("../")}
   {DISCLAIMER}
   <section>{strikes_section("../", full=True)}{peak}</section>
+  <h2>How these strike numbers are counted</h2>
+  <p class="lede">Each bar is a sum of launches and reported interceptions for that day or week. The figures come from Petro Ivaniuk’s dataset of Ukrainian Air Force statements, shared here as totals only under CC BY-NC-SA 4.0. They are claims, they can be revised, and they are not a map of where anything struck. For the area-level control view, see the <a href="../front-line-map/">Ukraine front line map</a>, or read the <a href="../daily-brief/">Ukraine war daily brief</a>.</p>
 </main>''', s_ld, extra_head=CHART), encoding="utf-8")
 
 # ------------------------------------------------------------------ map page
@@ -349,24 +420,41 @@ m_as = ""
 if ctrl.get("as_of"):
     try: m_as = pretty_day(ctrl["as_of"])
     except Exception: m_as = ctrl["as_of"]
-m_title = f"Ukraine territorial control map | {NAME}"
-m_desc = ("Area-level map of assessed Ukrainian-controlled, contested, and Russian-controlled territory"
-          + (f" as of {m_as}" if m_as else "")
-          + ", from VIINA 2.0. Delayed and approximate. No unit locations or movements.")
+m_title = f"Ukraine front line map | {NAME}"
+m_desc = clip("Ukraine war map today: assessed Ukrainian-controlled, contested and Russian-controlled areas"
+              + (f" as of {m_as}" if m_as else "")
+              + ". Area-level and delayed, from VIINA 2.0 (ODbL). Not a live front line or unit map.")
+MAP_FAQ = [
+    ("Is this a live Ukraine war map?", "No. This Ukraine front line map is area-level and delayed by days. It does not show military units, troop movements, or a live front line."),
+    ("What does the Ukraine front line map show?", "It shows three assessed areas: Ukrainian-controlled, contested, and Russian-controlled. Populated-place statuses are merged into those areas and then simplified. Boundaries are approximate."),
+    ("Where does the Ukraine control data come from?", "VIINA 2.0 by Yuri Zhukov and Natalie Ayers, shared under the Open Database License (ODbL). The simplified GeoJSON on this page is published under the ODbL as well."),
+]
+m_faq_html = "".join(f"<h3>{E(q)}</h3><p>{E(a)}</p>" for q, a in MAP_FAQ)
 m_ld = {"@context": "https://schema.org", "@graph": [
-    {"@type": "WebPage", "name": m_title, "url": f"{SITE}/front-line-map/", "description": m_desc},
+    {"@type": "Map", "name": "Ukraine front line map", "description": m_desc, "url": f"{SITE}/front-line-map/",
+     "license": ODBL, "isBasedOn": VIINA, "dateModified": UPDATED_ISO,
+     "spatial": "https://github.com/zhukovyuri/VIINA",
+     "creator": {"@id": SITE + "/#org"}},
     {"@type": "Dataset", "name": "Ukraine territorial control, derived from VIINA 2.0",
-     "description": m_desc, "url": f"{SITE}/front-line-map/", "license": ODBL,
-     "creator": {"@type": "Organization", "name": "Frontlineradar"},
-     "isBasedOn": VIINA, **({"temporalCoverage": ctrl["as_of"]} if ctrl.get("as_of") else {})},
-    crumbs_ld([(NAME, SITE + "/"), ("Front-line map", f"{SITE}/front-line-map/")])]}
+     "description": m_desc, "url": f"{SITE}/assets/control.geojson", "license": ODBL,
+     "creator": ORG, "isBasedOn": VIINA,
+     "citation": "Zhukov, Yuri and Natalie Ayers. VIINA 2.0. Open Database License (ODbL).",
+     **({"temporalCoverage": ctrl["as_of"]} if ctrl.get("as_of") else {})},
+    {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in MAP_FAQ]},
+    crumbs_ld([(NAME, SITE + "/"), ("Ukraine front line map", f"{SITE}/front-line-map/")])]}
 (OUTD / "front-line-map").mkdir(parents=True, exist_ok=True)
 (OUTD / "front-line-map/index.html").write_text(page("front-line-map/", m_title, m_desc, f'''<main class="wrap">
-  <p class="crumbs"><a href="../">{NAME}</a> · Front-line map</p>
-  <h1>Front-line map of Ukraine</h1>
-  <p class="lede">Which areas are assessed as Ukrainian-controlled, contested, or Russian-controlled. The layer is area-level, delayed, and approximate.</p>
+  <p class="crumbs"><a href="../">{NAME}</a> · Ukraine front line map</p>
+  <h1>Ukraine front line map</h1>
+  <p class="lede">An area-level Ukraine war map of assessed control. It is delayed and approximate, and it is not a picture of where units are.</p>
   {DISCLAIMER}
   <section>{map_section("../")}</section>
+  <h2>What this map shows</h2>
+  <p class="lede">Light blue is assessed as Ukrainian-controlled, amber as contested, and red as Russian-controlled. The shapes are populated-place cells that share a status, dissolved together and simplified so the file stays small. A pocket of contested ground can be only a few places, so it may look small next to the rest of the country.</p>
+  <h2>How the map is made</h2>
+  <p class="lede">Each build reads the latest VIINA 2.0 control table, keeps that day’s status for every populated place, and joins it to the VIINA tessellation. VIINA 2.0 (Zhukov &amp; Ayers) is available under the <a href="{ODBL}">Open Database License (ODbL)</a>. The derived <a href="../assets/control.geojson">control.geojson</a> is published under the ODbL as well. If the download fails, the previous layer stays up. Nothing here is a movement arrow or a unit location.</p>
+  <nav class="related" aria-label="Related pages"><a href="../daily-brief/">Ukraine war daily brief</a><a href="../strikes/">Drone and missile strikes</a><a href="../brief/">Brief archive</a></nav>
+  <section id="faq"><h2>Front line map FAQ</h2><div class="card" id="faq-list">{m_faq_html}</div></section>
 </main>''', m_ld, extra_head=LEAFLET if map_ready() else ""), encoding="utf-8")
 
 # ------------------------------------------------------------------ data.js, sitemap, robots, CNAME
@@ -375,14 +463,69 @@ if src_geo.exists():
     shutil.copyfile(src_geo, OUTD / "assets/control.geojson")
 data = {"updated": UPDATED, "strikes": ({"daily": st["daily90"], "weekly": st["weekly"]} if st else None)}
 (OUTD / "assets/data.js").write_text("window.FR_DATA=" + json.dumps(data, separators=(",", ":")) + ";\n", encoding="utf-8")
-urls = [("", "1.0", "hourly"), ("daily-brief/", "0.9", "hourly"), ("strikes/", "0.9", "daily"), ("front-line-map/", "0.7", "weekly"), ("brief/", "0.5", "daily")]
+pages = [
+    ("", "1.0", "hourly", TODAY),
+    ("daily-brief/", "0.9", "hourly", TODAY),
+    ("strikes/", "0.8", "daily", TODAY),
+    ("front-line-map/", "0.9", "daily", (ctrl.get("as_of") or TODAY)[:10]),
+    ("brief/", "0.6", "daily", TODAY),
+]
 sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-for u, pr, cf in urls:
-    sm.append(f"  <url><loc>{SITE}/{u}</loc><lastmod>{TODAY}</lastmod><changefreq>{cf}</changefreq><priority>{pr}</priority></url>")
-for p, d in brief_paths:
-    sm.append(f"  <url><loc>{SITE}/{p}</loc><lastmod>{d}</lastmod><changefreq>{"daily" if d == TODAY else "never"}</changefreq><priority>0.4</priority></url>")
+for u, pr, cf, last in pages:
+    sm.append(f"  <url><loc>{SITE}/{u}</loc><lastmod>{xml_esc(last)}</lastmod><changefreq>{cf}</changefreq><priority>{pr}</priority></url>")
+for p, d, _headline, published, _desc in brief_paths:
+    last = (published or d)[:10]
+    sm.append(f"  <url><loc>{SITE}/{p}</loc><lastmod>{xml_esc(last)}</lastmod><changefreq>{"daily" if d == TODAY else "never"}</changefreq><priority>0.7</priority></url>")
 sm.append("</urlset>\n")
 (OUTD / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
-(OUTD / "robots.txt").write_text(f"User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n", encoding="utf-8")
+news_items = []
+for p, d, headline, published, _desc in brief_paths:
+    try: age = (GEN.date() - dt.date.fromisoformat(d)).days
+    except Exception: continue
+    if age < 0 or age > 1: continue
+    pub = published if "T" in str(published) else f"{d}T00:00:00+00:00"
+    news_items.append(f"""  <url>
+    <loc>{SITE}/{p}</loc>
+    <news:news>
+      <news:publication>
+        <news:name>{xml_esc(NAME)}</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>{xml_esc(pub)}</news:publication_date>
+      <news:title>{xml_esc(headline)}</news:title>
+    </news:news>
+  </url>""")
+news_sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
+           *news_items, "</urlset>\n"]
+(OUTD / "news-sitemap.xml").write_text("\n".join(news_sm), encoding="utf-8")
+(OUTD / "robots.txt").write_text(
+    "User-agent: *\nAllow: /\n\n"
+    f"Sitemap: {SITE}/sitemap.xml\n"
+    f"Sitemap: {SITE}/news-sitemap.xml\n", encoding="utf-8")
+rss_items = []
+for p, d, headline, published, desc in brief_paths:
+    try: pub_dt = dt.datetime.fromisoformat(published)
+    except Exception: pub_dt = dt.datetime.fromisoformat(d + "T00:00:00+00:00")
+    link = f"{SITE}/{p}"
+    rss_items.append(
+        f"<item><title>{xml_esc(headline)}</title><link>{link}</link>"
+        f"<guid isPermaLink=\"true\">{link}</guid><pubDate>{xml_esc(format_datetime(pub_dt))}</pubDate>"
+        f"<description>{xml_esc(desc)}</description></item>")
+(OUTD / "feed.xml").write_text(
+    '<?xml version="1.0" encoding="UTF-8"?>\n'
+    '<rss version="2.0"><channel>'
+    f"<title>{xml_esc(NAME)} — Ukraine war daily briefs</title>"
+    f"<link>{SITE}/brief/</link>"
+    f"<description>Automated Ukraine war updates: daily briefs with headlines, the ISW assessment and strike totals. No unit locations.</description>"
+    "<language>en</language>"
+    f"<lastBuildDate>{xml_esc(format_datetime(GEN))}</lastBuildDate>"
+    + "".join(rss_items) + "</channel></rss>\n", encoding="utf-8")
+manifest = {"name": NAME, "short_name": NAME,
+            "description": "Ukraine war update today: daily brief, front line map and strike charts.",
+            "start_url": "/", "scope": "/", "display": "standalone", "lang": "en",
+            "background_color": "#0b0e14", "theme_color": "#0b0e14",
+            "icons": [{"src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]}
+(OUTD / "manifest.webmanifest").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 (OUTD / "CNAME").write_text("frontlineradar.org\n", encoding="utf-8")
-print("built site/ updated", UPDATED, "| briefs archived:", len(brief_paths), "| strikes:", "yes" if st else "no")
+print("built site/ updated", UPDATED, "| briefs archived:", len(brief_paths), "| news urls:", len(news_items), "| strikes:", "yes" if st else "no")
