@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-11T06:23:37+00:00",
+ "generated": "2026-11-11T19:37:34+00:00",
  "status": {
   "Kyiv Independent": "ok",
-  "Ukrinform": "ok",
+  "Ukrinform": "error: HTTP Error 503: Service Unavailable (kept previous)",
   "Ukrainska Pravda": "ok",
   "UK Ministry of Defence (GOV.UK)": "ok",
   "ISW assessment": "ok",
@@ -17,79 +17,79 @@
    "feed": "https://kyivindependent.com/news-archive/rss/",
    "items": [
     {
-     "title": "Russian drones kill 2 municipal workers, injure another in consecutive attacks on Kramatorsk",
-     "url": "https://kyivindependent.com/russian-drones-kill-2-municipal-workers-injure-another-in-consecutive-attacks-on-kramatorsk/",
-     "date": "2026-11-11T05:36:43+00:00"
+     "title": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+     "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+     "date": "2026-11-11T19:15:44+00:00"
     },
     {
-     "title": "EU's Costa keeps Ukraine funding talks on late-November agenda despite Merz appeal",
-     "url": "https://kyivindependent.com/eus-costa-keeps-ukraine-funding-talks-on-late-november-agenda-despite-merz-appeal/",
-     "date": "2026-11-11T03:15:24+00:00"
+     "title": "Ukraine captures first Indonesian prisoner of war as Russia steps up foreign recruitment",
+     "url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
+     "date": "2026-11-11T19:03:34+00:00"
     },
     {
-     "title": "Ukraine reportedly strikes Ust-Luga Baltic Sea port as drones attack regions across Russia",
+     "title": "Zelensky arrives in Dublin for European Political Community summit, expects a debrief from Witkoff, Kushner",
+     "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/",
+     "date": "2026-11-11T17:56:29+00:00"
+    },
+    {
+     "title": "How we got here: 5 years of the Kyiv Independent",
+     "url": "https://kyivindependent.com/5-years-of-the-kyiv-independent/",
+     "date": "2026-11-11T17:48:19+00:00"
+    },
+    {
+     "title": "Hackers target Ukraine's state news agency Ukrinform, replace website with anti-Ukrainian messages",
+     "url": "https://kyivindependent.com/hackers-target-ukraines-state-news-agency-ukrinform-replace-website-with-anti-ukrainian-messages/",
+     "date": "2026-11-11T17:43:04+00:00"
+    },
+    {
+     "title": "Old Khata's 'Kvitky' — Tribute to beauty and enduring legacy of Ukrainian folk art",
+     "url": "https://kyivindependent.com/old-khatas-kvitky-tribute-to-beauty-and-enduring-legacy-of-ukrainian-folk-art/",
+     "date": "2026-11-11T17:17:27+00:00"
+    },
+    {
+     "title": "Ukrainian parliament passes EU-linked prosecution reform bill slammed by anti-graft experts",
+     "url": "https://kyivindependent.com/ukrainian-parliament-passes-eu-linked-prosecution-reform-bill-slammed-by-anti-graft-experts/",
+     "date": "2026-11-11T16:59:55+00:00"
+    },
+    {
+     "title": "Winter is Russia's weapon",
+     "url": "https://kyivindependent.com/winter-is-russias-weapon-2/",
+     "date": "2026-11-11T16:34:41+00:00"
+    },
+    {
+     "title": "Russian ambassador to Washington dies at 66",
+     "url": "https://kyivindependent.com/russian-ambassador-to-washington-dies-at-66/",
+     "date": "2026-11-11T16:34:05+00:00"
+    },
+    {
+     "title": "Russia strikes 6 major power substations, causing outages across Ukraine",
+     "url": "https://kyivindependent.com/russia-strikes-6-major-power-substations-causing-outages-across-ukraine/",
+     "date": "2026-11-11T15:56:40+00:00"
+    },
+    {
+     "title": "Helsing launches European alternative to Palantir’s military AI",
+     "url": "https://kyivindependent.com/helsing-launches-european-alternative-to-palantirs-military-ai/",
+     "date": "2026-11-11T15:29:20+00:00"
+    },
+    {
+     "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+     "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+     "date": "2026-11-11T14:54:36+00:00"
+    },
+    {
+     "title": "Russian strike on crowded market in Odesa Oblast kills at least 4, injures 8",
+     "url": "https://kyivindependent.com/russian-strike-on-crowded-market-in-odesa-oblast-kills-at-least-3-injures-8/",
+     "date": "2026-11-11T13:16:30+00:00"
+    },
+    {
+     "title": "Trump's envoys to travel to Moscow as Abu Dhabi talks end without breakthrough",
+     "url": "https://kyivindependent.com/2nd-day-of-trilateral-peace-talks-begins-between-ukraine-russia-us-in-abu-dhabi/",
+     "date": "2026-11-11T10:01:58+00:00"
+    },
+    {
+     "title": "Ukrainian drones reportedly target Russia's largest oil refinery, strike Baltic Sea port, missile boat",
      "url": "https://kyivindependent.com/ukraine-reportedly-strikes-ust-luga-baltic-sea-port-as-drones-attack-regions-across-russia/",
      "date": "2026-11-11T00:59:32+00:00"
-    },
-    {
-     "title": "US Senator tells incoming Congress not to give up on Ukraine, supply air defense",
-     "url": "https://kyivindependent.com/us-senator-tells-incoming-congress-not-to-give-up-on-ukraine-supply-air-defense/",
-     "date": "2026-11-10T23:45:38+00:00"
-    },
-    {
-     "title": "Ukraine strikes drone port at occupied Donetsk Airport",
-     "url": "https://kyivindependent.com/ukraine-strikes-drone-port-at-occupied-donetsk-airport/",
-     "date": "2026-11-10T21:46:53+00:00"
-    },
-    {
-     "title": "Ukraine seeks to arrange another evacuation for Oleshky residents, Lubinets says",
-     "url": "https://kyivindependent.com/ukraine-seeks-to-arrange-another-evacuation-for-oleshky-residents-lubinets-said/",
-     "date": "2026-11-10T19:12:03+00:00"
-    },
-    {
-     "title": "Ukraine war latest: Rubio says security guarantees for Ukraine must also be acceptable to Russia",
-     "url": "https://kyivindependent.com/ukraine-war-latest-rubio-says-security-guarantees-for-ukraine-must-also-be-acceptable-to-russia/",
-     "date": "2026-11-10T18:57:52+00:00"
-    },
-    {
-     "title": "Poland to transfer 2 MiG-29 jets to Ukraine in exchange for drone technology, Polish official says",
-     "url": "https://kyivindependent.com/poland-may-transfer-2-mig-29-jets-to-ukraine-in-exchange-for-drone-technology-polish-official-says/",
-     "date": "2026-11-10T18:18:49+00:00"
-    },
-    {
-     "title": "What Russia's military buildup during Oleshky ceasefire could mean for Kherson Oblast",
-     "url": "https://kyivindependent.com/what-russias-military-buildup-during-oleshky-ceasefire-could-mean-for-kherson-oblast/",
-     "date": "2026-11-10T18:08:17+00:00"
-    },
-    {
-     "title": "The quiet death of Novaya Gazeta: How a once-powerful newspaper refused to leave Russia — and slowly lost its voice",
-     "url": "https://kyivindependent.com/the-quiet-death-of-novaya-gazeta-how-a-once-powerful-newspaper-refused-to-leave-russia-and-slowly-lost-its-voice/",
-     "date": "2026-11-10T17:58:53+00:00"
-    },
-    {
-     "title": "As old allies leave US Congress, Ukraine must find new champions",
-     "url": "https://kyivindependent.com/as-old-allies-leave-us-congress-ukraine-must-find-new-champions/",
-     "date": "2026-11-10T17:51:58+00:00"
-    },
-    {
-     "title": "South Korea-Ukraine relations begin to thaw after Paris meeting",
-     "url": "https://kyivindependent.com/south-korea-ukraine-relations-begin-to-thaw-after-paris-meeting/",
-     "date": "2026-11-10T17:05:48+00:00"
-    },
-    {
-     "title": "Ukrainian strikes cut Russia's oil refining capacity by 30%, Reuters reports",
-     "url": "https://kyivindependent.com/ukrainian-strikes-cut-russias-oil-refining-capacity-by-30-reuters-reports/",
-     "date": "2026-11-10T16:25:06+00:00"
-    },
-    {
-     "title": "Russian companies seek foreign data center capacity after Ukrainian strikes",
-     "url": "https://kyivindependent.com/russian-companies-seek-foreign-data-center-capacity-after-ukrainian-strikes/",
-     "date": "2026-11-10T15:59:41+00:00"
-    },
-    {
-     "title": "Lithuania to tighten checks on Russian grain shipments",
-     "url": "https://kyivindependent.com/lithuania-to-tighten-checks-on-russian-grain-shipments/",
-     "date": "2026-11-10T15:45:00+00:00"
     }
    ]
   },
@@ -233,104 +233,104 @@
    "feed": "https://www.pravda.com.ua/eng/rss/",
    "items": [
     {
-     "title": "Situation in 34 settlements in Kherson Oblast is as critical as in Oleshky",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062249/",
-     "date": "2026-11-11T03:12:00+00:00"
+     "title": "Zelenskyy and his team arrive in Ireland",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062404/",
+     "date": "2026-11-11T17:47:00+00:00"
     },
     {
-     "title": "Kryvyi Rih partially without electricity following large-scale Russian drone attack",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062239/",
-     "date": "2026-11-10T22:08:00+00:00"
+     "title": "Kremlin says Putin will meet Witkoff and Kushner on 12 November",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/",
+     "date": "2026-11-11T17:41:00+00:00"
     },
     {
-     "title": "Zelenskyy: Russians claim to have occupied more territory than they actually control",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062236/",
-     "date": "2026-11-10T21:49:00+00:00"
+     "title": "Ambassadors of EU member states approve new Russia sanctions: 50 banks listed",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062400/",
+     "date": "2026-11-11T17:33:00+00:00"
     },
     {
-     "title": "Possibility of 1,000-for-1,000 or 1,500-for-1,500 prisoner exchange discussed in Abu Dhabi – Zelenskyy",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062233/",
-     "date": "2026-11-10T20:32:00+00:00"
+     "title": "Russian strike on market in Chornomorsk kills four, injures nine – photos",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062304/",
+     "date": "2026-11-11T17:27:00+00:00"
     },
     {
-     "title": "Russians return to positions in Oleshky that Ukrainian forces spent nearly a year clearing during ceasefire",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062228/",
-     "date": "2026-11-10T19:39:00+00:00"
+     "title": "Ukraine's Security Service hits Russian missile ship Naro-Fominsk",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062398/",
+     "date": "2026-11-11T17:11:00+00:00"
     },
     {
-     "title": "Kherson Oblast authorities reveal how many people remain in Oleshky",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062227/",
-     "date": "2026-11-10T19:38:00+00:00"
+     "title": "Jet-powered Geran drones are just the beginning. How Russia is switching to small missiles and what Ukraine can do about it",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062392/",
+     "date": "2026-11-11T16:31:00+00:00"
     },
     {
-     "title": "Ukrainian air defences down 124 Russian drones and 14 Banderol missiles during day",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062221/",
-     "date": "2026-11-10T18:46:00+00:00"
+     "title": "Freight transport costs in Russia soar by 30% due to fuel crisis",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062387/",
+     "date": "2026-11-11T16:04:00+00:00"
     },
     {
-     "title": "One killed and one injured in Russian attack on southern Odesa Oblast",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062218/",
-     "date": "2026-11-10T18:32:00+00:00"
+     "title": "German government assesses possibility of contact between Merz and Putin",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062384/",
+     "date": "2026-11-11T16:00:00+00:00"
     },
     {
-     "title": "Russian FPV drones attack municipal workers twice in Kramatorsk, killing two and injuring one",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062215/",
-     "date": "2026-11-10T18:16:00+00:00"
+     "title": "Russian drones attack Kyiv Oblast: one killed, several injured, kindergartens damaged",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062380/",
+     "date": "2026-11-11T15:29:00+00:00"
     },
     {
-     "title": "Ukrainian foreign minister meets South Korean counterpart: \"We had a really good conversation\"",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062210/",
-     "date": "2026-11-10T18:02:00+00:00"
+     "title": "Russia's largest oil refinery hit by drones 2,500 km from Ukraine – videos",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062379/",
+     "date": "2026-11-11T15:23:00+00:00"
     },
     {
-     "title": "Hungary again refuses to give green light to opening EU accession clusters 4 and 5 for Ukraine",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062207/",
-     "date": "2026-11-10T17:26:00+00:00"
+     "title": "Russia proposes new security system involving non-aggression pacts with NATO countries – Reuters",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062373/",
+     "date": "2026-11-11T15:13:00+00:00"
     },
     {
-     "title": "Ukrainian Human Rights Commissioner's Office working to arrange additional evacuation from Oleshky",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062204/",
-     "date": "2026-11-10T17:11:00+00:00"
+     "title": "Crossed-out flag and pro-Russian slogan: hackers attack state news agency Ukrinform",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062364/",
+     "date": "2026-11-11T14:44:00+00:00"
     },
     {
-     "title": "Serbian company supplied Russia with €27m worth of machine tools for ballistic missiles and aircraft – investigation",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062201/",
-     "date": "2026-11-10T16:58:00+00:00"
+     "title": "Trump's son-in-law urges Europe to appoint single representative for talks with Russia",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062363/",
+     "date": "2026-11-11T14:24:00+00:00"
     },
     {
-     "title": "Three killed and four injured in Russian strike on critical infrastructure facility in Dnipro",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062182/",
-     "date": "2026-11-10T16:36:00+00:00"
+     "title": "Kharkiv under Russian attack all day: two killed, five injured – photos",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062306/",
+     "date": "2026-11-11T13:58:00+00:00"
     },
     {
-     "title": "Ukrainian drone forces post video of strike on Russian drone base in Donetsk – video",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062195/",
-     "date": "2026-11-10T16:25:00+00:00"
+     "title": "Four injured in Russian drone attack on Poltava Oblast",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062351/",
+     "date": "2026-11-11T13:47:00+00:00"
     },
     {
-     "title": "Ukrainian forces rescue wounded soldier using bomber drone, electric unicycle and ground robot",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062193/",
-     "date": "2026-11-10T15:54:00+00:00"
+     "title": "Zelenskyy to meet Trump envoys in Dublin: We will coordinate positions and determine next steps",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062344/",
+     "date": "2026-11-11T13:42:00+00:00"
     },
     {
-     "title": "South Korea earmarks US$100m for Ukraine in 2027 draft budget",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062192/",
-     "date": "2026-11-10T15:51:00+00:00"
+     "title": "Ukraine's chief negotiator sums up Abu Dhabi talks, says there are opportunities for further negotiations",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062337/",
+     "date": "2026-11-11T13:08:00+00:00"
     },
     {
-     "title": "Zelenskyy reveals contents of €643m aid package from Denmark",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062191/",
-     "date": "2026-11-10T15:47:00+00:00"
+     "title": "Three injured in Russian FPV drone strike on Zaporizhzhia",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062336/",
+     "date": "2026-11-11T13:06:00+00:00"
     },
     {
-     "title": "First tanker carrying Russian diesel arrives off US coast but finds no buyer – Reuters",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062190/",
-     "date": "2026-11-10T15:41:00+00:00"
+     "title": "\"I think it'd be great\": Trump's son-in-law discusses prospects for Zelenskyy-Putin meeting",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062329/",
+     "date": "2026-11-11T12:33:00+00:00"
     },
     {
-     "title": "Zelenskyy outlines key discussion points of \"constructive\" Abu Dhabi talks",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062186/",
-     "date": "2026-11-10T15:30:00+00:00"
+     "title": "Ukrainian foreign minister urges Poland not to let Kremlin exploit pain of Volyn tragedy victims' families",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062330/",
+     "date": "2026-11-11T12:33:00+00:00"
     }
    ]
   },
@@ -340,6 +340,11 @@
    "home": "https://www.gov.uk/government/organisations/ministry-of-defence",
    "feed": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=ministry-of-defence&keywords=ukraine",
    "items": [
+    {
+     "title": "First Sea Lord Opening Remarks at International Sea Power Conference 2026.",
+     "url": "https://www.gov.uk/government/speeches/first-sea-lord-opening-remarks-at-international-sea-power-conference-2026",
+     "date": "2026-11-11T08:57:18+00:00"
+    },
     {
      "title": "General Sir Gwyn Jenkins addresses the International Sea Power Conference",
      "url": "https://www.gov.uk/government/speeches/general-sir-gwyn-jenkins-addresses-the-international-sea-power-conference",
@@ -434,11 +439,6 @@
      "title": "Defence Secretary Wes Streeting MP, keynote speech at UK Space Power Conference",
      "url": "https://www.gov.uk/government/speeches/defence-secretary-wes-streeting-mp-keynote-speech-at-uk-space-power-conference",
      "date": "2026-09-23T18:05:54+00:00"
-    },
-    {
-     "title": "Chief of the Air Staff, Air Chief Marshal Sir Harv Smyth's speech at the UK Space Power Conference",
-     "url": "https://www.gov.uk/government/speeches/chief-of-the-air-staff-air-chief-marshal-sir-harv-smyths-speech-at-the-uk-space-power-conference",
-     "date": "2026-09-23T10:47:54+00:00"
     }
    ]
   }
@@ -2642,28 +2642,28 @@
  "digest": [
   {
    "topic": "Strikes & air defence",
-   "text": "28 of 60 headlines in the last 36 hours touch on strikes & air defence.",
+   "text": "25 of 60 headlines in the last 36 hours touch on strikes & air defence.",
    "example": {
-    "title": "Air Defense neutralizes 14 Banderol missiles, 130 Russian drones overnight",
-    "url": "https://www.ukrinform.net/rubric-ato/4183607-air-defense-neutralizes-14-banderol-missiles-130-russian-drones-overnight.html",
-    "source": "Ukrinform"
+    "title": "Russian strike on market in Chornomorsk kills four, injures nine – photos",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062304/",
+    "source": "Ukrainska Pravda"
    }
   },
   {
    "topic": "Diplomacy & sanctions",
-   "text": "15 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "text": "22 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
    "example": {
-    "title": "Zelensky discusses support for Ukraine with Northern European Prime Ministers amid Russian escalation",
-    "url": "https://www.ukrinform.net/rubric-polytics/4183596-zelensky-discusses-support-for-ukraine-with-northern-european-prime-ministers-amid-russian-escalation.html",
-    "source": "Ukrinform"
+    "title": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+    "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+    "source": "Kyiv Independent"
    }
   },
   {
    "topic": "Civilians & humanitarian",
    "text": "12 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
    "example": {
-    "title": "Russian drones kill 2 municipal workers, injure another in consecutive attacks on Kramatorsk",
-    "url": "https://kyivindependent.com/russian-drones-kill-2-municipal-workers-injure-another-in-consecutive-attacks-on-kramatorsk/",
+    "title": "Ukraine captures first Indonesian prisoner of war as Russia steps up foreign recruitment",
+    "url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
     "source": "Kyiv Independent"
    }
   },
@@ -2671,9 +2671,9 @@
    "topic": "Energy & infrastructure",
    "text": "7 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
    "example": {
-    "title": "Kryvyi Rih under massive Russian drone attack: Parts of city without electricity and heating",
-    "url": "https://www.ukrinform.net/rubric-ato/4183595-kryvyi-rih-under-massive-russian-drone-attack-parts-of-city-without-electricity-and-heating.html",
-    "source": "Ukrinform"
+    "title": "Jet-powered Geran drones are just the beginning. How Russia is switching to small missiles and what Ukraine can do about it",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062392/",
+    "source": "Ukrainska Pravda"
    }
   },
   {
@@ -2693,76 +2693,76 @@
  "recent_count": 60,
  "top": [
   {
-   "title": "Air Defense neutralizes 14 Banderol missiles, 130 Russian drones overnight",
-   "url": "https://www.ukrinform.net/rubric-ato/4183607-air-defense-neutralizes-14-banderol-missiles-130-russian-drones-overnight.html",
-   "date": "2026-11-11T06:18:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Kharkiv hit by two consecutive missile strikes",
-   "url": "https://www.ukrinform.net/rubric-ato/4183597-kharkiv-hit-by-two-consecutive-missile-strikes.html",
-   "date": "2026-11-11T05:59:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Russian drones kill 2 municipal workers, injure another in consecutive attacks on Kramatorsk",
-   "url": "https://kyivindependent.com/russian-drones-kill-2-municipal-workers-injure-another-in-consecutive-attacks-on-kramatorsk/",
-   "date": "2026-11-11T05:36:43+00:00",
+   "title": "Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+   "url": "https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+   "date": "2026-11-11T19:15:44+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "Zelensky discusses support for Ukraine with Northern European Prime Ministers amid Russian escalation",
-   "url": "https://www.ukrinform.net/rubric-polytics/4183596-zelensky-discusses-support-for-ukraine-with-northern-european-prime-ministers-amid-russian-escalation.html",
-   "date": "2026-11-11T05:36:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Kryvyi Rih under massive Russian drone attack: Parts of city without electricity and heating",
-   "url": "https://www.ukrinform.net/rubric-ato/4183595-kryvyi-rih-under-massive-russian-drone-attack-parts-of-city-without-electricity-and-heating.html",
-   "date": "2026-11-11T05:17:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Zelensky on front line situation assessments: Putin lives in different reality",
-   "url": "https://www.ukrinform.net/rubric-ato/4183594-zelensky-on-front-line-situation-assessments-putin-lives-in-different-reality.html",
-   "date": "2026-11-11T04:59:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Europe must appoint representative for peace negotiations by end of November – Zelensky",
-   "url": "https://www.ukrinform.net/rubric-polytics/4183593-europe-must-appoint-representative-for-peace-negotiations-by-end-of-november-zelensky.html",
-   "date": "2026-11-11T04:38:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Zelensky presents Northern European partners with plan for getting through winter",
-   "url": "https://www.ukrinform.net/rubric-economy/4183592-zelensky-presents-northern-european-partners-with-plan-for-getting-through-winter.html",
-   "date": "2026-11-11T04:21:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Poland says Pentagon green lit for permanent U.S. military base",
-   "url": "https://www.ukrinform.net/rubric-polytics/4183550-poland-says-pentagon-green-lit-for-permanent-us-military-base.html",
-   "date": "2026-11-11T03:35:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "EU's Costa keeps Ukraine funding talks on late-November agenda despite Merz appeal",
-   "url": "https://kyivindependent.com/eus-costa-keeps-ukraine-funding-talks-on-late-november-agenda-despite-merz-appeal/",
-   "date": "2026-11-11T03:15:24+00:00",
+   "title": "Ukraine captures first Indonesian prisoner of war as Russia steps up foreign recruitment",
+   "url": "https://kyivindependent.com/ukraine-captures-first-indonesian-prisoner-of-war-as-russia-steps-up-foreign-recruitment/",
+   "date": "2026-11-11T19:03:34+00:00",
    "source": "Kyiv Independent"
   },
   {
-   "title": "Situation in 34 settlements in Kherson Oblast is as critical as in Oleshky",
-   "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062249/",
-   "date": "2026-11-11T03:12:00+00:00",
+   "title": "Zelensky arrives in Dublin for European Political Community summit, expects a debrief from Witkoff, Kushner",
+   "url": "https://kyivindependent.com/zelensky-arrives-in-dublin-for-european-political-community-summit-expects-a-debrief-from-witkoff-kushner/",
+   "date": "2026-11-11T17:56:29+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "How we got here: 5 years of the Kyiv Independent",
+   "url": "https://kyivindependent.com/5-years-of-the-kyiv-independent/",
+   "date": "2026-11-11T17:48:19+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Zelenskyy and his team arrive in Ireland",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062404/",
+   "date": "2026-11-11T17:47:00+00:00",
    "source": "Ukrainska Pravda"
   },
   {
-   "title": "Russia cannot destroy Kyiv HPP with airstrikes, expert says",
-   "url": "https://www.ukrinform.net/rubric-ato/4183482-russia-cannot-destroy-kyiv-hpp-with-airstrikes-expert-says.html",
-   "date": "2026-11-11T02:40:00+00:00",
-   "source": "Ukrinform"
+   "title": "Hackers target Ukraine's state news agency Ukrinform, replace website with anti-Ukrainian messages",
+   "url": "https://kyivindependent.com/hackers-target-ukraines-state-news-agency-ukrinform-replace-website-with-anti-ukrainian-messages/",
+   "date": "2026-11-11T17:43:04+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Kremlin says Putin will meet Witkoff and Kushner on 12 November",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/",
+   "date": "2026-11-11T17:41:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Ambassadors of EU member states approve new Russia sanctions: 50 banks listed",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062400/",
+   "date": "2026-11-11T17:33:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Russian strike on market in Chornomorsk kills four, injures nine – photos",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062304/",
+   "date": "2026-11-11T17:27:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Old Khata's 'Kvitky' — Tribute to beauty and enduring legacy of Ukrainian folk art",
+   "url": "https://kyivindependent.com/old-khatas-kvitky-tribute-to-beauty-and-enduring-legacy-of-ukrainian-folk-art/",
+   "date": "2026-11-11T17:17:27+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Ukraine's Security Service hits Russian missile ship Naro-Fominsk",
+   "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062398/",
+   "date": "2026-11-11T17:11:00+00:00",
+   "source": "Ukrainska Pravda"
+  },
+  {
+   "title": "Ukrainian parliament passes EU-linked prosecution reform bill slammed by anti-graft experts",
+   "url": "https://kyivindependent.com/ukrainian-parliament-passes-eu-linked-prosecution-reform-bill-slammed-by-anti-graft-experts/",
+   "date": "2026-11-11T16:59:55+00:00",
+   "source": "Kyiv Independent"
   }
  ]
 }
