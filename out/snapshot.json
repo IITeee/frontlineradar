@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T19:56:02+00:00",
+ "generated": "2026-11-12T21:47:50+00:00",
  "status": {
   "Kyiv Independent": "ok",
   "Ukrinform": "ok",
@@ -16,6 +16,16 @@
    "home": "https://kyivindependent.com/",
    "feed": "https://kyivindependent.com/news-archive/rss/",
    "items": [
+    {
+     "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+     "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+     "date": "2026-11-12T21:35:58+00:00"
+    },
+    {
+     "title": "Ukraine's top sunflower oil producer shuts down all processing plants due to Russia's mass attacks",
+     "url": "https://kyivindependent.com/ukraines-top-sunflower-oil-producer-shuts-down-all-processing-plants-due-to-russias-mass-attacks/",
+     "date": "2026-11-12T20:55:23+00:00"
+    },
     {
      "title": "Trump, Putin to discuss Ukraine peace settlement during meeting in China, Kremlin says",
      "url": "https://kyivindependent.com/trump-putin-to-discuss-ukraine-peace-settlement-during-meeting-in-china-kremlin-says/",
@@ -80,16 +90,6 @@
      "title": "Putin proposes 'humanitarian mission' in contested Kostiantynivka, says demining is necessary",
      "url": "https://kyivindependent.com/witkoff-kushner-arrive-in-moscow-following-ukraine-peace-talks/",
      "date": "2026-11-12T05:51:07+00:00"
-    },
-    {
-     "title": "Russia attacks Kyiv with ballistic missiles, drones hours after peace talks end",
-     "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/",
-     "date": "2026-11-11T23:27:06+00:00"
-    },
-    {
-     "title": "Russia's largest oil refinery slammed by drones in 8-hour attack, Ukraine confirms",
-     "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
-     "date": "2026-11-11T22:41:46+00:00"
     }
    ]
   },
@@ -99,6 +99,26 @@
    "home": "https://www.ukrinform.net/",
    "feed": "https://www.ukrinform.net/rss/block-lastnews",
    "items": [
+    {
+     "title": "Four killed, six injured in Russian strikes on Kramatorsk",
+     "url": "https://www.ukrinform.net/rubric-ato/4184107-four-killed-six-injured-in-russian-strikes-on-kramatorsk.html",
+     "date": "2026-11-12T21:25:00+00:00"
+    },
+    {
+     "title": "Zelensky discusses stronger support for Ukraine with partners in Dublin",
+     "url": "https://www.ukrinform.net/rubric-polytics/4184106-zelensky-discusses-stronger-support-for-ukraine-with-partners-in-dublin.html",
+     "date": "2026-11-12T21:00:00+00:00"
+    },
+    {
+     "title": "Ukraine, Netherlands developing projects to intercept ballistic missiles",
+     "url": "https://www.ukrinform.net/rubric-ato/4184104-ukraine-netherlands-developing-projects-to-intercept-ballistic-missiles.html",
+     "date": "2026-11-12T20:33:00+00:00"
+    },
+    {
+     "title": "Russia targets energy and heating facilities in Bila Tserkva with drones",
+     "url": "https://www.ukrinform.net/rubric-ato/4184103-russia-targets-energy-and-heating-facilities-in-bila-tserkva-with-drones.html",
+     "date": "2026-11-12T20:10:00+00:00"
+    },
     {
      "title": "Zelensky, Rutte discuss air defense missile shortages, Starshield disruptions",
      "url": "https://www.ukrinform.net/rubric-ato/4184096-zelensky-rutte-discuss-air-defense-missile-shortages-starshield-disruptions.html",
@@ -203,26 +223,6 @@
      "title": "Estonian PM says Costa and Kallas should represent EU in talks with Russia",
      "url": "https://www.ukrinform.net/rubric-polytics/4183923-estonian-pm-says-costa-and-kallas-should-represent-eu-in-talks-with-russia.html",
      "date": "2026-11-12T12:10:00+00:00"
-    },
-    {
-     "title": "European Parliament adopts resolution on Ukrainian children under occupation and those deported to Russia",
-     "url": "https://www.ukrinform.net/rubric-society/4183905-european-parliament-adopts-resolution-on-ukrainian-children-under-occupation-and-those-deported-to-russia.html",
-     "date": "2026-11-12T11:42:00+00:00"
-    },
-    {
-     "title": "Car catches fire after drone crashes in Kyiv's Shevchenkivskyi district – Klitschko",
-     "url": "https://www.ukrinform.net/rubric-ato/4183944-car-catches-fire-after-drone-crashes-in-kyivs-shevchenkivskyi-district-klitschko.html",
-     "date": "2026-11-12T11:24:00+00:00"
-    },
-    {
-     "title": "Zelensky arrives at European Political Community summit",
-     "url": "https://www.ukrinform.net/rubric-polytics/4183914-zelensky-arrives-at-european-political-community-summit.html",
-     "date": "2026-11-12T11:15:00+00:00"
-    },
-    {
-     "title": "One killed, seven injured as Russian drone hits apartment building in Kyiv's Solomianskyi district",
-     "url": "https://www.ukrinform.net/rubric-ato/4183954-one-killed-seven-injured-as-russian-drone-hits-apartment-building-in-kyivs-solomianskyi-district.html",
-     "date": "2026-11-12T10:57:00+00:00"
     }
    ]
   },
@@ -2642,10 +2642,10 @@
  "digest": [
   {
    "topic": "Diplomacy & sanctions",
-   "text": "24 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
+   "text": "22 of 60 headlines in the last 36 hours touch on diplomacy & sanctions.",
    "example": {
-    "title": "Trump, Putin to discuss Ukraine peace settlement during meeting in China, Kremlin says",
-    "url": "https://kyivindependent.com/trump-putin-to-discuss-ukraine-peace-settlement-during-meeting-in-china-kremlin-says/",
+    "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+    "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
     "source": "Kyiv Independent"
    }
   },
@@ -2653,14 +2653,14 @@
    "topic": "Strikes & air defence",
    "text": "17 of 60 headlines in the last 36 hours touch on strikes & air defence.",
    "example": {
-    "title": "Zelensky, Rutte discuss air defense missile shortages, Starshield disruptions",
-    "url": "https://www.ukrinform.net/rubric-ato/4184096-zelensky-rutte-discuss-air-defense-missile-shortages-starshield-disruptions.html",
+    "title": "Four killed, six injured in Russian strikes on Kramatorsk",
+    "url": "https://www.ukrinform.net/rubric-ato/4184107-four-killed-six-injured-in-russian-strikes-on-kramatorsk.html",
     "source": "Ukrinform"
    }
   },
   {
    "topic": "Civilians & humanitarian",
-   "text": "10 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
+   "text": "9 of 60 headlines in the last 36 hours touch on civilians & humanitarian.",
    "example": {
     "title": "European Parliament calls on Russia to return Ukrainian children",
     "url": "https://www.ukrinform.net/rubric-polytics/4184031-european-parliament-calls-on-russia-to-return-ukrainian-children.html",
@@ -2669,10 +2669,10 @@
   },
   {
    "topic": "Energy & infrastructure",
-   "text": "7 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
+   "text": "8 of 60 headlines in the last 36 hours touch on energy & infrastructure.",
    "example": {
-    "title": "UK says it's 1st country to target all of Russia's top 10 oil producers with latest round of sanctions",
-    "url": "https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/",
+    "title": "Ukraine's top sunflower oil producer shuts down all processing plants due to Russia's mass attacks",
+    "url": "https://kyivindependent.com/ukraines-top-sunflower-oil-producer-shuts-down-all-processing-plants-due-to-russias-mass-attacks/",
     "source": "Kyiv Independent"
    }
   },
@@ -2692,6 +2692,42 @@
  ],
  "recent_count": 60,
  "top": [
+  {
+   "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+   "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+   "date": "2026-11-12T21:35:58+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Four killed, six injured in Russian strikes on Kramatorsk",
+   "url": "https://www.ukrinform.net/rubric-ato/4184107-four-killed-six-injured-in-russian-strikes-on-kramatorsk.html",
+   "date": "2026-11-12T21:25:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Zelensky discusses stronger support for Ukraine with partners in Dublin",
+   "url": "https://www.ukrinform.net/rubric-polytics/4184106-zelensky-discusses-stronger-support-for-ukraine-with-partners-in-dublin.html",
+   "date": "2026-11-12T21:00:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Ukraine's top sunflower oil producer shuts down all processing plants due to Russia's mass attacks",
+   "url": "https://kyivindependent.com/ukraines-top-sunflower-oil-producer-shuts-down-all-processing-plants-due-to-russias-mass-attacks/",
+   "date": "2026-11-12T20:55:23+00:00",
+   "source": "Kyiv Independent"
+  },
+  {
+   "title": "Ukraine, Netherlands developing projects to intercept ballistic missiles",
+   "url": "https://www.ukrinform.net/rubric-ato/4184104-ukraine-netherlands-developing-projects-to-intercept-ballistic-missiles.html",
+   "date": "2026-11-12T20:33:00+00:00",
+   "source": "Ukrinform"
+  },
+  {
+   "title": "Russia targets energy and heating facilities in Bila Tserkva with drones",
+   "url": "https://www.ukrinform.net/rubric-ato/4184103-russia-targets-energy-and-heating-facilities-in-bila-tserkva-with-drones.html",
+   "date": "2026-11-12T20:10:00+00:00",
+   "source": "Ukrinform"
+  },
   {
    "title": "Trump, Putin to discuss Ukraine peace settlement during meeting in China, Kremlin says",
    "url": "https://kyivindependent.com/trump-putin-to-discuss-ukraine-peace-settlement-during-meeting-in-china-kremlin-says/",
@@ -2726,42 +2762,6 @@
    "title": "Who will work Ukraine's farms as the workforce shortage deepens?",
    "url": "https://kyivindependent.com/who-will-work-ukraines-farms-as-the-workforce-shortage-deepens/",
    "date": "2026-11-12T18:55:44+00:00",
-   "source": "Kyiv Independent"
-  },
-  {
-   "title": "Witkoff, Kushner hope Europe will join next round of peace talks after meeting with Putin",
-   "url": "https://www.ukrinform.net/rubric-polytics/4184078-witkoff-kushner-hope-europe-will-join-next-round-of-peace-talks-after-meeting-with-putin.html",
-   "date": "2026-11-12T18:53:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Air defense neutralizes 124 Russian drones, two S8000 Banderol/Dan-T missiles on Nov 12",
-   "url": "https://www.ukrinform.net/rubric-ato/4184063-air-defense-neutralizes-124-russian-drones-two-s8000-banderoldant-missiles-on-nov-12.html",
-   "date": "2026-11-12T18:31:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Europe wants a seat at the table with Russia. It can't agree on who gets it",
-   "url": "https://kyivindependent.com/endless-us-russia-talks-leave-europe-scrambling-for-a-role-in-ukraine-peace-push/",
-   "date": "2026-11-12T18:21:58+00:00",
-   "source": "Kyiv Independent"
-  },
-  {
-   "title": "'We have nothing left to fear' — Chinese volunteer soldiers in Ukraine",
-   "url": "https://kyivindependent.com/we-have-nothing-left-to-fear-chinese-volunteer-soldiers-in-ukraine-2/",
-   "date": "2026-11-12T18:16:04+00:00",
-   "source": "Kyiv Independent"
-  },
-  {
-   "title": "Ukrainian deep strikes were launched four years ago by HUR unit – military commander",
-   "url": "https://www.ukrinform.net/rubric-ato/4184051-ukrainian-deep-strikes-were-launched-four-years-ago-by-hur-unit-military-commander.html",
-   "date": "2026-11-12T17:53:00+00:00",
-   "source": "Ukrinform"
-  },
-  {
-   "title": "Moldovan police find drone fragments in vineyard near Ukrainian border",
-   "url": "https://kyivindependent.com/moldovan-police-find-drone-fragments-in-vineyard-near-ukrainian-border/",
-   "date": "2026-11-12T17:50:41+00:00",
    "source": "Kyiv Independent"
   }
  ]
