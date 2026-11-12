@@ -2,24 +2,24 @@
 
 _Automated digest generated from public headlines and official statistics. Not edited by a human._
 
-- **Strikes & air defence:** 21 of 55 headlines in the last 36 hours touch on strikes & air defence. Example: [Woman injured in Russian drone attack on Kherson this morning dies in hospital](https://www.pravda.com.ua/eng/news/2026/11/12/8062442/) (Ukrainska Pravda)
-- **Diplomacy & sanctions:** 20 of 55 headlines in the last 36 hours touch on diplomacy & sanctions. Example: [Witkoff, Kushner arrive in Moscow following Ukraine peace talks, Russian state media reports](https://kyivindependent.com/witkoff-kushner-arrive-in-moscow-following-ukraine-peace-talks/) (Kyiv Independent)
-- **Civilians & humanitarian:** 9 of 55 headlines in the last 36 hours touch on civilians & humanitarian. Example: [Ukraine war latest: 'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/ukraine-war-latest-large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/) (Kyiv Independent)
-- **Energy & infrastructure:** 8 of 55 headlines in the last 36 hours touch on energy & infrastructure. Example: [Russia attacks energy infrastructure facilities and residential areas in Rivne Oblast, leaving parts without power](https://www.pravda.com.ua/eng/news/2026/11/12/8062431/) (Ukrainska Pravda)
+- **Diplomacy & sanctions:** 24 of 60 headlines in the last 36 hours touch on diplomacy & sanctions. Example: [Trump, Putin to discuss Ukraine peace settlement during meeting in China, Kremlin says](https://kyivindependent.com/trump-putin-to-discuss-ukraine-peace-settlement-during-meeting-in-china-kremlin-says/) (Kyiv Independent)
+- **Strikes & air defence:** 17 of 60 headlines in the last 36 hours touch on strikes & air defence. Example: [Zelensky, Rutte discuss air defense missile shortages, Starshield disruptions](https://www.ukrinform.net/rubric-ato/4184096-zelensky-rutte-discuss-air-defense-missile-shortages-starshield-disruptions.html) (Ukrinform)
+- **Civilians & humanitarian:** 10 of 60 headlines in the last 36 hours touch on civilians & humanitarian. Example: [European Parliament calls on Russia to return Ukrainian children](https://www.ukrinform.net/rubric-polytics/4184031-european-parliament-calls-on-russia-to-return-ukrainian-children.html) (Ukrinform)
+- **Energy & infrastructure:** 7 of 60 headlines in the last 36 hours touch on energy & infrastructure. Example: [UK says it's 1st country to target all of Russia's top 10 oil producers with latest round of sanctions](https://kyivindependent.com/uk-says-its-1st-country-to-target-all-of-russias-top-10-oil-producers-with-latest-round-of-sanctions/) (Kyiv Independent)
 - **Strike data:** In the 7 days to 2026-11-07, Ukraine's Air Force reported 2,764 Russian drones and missiles launched (2,680 drones, 84 missiles), up from 1,283 the week before; 89.6% were reported shot down or suppressed.
 - **Analysis:** Latest ISW assessment: Russian Offensive Campaign Assessment, November 11, 2026.
 
 ## Top headlines
 
-- [Car explodes in St Petersburg, killing Russian colonel – video](https://www.pravda.com.ua/eng/news/2026/11/12/8062445/) — Ukrainska Pravda
-- [Witkoff, Kushner arrive in Moscow following Ukraine peace talks, Russian state media reports](https://kyivindependent.com/witkoff-kushner-arrive-in-moscow-following-ukraine-peace-talks/) — Kyiv Independent
-- [Woman injured in Russian drone attack on Kherson this morning dies in hospital](https://www.pravda.com.ua/eng/news/2026/11/12/8062442/) — Ukrainska Pravda
-- [Trump's envoys arrive in Moscow for talks with Putin – video](https://www.pravda.com.ua/eng/news/2026/11/12/8062441/) — Ukrainska Pravda
-- [EU purchases of Russian Yamal LNG rise to over $9 billion in 2026, despite October dip](https://kyivindependent.com/eu-purchases-of-russian-yamal-lng-rise-to-over-9-billion-in-2026-despite-october-dip/) — Kyiv Independent
-- [Russia loses 2,150 soldiers and 47 artillery systems over past day](https://www.pravda.com.ua/eng/news/2026/11/12/8062432/) — Ukrainska Pravda
-- [Russia attacks energy infrastructure facilities and residential areas in Rivne Oblast, leaving parts without power](https://www.pravda.com.ua/eng/news/2026/11/12/8062431/) — Ukrainska Pravda
-- [Russia attacks Khmelnytskyi Oblast energy infrastructure, leaving outages](https://kyivindependent.com/russia-attacks-khmelnytskyi-oblast-energy-infrastructure-leaving-outages/) — Kyiv Independent
-- [Lithuania will provide Ukraine with essential energy equipment – Zelenskyy](https://www.pravda.com.ua/eng/news/2026/11/12/8062426/) — Ukrainska Pravda
-- [Russia attacks Kyiv with ballistic missiles hours after peace talks end](https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/) — Kyiv Independent
+- [Trump, Putin to discuss Ukraine peace settlement during meeting in China, Kremlin says](https://kyivindependent.com/trump-putin-to-discuss-ukraine-peace-settlement-during-meeting-in-china-kremlin-says/) — Kyiv Independent
+- [Zelensky, Rutte discuss air defense missile shortages, Starshield disruptions](https://www.ukrinform.net/rubric-ato/4184096-zelensky-rutte-discuss-air-defense-missile-shortages-starshield-disruptions.html) — Ukrinform
+- [Zelensky, Costa, von der Leyen discuss additional EU support for Ukraine to get through winter](https://www.ukrinform.net/rubric-polytics/4184083-zelensky-costa-von-der-leyen-discuss-additional-eu-support-for-ukraine-to-get-through-winter.html) — Ukrinform
+- [Zelenskyy briefs EU leaders on Abu Dhabi talks](https://www.pravda.com.ua/eng/news/2026/11/12/8062601/) — Ukrainska Pravda
+- [Ukraine war latest: Starshield speed restrictions return, Zelensky says](https://kyivindependent.com/ukraine-war-latest-starshield-speed-restrictions-return-zelensky-says/) — Kyiv Independent
+- [Who will work Ukraine's farms as the workforce shortage deepens?](https://kyivindependent.com/who-will-work-ukraines-farms-as-the-workforce-shortage-deepens/) — Kyiv Independent
+- [Witkoff, Kushner hope Europe will join next round of peace talks after meeting with Putin](https://www.ukrinform.net/rubric-polytics/4184078-witkoff-kushner-hope-europe-will-join-next-round-of-peace-talks-after-meeting-with-putin.html) — Ukrinform
+- [Air defense neutralizes 124 Russian drones, two S8000 Banderol/Dan-T missiles on Nov 12](https://www.ukrinform.net/rubric-ato/4184063-air-defense-neutralizes-124-russian-drones-two-s8000-banderoldant-missiles-on-nov-12.html) — Ukrinform
+- [Europe wants a seat at the table with Russia. It can't agree on who gets it](https://kyivindependent.com/endless-us-russia-talks-leave-europe-scrambling-for-a-role-in-ukraine-peace-push/) — Kyiv Independent
+- ['We have nothing left to fear' — Chinese volunteer soldiers in Ukraine](https://kyivindependent.com/we-have-nothing-left-to-fear-chinese-volunteer-soldiers-in-ukraine-2/) — Kyiv Independent
 
 More: https://frontlineradar.org/
